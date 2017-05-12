@@ -7,10 +7,10 @@
 		<title>syste.md - my init does what?</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/reveal-coreos.css">
-
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="css/theme/reveal-coreos.css">
+
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -25,8 +25,100 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h1>Wait, my init does <i>what</i></h1>
-					<h3>A tour of systemd's features</h3>
+					<h2>Wait, my init does <i>what</i></h2>
+					<h4>A tour of systemd's lesser known "features"</h4>
+					<br/><br/>
+					<center>
+<pre style="color:white; background-color:black; font-size:smaller; width:80%; padding:6pt 8pt">Welcome to <span style="color:#00fbd5">Container Linux by CoreOS 1353.7.0 (Ladybug)</span>!
+
+[  <span style="color:green">OK</span>  ] Reached target Remote File Systems.
+[  <span style="color:green">OK</span>  ] Listening on Delayed Shutdown Socket.
+[  <span style="color:green">OK</span>  ] Listening on /dev/initctl Compatibility Named Pipe.
+[  <span style="color:green">OK</span>  ] Starting flamewars
+[  <span style="color:green">OK</span>  ] Assimilating distros
+[  <span style="color:green">OK</span>  ] Reached target Presentation.
+
+This is presentation (Linux x86_64 4.9.24-coreos)
+presentation login:
+</pre>
+				</section>
+
+				<section>
+				<section>
+					<h3>About me</h3>
+					<div class="flex-between">
+					<pre>
+        $ whois euank
+        Whois Server Version 2.0
+        
+           Name: Euan Kemp
+            Job: Software Dev @ CoreOS
+        Webpage: euank.com
+        Twitter: @wobscale
+					</pre>
+					<img style="align-self: flex-end" src="imgs/euank.png" height="200px"></img>
+					</div>
+
+					<div class="flex-around">
+						<img style="float: left" src="imgs/container-linux.png" height="200px"></img> 
+						<img style="float: left" src="imgs/rkt-glyph-color.png" height="200px"></img> 
+					</div>
+				</section>
+
+				<section>
+					<h3>syste.md</h3>
+				</section>
+				</section>
+
+				<section>
+					<div class="flex-center">
+						<img class="flex-item" height="700px" src="imgs/sockd.png">
+					</div>
+				</section>
+
+				<section>
+					<section>
+						<h3>Container Linux & systemd</h3>
+						<p>systemd is one of the most important parts of Container Linux
+					</section>
+					<section>
+						<h3>Most important.. how?</h3>
+						<h4 class="fragment">By size?</h4>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							### Nope
+
+							| Package | Size &nbsp;&nbsp;| Percent |
+							| ------------- |:-------------:| -----:|
+							|coreos-modules|76M|11.77%|
+							|etcd|60M|9.28%|
+							|docker|58M|8.90%|
+							|rkt|54M|8.33%|
+							|coreos-kernel|36M|5.53%|
+							|selinux-base-policy|32M|4.98%|
+							|bind-tools|30M|4.66%|
+							|selinux-base|24M|3.63%|
+							|git|17M|2.68%|
+							|containerd|14M|2.22%|
+							|glibc|12M|1.89%|
+							|systemd|12M|1.81%|
+							|hwids|11M|1.73%|
+							|fleet|11M|1.70%|
+
+						</script>
+					</section>
+					<section>
+						<h3>By version number?</h3>
+						<div class="fragment" style"text-align: left;">
+							<ol>
+								<li> less &mdash; v478</li>
+								<li> systemd &mdash; v233</li>
+								<li> liblinear &mdash; v210</li>
+								<li> kmod &mdash; v21
+							</ol>
+						</div>
+					</section>
 				</section>
 			</div>
 		</div>
