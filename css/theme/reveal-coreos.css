@@ -86,6 +86,10 @@ body {
   font-family: 'Inconsolata', monospace;
 }
 
+.reveal li {
+  text-align: left;
+}
+
 /*********************************************
  * LINKS
  *********************************************/

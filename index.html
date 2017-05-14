@@ -42,8 +42,12 @@ This is presentation (Linux x86_64 4.9.24-coreos)
 presentation login:
 </pre>
 				</section>
-
 				<section>
+					<h3>An (unofficial) logo</h3>
+					<img height="400px" src="imgs/sockd.png"></img>
+					<small>Thanks to <a href="https://plus.google.com/109547798280253932606/posts/jP5YonjEfc6">Amanda Breard</a></small>
+				</section>
+
 				<section>
 					<h3>About me</h3>
 					<div class="flex-between">
@@ -62,17 +66,6 @@ presentation login:
 					<div class="flex-around">
 						<img style="float: left" src="imgs/container-linux.png" height="200px"></img> 
 						<img style="float: left" src="imgs/rkt-glyph-color.png" height="200px"></img> 
-					</div>
-				</section>
-
-				<section>
-					<h3>syste.md</h3>
-				</section>
-				</section>
-
-				<section>
-					<div class="flex-center">
-						<img class="flex-item" height="700px" src="imgs/sockd.png">
 					</div>
 				</section>
 
@@ -121,10 +114,38 @@ presentation login:
 					</section>
 					<section>
 						<h3>By PID</h3>
+						<div class="fragment">
 						<h4>#1</h4>
 						<img src="imgs/number-one.jpg"></img>
 
 						<footer><small>* yes, I know about <code>sched</code></small></footer>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>What is an init</h2>
+						<p> The process the kernel starts first.</p>
+						<br />
+						<div class="fragment">
+							<h4>Responsibilities</h4>
+							<ul>
+								<li> Stay alive until shutdown</li>
+								<li> Launch any additional desired programs (e.g. networking, login console, etc)</li>
+								<li> Adopt orphans 😇</li>
+								<li class="fragment"> Reap children 😈</li>
+							</ul>
+						</div>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>systemd's history</h3>
+						<h5>From controversial to commonplace</h5>
+						<img height="400px" src="imgs/sockd.png"></img>
+					</section>
+					<section>
 					</section>
 				</section>
 			</div>
