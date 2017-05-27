@@ -29,7 +29,7 @@
 				<section>
 						<section>
 						<h2>Wait, my init does <i>what</i></h2>
-						<h4>A tour of systemd's lesser known "features"</h4>
+						<h4>A tour of systemd's lesser known <i>features</i></h4>
 						<br/><br/>
 						<center>
 		<pre style="color:white; background-color:black; font-size:smaller; width:80%; padding:6pt 8pt">Welcome to <span style="color:#00fbd5">Container Linux by CoreOS 1353.7.0 (Ladybug)</span>!
@@ -135,12 +135,25 @@ presentation login:
 						<div class="fragment">
 							<h4>Responsibilities</h4>
 							<ul>
-								<li> Stay alive until shutdown</li>
+								<li> Stay alive until shutdown (and allow shutdown)</li>
 								<li> Launch any additional desired programs (e.g. networking, login console, etc)</li>
 								<li> Adopt orphans 😇</li>
 								<li class="fragment"> Reap children 😈</li>
 							</ul>
 						</div>
+					</section>
+					<section>
+						<img src="imgs/technically-correct.png"></img>
+					</section>
+					<section>
+						<h3>What is an init</h3>
+						<br>
+						<ul>
+							<li> <code>start</code> and <code>stop</code> commands for services</li>
+							<li> A configuration format for creating new services definitions</li>
+							<li> Service runtime dependencies</li>
+							<li> Runlevels</li>
+						</ul>
 					</section>
 				</section>
 				<section>
@@ -152,9 +165,25 @@ presentation login:
 					<section>
 						<div class="flex">
 							<div>
-
+								1982
+								<h2>In the beginning</h2>
+								God created the heavens, the earth, and UNIX System III. Thus SysV init was born.
 							</div>
 						</div>
+					</section>
+					<section>
+						2005
+						Apple created launchd.
+						The only thing better than bash is XML.
+					</section>
+					<section>
+						2006 Canonical releases upstart.
+					</section>
+					<section>
+						2010
+						Lennert Poettering created systemd
+					</section>
+					<section>
 					</section>
 				</section>
 			</div>
