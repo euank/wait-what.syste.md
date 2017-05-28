@@ -61,5 +61,3 @@ Who am I, what I do.
 ### Part #: The machinectl
 
 ### Part #: The login/session manager
-
-### Part #: The idn and escapes
