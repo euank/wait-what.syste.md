@@ -46,6 +46,8 @@ Who am I, what I do.
 
 ### Part #: The cgroups/kdbus
 
+### Part #: The networking
+
 ### Part #: The udev/hwdb
 
 ### Part #: The boot manager bootctl
@@ -57,3 +59,4 @@ Who am I, what I do.
 ### Part #: The machinectl
 
 ### Part #: The login/session manager
+
