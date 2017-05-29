@@ -50,6 +50,9 @@ body {
 .reveal h5 {
   color: #52A3D9;
 }
+.blue {
+  color: #52A3D9 !important;
+}
 
 
 .reveal h1 {
@@ -175,6 +178,13 @@ body {
   display: flex;
 }
 
+.flex-row-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -35!important;
+}
+
 .flex-around {
   display: flex;
   justify-content: space-around;
@@ -196,4 +206,21 @@ body {
 
 .flex-item {
     object-fit: contain;
+}
+
+.left-bar {
+  position: absolute;
+  left: -220px;
+  height: 100%;
+  width: 200px;
+}
+.left-bar-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  /* vendor prefixes omitted due to brevity */
+}
+
+.reveal ul {
+  padding: unset;
 }
