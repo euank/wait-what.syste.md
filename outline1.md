@@ -42,8 +42,6 @@ Who am I, what I do.
 
 ### Part #: The socket activation
 
-#### 
-
 ### Part #: The timers
 
 ### Part #: The cgroups/kdbus
@@ -53,8 +51,6 @@ Who am I, what I do.
 ### Part #: The boot manager bootctl
 
 ### Part #: The timedatectl
-
-### Part #: The GUI
 
 ### Part #: The containers
 
