@@ -12,6 +12,7 @@
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 		<link rel="stylesheet" href="css/theme/reveal-coreos.css">
+		<link rel="stylesheet" href="css/asciinema-player.css">
 
 
 		<!-- Printing and PDF exports -->
@@ -146,7 +147,7 @@ presentation login:
 						<img src="imgs/technically-correct.png"></img>
 					</section>
 					<section>
-						<h3>What is an init</h3>
+						<h3>What else does an init usually do?</h3>
 						<br>
 						<ul>
 							<li> <code>start</code> and <code>stop</code> commands for services</li>
@@ -257,6 +258,10 @@ presentation login:
 						<h2>Running containers</h2>
 					</section>
 					<section>
+						<h2>Example: an nginx container</h2>
+						<asciinema-player src="terms/test.rec" font-size="24px" theme="solarized-light"></asciinema-player>
+					</section>
+					<section>
 						<h2>nspawn</h2>
 					</section>
 					<section>
@@ -271,6 +276,8 @@ presentation login:
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
+		<script src="js/asciinema-player.js"></script>
+		<script src="js/mousetrap.min.js"></script>
 
 		<script>
 			// More info about config & dependencies:
@@ -284,6 +291,30 @@ presentation login:
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
+
+			var termFontSize = 24;
+			resetTermFonts = function() {
+				var players = document.querySelectorAll("asciinema-player");
+				for(var i=0;i<players.length;i++) {
+					var p = players[i];
+					p.setAttribute("font-size", termFontSize.toString() + "px");
+				}
+				var terms = document.querySelectorAll(".asciinema-terminal");
+				for(var i=0;i<terms.length;i++) {
+					var t = terms[i];
+					t.style["font-size"] = termFontSize.toString() + "px";
+				}
+
+			};
+			Mousetrap.bind('+', function() { 
+				termFontSize += 2;
+				resetTermFonts();
+      });
+			Mousetrap.bind('-', function() { 
+				termFontSize -= 2;
+				resetTermFonts();
+      });
+			
 		</script>
 	</body>
 </html>
