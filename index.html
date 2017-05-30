@@ -280,6 +280,8 @@ Restart=restart-always
 					</section>
 					<section>
 						<img src="imgs/systemd-sucks-twitter.png" alt="systemd sucks twitter"></img>
+						<br>
+						<p>No developer in history has been treated so unfairly.
 					</section>
 					<section>
 						<div class="left-bar">
@@ -383,8 +385,18 @@ Restart=restart-always
 				<section>
 					<section>
 					<h2>Networking</h2>
+					<img src="imgs/moar-data.png"></img>
 					</section>
 					<section>
+						<h2>networkd</h2>
+						<p> systemd-networkd is a daemon for configuring network interfaces. </p>
+						<ul>
+							<li> IPV6 support</li>
+							<li> Speaks LLDP </li>
+							<li> Handles bridges, macvlan, bonds, all that jazz </li> 
+							<li> Includes a DHCP server (!) </li>
+						</ul>
+						<p><small>Overlaps: dhclient, brctl, lldpd, etc</small></p>
 					</section>
 				</section>
 				<section>
@@ -398,7 +410,7 @@ Restart=restart-always
 					<section>
 						<h2>systemd the boot manager</h2>
 						<img src="imgs/systemd-boot-menu.png"></img>
-						<p><small>Is: gummiboot; Replaces: rEFInd</small></p>
+						<p><small>Is: gummiboot; Overlaps: rEFInd</small></p>
 					</section>
 				</section>
 				<section>
@@ -407,16 +419,60 @@ Restart=restart-always
 					</section>
 					<section>
 						<h2>Example: an nginx container</h2>
-						<asciinema-player preload=yes src="terms/test.rec" font-size="24px" theme="solarized-light"></asciinema-player>
+						<asciinema-player preload=yes src="terms/docker-nginx.rec" font-size="24px" theme="solarized-light"></asciinema-player>
 					</section>
 					<section>
 						<h2>nspawn</h2>
+						<asciinema-player preload=yes src="terms/nspawn-nginx.rec" font-size="24px" theme="solarized-light"></asciinema-player>
 					</section>
 					<section>
 						<h2>rkt</h2>
+						<asciinema-player preload=yes src="terms/nspawn-rkt.rec" font-size="24px" theme="solarized-light"></asciinema-player>
 					</section>
 					<section>
 						<h2>Plain Old Service Files</h2>
+						<asciinema-player preload=yes src="terms/container-unit.rec" font-size="24px" theme="solarized-light"></asciinema-player>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Extras</h3>
+					</section>
+					<section>
+						<h3>The systemd forkbomb</h3>
+						<pre>
+# /home/core/.config/user/user-loop.service
+[Service]
+Environment=XDG_RUNTIME_DIR=/home/core/.config
+ExecStart=/usr/lib/systemd/systemd --user --unit=user-loop.service
+
+$ export XDG_RUNTIME_DIR=/home/core/.config
+$ sudo -E /usr/lib/systemd/systemd --user --unit=user-loop.service
+						</pre>
+						<img height="300px" src="imgs/status-width.png"></img>
+					</section>
+					<section>
+						<h3>The systemd forkbomb, II</h3>
+						<br>
+						<pre>
+SYSTEMD_PAGER="systemctl status" systemctl status
+						</pre>
+					</section>
+					<section>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Questions?</h2>
+					</section>
+					<section>
+						<h2>Thanks!</h2>
+						<pre>
+
+        Slides: <a href="https://wait-what.syste.md">https://wait-what.syste.md</a>
+
+       Twitter: <a href="https://twitter.com/wobscale">@wobscale</a>
+						</pre>
 					</section>
 				</section>
 			</div>

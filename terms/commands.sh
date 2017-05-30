@@ -1,7 +1,3 @@
-ip addr show eth0
-
-my_ip=10.0.2.15
-
 echo hello world > /var/www/hw.txt
 
 docker run --name nginx \
@@ -9,14 +5,12 @@ docker run --name nginx \
 -p 80:80 -v /var/www:/usr/share/nginx/html \
 nginx
 
-curl -s $my_ip/hw.txt
+curl -s http://pres-1353-7/hw.txt
 
 docker rm -f nginx
 
 
 -----
-
-my_ip=10.0.2.15
 
 sudo machinectl --verify=checksum pull-tar https://d.euank.com/nspawn-imgs/fedora-nginx.tar.gz
 
@@ -27,10 +21,9 @@ curl -s https://d.euank.com/nspawn-imgs/fedora-nginx.nspawn | sudo tee /etc/syst
 sudo systemd-run --unit=nginx-container \
 systemd-nspawn --machine=fedora-nginx
 
+journalctl --lines=10 -u nginx-container --no-pager
 
-sudo journalctl --lines=20 -u nginx-container
-
-curl -s $my_ip/hw.txt
+curl -s http://pres-1353-7/hw.txt
 
 sudo machinectl list
 
@@ -38,14 +31,15 @@ sudo machinectl shell fedora-nginx
 
 sudo machinectl terminate fedora-nginx
 
-
 -----
 
-sudo systemd-run --unit nginx-rkt-container rkt run --uuid-file-save=/tmp/nginx.uuid \
-	--volume www,kind=host,source=/var/www --mount volume=www,target=/usr/share/nginx/html \
-	--port 80-tcp:80 docker://nginx
+sudo systemd-run --unit nginx-rkt-container rkt run --debug --uuid-file-save=/tmp/nginx.uuid \
+--volume www,kind=host,source=/var/www --mount volume=www,target=/usr/share/nginx/html \
+--port 80-tcp:80 docker://nginx
 
-curl -s $my_ip/hw.txt
+SYSTEMD_PAGER= journalctl -u nginx-rkt-container
+
+curl -s http://pres-1353-7/hw.txt
 
 sudo rkt stop --uuid-file=/tmp/nginx.uuid
 
@@ -53,7 +47,7 @@ sudo rkt stop --uuid-file=/tmp/nginx.uuid
 ------
 
 
-cat > /etc/systemd/system/nginx-unit.service <<EOF
+sudo SYSTEMD_EDITOR=tee systemctl edit --full --force nginx-unit <<EOF
 [Service]
 ExecStart=/usr/sbin/nginx -g 'daemon off;'
 # Mount namespace
@@ -66,6 +60,6 @@ PrivateNetwork=true
 BindPaths=/var/www:/usr/share/nginx/html
 EOF
 
-systemctl start nginx-unit
+sudo systemctl start nginx-unit
 
 systemctl status nginx-unit

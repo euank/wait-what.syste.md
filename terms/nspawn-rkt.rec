@@ -1,0 +1,190 @@
+{
+  "stdout": [
+    [
+      0.005752,
+      "\u001b[?1049h\u001b(B\u001b[m\u001b[?1l\u001b>\u001b[H\u001b[2J\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b]112\u0007\u001b[?25l\u001b[1;1H\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\u001b[1;14r\u001b[H\u001b[21C\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.913262,
+      "\u001b[H\u001b[K\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo systemd-run --unit nginx-rkt-container rkt run --debug --u \ruid-file-save=/tmp/nginx.uuid \\\r\n> --volume www,kind=host,source=/var/www --mount volume=www,target=/usr/share/nginx/ \rhtml \\\r\n> --port 80-tcp:80 docker://nginx\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.713827,
+      "\r\n"
+    ],
+    [
+      0.019085,
+      "Running as unit: nginx-rkt-container.service"
+    ],
+    [
+      0.000139,
+      "\r\n"
+    ],
+    [
+      0.003923,
+      "\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      4.118781,
+      "SYSTEMD_PAGER= journalctl -u nginx-rkt-container"
+    ],
+    [
+      0.442183,
+      "\r\n"
+    ],
+    [
+      0.014745,
+      "-- Logs begin at Tue 2017-05-30 07:45:11 UTC, end at Tue 2017-05-30 14:19:20 UTC. --\u001b[9;1HMay 30 14:16:14 pres-1353-7 systemd[1]: Started /bin/rkt run --uuid-file-save=/tmp/nginx.uuid --volume www,kind=host,source=/var/www --mount volume=www,target=/usr/share/nginx/html --port 80-tcp:80 docker://nginx.\r\nMay 30 14:16:35 pres-1353-7 rkt[14424]: 10.0.2.15 - - [30/May/2017:14:16:35 +0000] \"GET /hw.txt HTTP/1.1\" 200 12 \"-\" \"curl/7.54.0\" \"-\"\r\nMay 30 14:16:57 pres-1353-7 systemd[1]: Stopping /bin/rkt run --uuid-file-save=/tmp/"
+    ],
+    [
+      0.007813,
+      "\u001b[?25l\u001b[1;1H> --port 80-tcp:80 docker://nginx\u001b[K\r\nRunning as unit: nginx-rkt-container.service\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m SYSTEMD_PAGER= journalctl -u nginx-rkt-container\u001b[K\r\n-- Logs begin at Tue 2017-05-30 07:45:11 UTC, end at Tue 2017-05-30 14:19:20 UTC. --\u001b[5;1HMay 30 14:16:14 pres-1353-7 systemd[1]: Started /bin/rkt run --uuid-file-save=/tmp/nginx.uuid --volume www,kind=host,source=/var/www --mount volume=www,target=/usr/share/nginx/html --port 80-tcp:80 docker://nginx.\u001b[K\r\nMay 30 14:16:35 pres-1353-7 rkt[14424]: 10.0.2.15 - - [30/May/2017:14:16:35 +0000] \"GET /hw.txt HTTP/1.1\" 200 12 \"-\" \"curl/7.54.0\" \"-\"\u001b[K\r\nMay 30 14:16:57 pres-1353-7 systemd[1]: Stopping /bin/rkt run --uuid-file-save=/tmp/nginx.uuid --volume www,kind=host,source=/var/www --mount volume=www,target=/usr/share/nginx/html --port 80-tcp:80 docker://nginx...\u001b[K\r\nMay 30 14:16:57 pres-1353-7 rkt[14424]: Sending SIGTERM to remaining processes...\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.007581,
+      "May 30 14:16:57 pres-1353-7 rkt[14424]: Sending SIGKILL to remaining processes...\r\n\u001b[?25l\u001b[Hginx.uuid --volume www,kind=host,source=/var/www --mount volume=www,target=/usr/share/nginx/html --port 80-tcp:80 docker://nginx.\u001b[K\r\nMay 30 14:19:17 pres-1353-7 systemd[1]: Started /bin/rkt run --debug --uuid-file-save=/tmp/nginx.uuid --volume www,kind=host,source=/var/www --mount volume=www,target=/usr/share/nginx/html --port 80-tcp:80 docker://nginx.\u001b[K\r\nMay 30 14:19:17 pres-1353-7 rkt[15701]: image: using image from local store for image name coreos.com/rkt/stage1-coreos:1.25.0\u001b[K\r\nMay 30 14:19:17 pres-1353-7 rkt[15701]: image: using image from local store for url docker://nginx\u001b[K\r\nMay 30 14:19:17 pres-1353-7 rkt[15701]: stage0: Preparing stage1\u001b[K\r\nMay 30 14:19:17 pres-1353-7 rkt[15701]: stage0: Writing image manifest\u001b[K\r\nMay 30 14:19:17 pres-1353-7 rkt[15701]: stage0: Loading image sha512-e707ed4a33fec09e8cf5260770b446dbdc6267cbfd7b3269422a4b064b853bd4\u001b[K\r\nMa\u001b[K\u001b[?"
+    ],
+    [
+      0.000153,
+      "12l\u001b[?25h"
+    ],
+    [
+      0.002301,
+      "y 30 14:19:18 pres-1353-7 rkt[15701]: stage0: Writing image manifest\r\n\u001b[?25l\u001b[HMay 30 14:19:18 pres-1353-7 rkt[15701]: stage0: Setting up stage1\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage0: Wrote filesystem to /var/lib/rkt/pods/run/b19f066f-aea3-4d79-9df8-1055e608391a\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage0: Pivoting to filesystem /var/lib/rkt/pods/run/b19f066f-aea3-4d79-9df8-1055e608391a\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage0: Execing [/var/lib/rkt/pods/run/b19f066f-aea3-4d79-9df8-1055e608391a/stage1/rootfs/init --debug --net=default --local-config=/etc/rkt b19f066f-aea3-4d79-9df8-1055e608391a]\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: networking: loading networks from /etc/rkt/net.d\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: networking: loading network default with type ptp\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: canMachinedRegister true\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: args [\"stage1/rootfs/usr/lib/ld-lin\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.002988,
+      "u\u001b[?25l\u001b[1;1Hx-x86-64.so.2\" \"stage1/rootfs/usr/bin/systemd-nspawn\" \"--boot\" \"--notify-ready=yes\" \"-Zsystem_u:system_r:svirt_lxc_net_t:s0:c197,c895\" \"-Lsystem_u:object_r:svirt_lxc_file_t:s0:c197,c895\" \"--register=true\" \"--link-journal=try-guest\" \"--keep-unit\" \"--uuid=b19f066f-aea3-4d79-9df8-1055e608391a\" \"--machine=rkt-b19f066f-aea3-4d79-9df8-1055e608391a\" \"--directory=stage1/rootfs\" \"--bind=/var/www:/opt/stage2/nginx/rootfs/usr/share/nginx/html:rbind\" \"--capability=CAP_AUDIT_WRITE,CAP_CHOWN,CAP_DAC_OVERRIDE,CAP_FSETID,CAP_FOWNER,CAP_KILL,CAP_MKNOD,CAP_NET_RAW,CAP_NET_BIND_SERVICE,CAP_SETUID,CAP_SETGID,CAP_SETPCAP,CAP_SETFCAP,CAP_SYS_CHROOT\" \"--\" \"--default-standard-output=tty\"]\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: env [\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\" \"INVOCATION_ID=d1e29649c82148f2bdbd60782c1d4ba2\" \"JOURNAL_STREAM=8:72325\" \"RKT_LOCK_FD=4\" \"RKT_SELINUX_CONTEXT=system_u:system_r:svirt_lxc_net_t:s0:c197,c895\" \"RKT_SELINUX_MOUNT_CONTEXT=system_u:object_r:svirt_lx"
+    ],
+    [
+      6.4e-05,
+      "c_file_t:s0:c19\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.001323,
+      "7,c895\" \"LD_LIBRARY_PATH=stage1/rootfs/usr/lib:stage1/rootfs/usr/lib/sys\u001b[?25l\u001b[1;1HMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"\" target \"/\" fstype \"none\" flags MS_REC|MS_SLAVE data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"\" target \"/\" fstype \"none\" flags MS_REC|MS_SHARED data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: unifiedCgroup false\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: subcgroup \"system.slice/nginx-rkt-container.service\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: enabledCgroups map['\\b':[\"memory\"] '\\x06':[\"devices\"] '\\a':[\"freezer\"] '\\x04':[\"net_cls\" \"net_prio\"] '\\x05':[\"perf_event\"] '\\t':[\"hugetlb\"] '\\n':[\"cpu\" \"cpuacct\"] '\\x02':[\"blkio\"] '\\x03':[\"cpuset\"] '\\v':[\"pids\"]]\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: serviceNames [\"nginx.service\"]\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"sysfs\" target \"stage1/rootfs/sys\" fstype \"sysfs\" fl\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000969,
+      "ags MS_NODEV|MS_NOEXEC|MS_NOSUID data \"\"\r\n\u001b[?25l\u001b[HATIME data \"mode=755,context=\\\"system_u:object_r:svirt_lxc_file_t:s0:c197,c895\\\"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"cgroup\" target \"stage1/rootfs/sys/fs/cgroup/cpuset\" fstype \"cgroup\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID data \"cpuset\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"cgroup\" target \"stage1/rootfs/sys/fs/cgroup/pids\" fstype \"cgroup\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID data \"pids\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"cgroup\" target \"stage1/rootfs/sys/fs/cgroup/memory\" fstype \"cgroup\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID data \"memory\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"cgroup\" target \"stage1/rootfs/sys/fs/cgroup/devices\" fstype \"cgroup\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID data \"devices\"\u001b[K\r\nM\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.001031,
+      "ay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"cgroup\" target \"sta\u001b[?25l\u001b[1;1H data \"freezer\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"cgroup\" target \"stage1/rootfs/sys/fs/cgroup/net_cls,net_prio\" fstype \"cgroup\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID data \"net_cls,net_prio\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"cgroup\" target \"stage1/rootfs/sys/fs/cgroup/perf_event\" fstype \"cgroup\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID data \"perf_event\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"cgroup\" target \"stage1/rootfs/sys/fs/cgroup/hugetlb\" fstype \"cgroup\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID data \"hugetlb\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"cgroup\" target \"stage1/rootfs/sys/fs/cgroup/cpu,cpuacct\" fstype \"cgroup\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID data \"cpu,cpuacct\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"cgr\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.00157,
+      "oup\" target \"sta\u001b[?25l\u001b[1;1Hge1/rootfs/sys/fs/cgroup/blkio\" fstype \"cgroup\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID data \"blkio\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup\" target \"stage1/rootfs/sys/fs/cgroup\" fstype \"\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID|MS_RDONLY|MS_STRICTATIME|MS_REMOUNT|MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/memory/system.slice/nginx-rkt-container.service/system.slice\" target \"stage1/rootfs/sys/fs/cgroup/memory/system.slice/nginx-rkt-container.service/system.slice\" fstype \"\" flags MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/memory\" target \"stage1/rootfs/sys/fs/cgroup/memory\" fstype \"\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID|MS_RDONLY|MS_REMOUNT|MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/devices/system.slice/nginx-rkt-container.service/sy"
+    ],
+    [
+      3.1e-05,
+      "stem.slice\" target \"stag\u001b[14;84H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.00141,
+      "\u001b[?25l\u001b[He1/rootfs/sys/fs/cgroup/devices/system.slice/nginx-rkt-container.service/system.slice\" fstype \"\" flags MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/devices\" target \"stage1/rootfs/sys/fs/cgroup/devices\" fstype \"\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID|MS_RDONLY|MS_REMOUNT|MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/freezer/system.slice/nginx-rkt-container.service/system.slice\" target \"stage1/rootfs/sys/fs/cgroup/freezer/system.slice/nginx-rkt-container.service/system.slice\" fstype \"\" flags MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/freezer\" target \"stage1/rootfs/sys/fs/cgroup/freezer\" fstype \"\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID|MS_RDONLY|MS_REMOUNT|MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/net_cls,net_prio/system.slice/nginx-rkt-co"
+    ],
+    [
+      3.3e-05,
+      "ntainer.service/syste\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000742,
+      "m.slice\" tar\u001b[?25l\u001b[1;1Hget \"stage1/rootfs/sys/fs/cgroup/net_cls,net_prio/system.slice/nginx-rkt-container.service/system.slice\" fstype \"\" flags MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/net_cls,net_prio\" target \"stage1/rootfs/sys/fs/cgroup/net_cls,net_prio\" fstype \"\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID|MS_RDONLY|MS_REMOUNT|MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/perf_event/system.slice/nginx-rkt-container.service/system.slice\" target \"stage1/rootfs/sys/fs/cgroup/perf_event/system.slice/nginx-rkt-container.service/system.slice\" fstype \"\" flags MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/perf_event\" target \"stage1/rootfs/sys/fs/cgroup/perf_event\" fstype \"\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID|MS_RDONLY|MS_REMOUNT|MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/"
+    ],
+    [
+      3.4e-05,
+      "rootfs/sys/fs/cgroup/hug\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000779,
+      "etlb/system.slice/nginx-rkt-container.service/system.slice\" target \"stag\u001b[?25l\u001b[1;1Hs/cgroup/hugetlb/system.slice/nginx-rkt-container.service/system.slice\" target \"stage1/rootfs/sys/fs/cgroup/hugetlb/system.slice/nginx-rkt-container.service/system.slice\" fstype \"\" flags MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/hugetlb\" target \"stage1/rootfs/sys/fs/cgroup/hugetlb\" fstype \"\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID|MS_RDONLY|MS_REMOUNT|MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/cpu,cpuacct/system.slice/nginx-rkt-container.service/system.slice\" target \"stage1/rootfs/sys/fs/cgroup/cpu,cpuacct/system.slice/nginx-rkt-container.service/system.slice\" fstype \"\" flags MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/cpu,cpuacct\" target \"stage1/rootfs/sys/fs/cgroup/cpu,cpuacct\" fstype \"\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID|M"
+    ],
+    [
+      3.1e-05,
+      "S_RDONLY|MS_REMOUNT|MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"sta\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000753,
+      "ge1/rootfs/sys/f\u001b[?25l\u001b[1;1Hs/cgroup/blkio/system.slice/nginx-rkt-container.service/system.slice\" target \"stage1/rootfs/sys/fs/cgroup/blkio/system.slice/nginx-rkt-container.service/system.slice\" fstype \"\" flags MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/blkio\" target \"stage1/rootfs/sys/fs/cgroup/blkio\" fstype \"\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID|MS_RDONLY|MS_REMOUNT|MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/cpuset/system.slice/nginx-rkt-container.service/system.slice\" target \"stage1/rootfs/sys/fs/cgroup/cpuset/system.slice/nginx-rkt-container.service/system.slice\" fstype \"\" flags MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/cpuset\" target \"stage1/rootfs/sys/fs/cgroup/cpuset\" fstype \"\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID|MS_RDONLY|MS_REMOUNT|MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stag"
+    ],
+    [
+      2.7e-05,
+      "e1: mounting source \"sta\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000623,
+      "ge1/rootfs/sys/f\u001b[?25l\u001b[1;1Hype \"\" flags MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys/fs/cgroup/pids\" target \"stage1/rootfs/sys/fs/cgroup/pids\" fstype \"\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID|MS_RDONLY|MS_REMOUNT|MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: stage1: mounting source \"stage1/rootfs/sys\" target \"stage1/rootfs/sys\" fstype \"\" flags MS_NODEV|MS_NOEXEC|MS_NOSUID|MS_RDONLY|MS_REMOUNT|MS_BIND data \"\"\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: Spawning container rkt-b19f066f-aea3-4d79-9df8-1055e608391a on /var/lib/rkt/pods/run/b19f066f-aea3-4d79-9df8-1055e608391a/stage1/rootfs.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: Press ^] three times within 1s to kill container.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: systemd 231 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK -SY\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.00051,
+      "SVINIT +UTMP +LIBCRYPTSETUP +GCRYPT -GNUTLS -\u001b[?25l\u001b[1;1HMay 30 14:19:18 pres-1353-7 rkt[15701]: Welcome to Linux!\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [1B blob data]\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: Set hostname to <rkt-b19f066f-aea3-4d79-9df8-1055e608391a>.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Listening on Journal Socket (/dev/log).\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Created slice system.slice.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Created slice system-prepare\\x2dapp.slice.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started Pod shutdown.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]:          Starting Create /etc/passwd and /etc/group...\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Listening on Journal Socket.\u001b[K\r\nMay 30\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000576,
+      " 14:19:18 pres-1353-7 rkt[15701]:          Starting Journal Service...\r\n\u001b[?25l\u001b[H/group.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started Journal Service.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]:          Starting Prepare minimum environment for chrooted applications...\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started Prepare minimum environment for chrooted applications.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started Application=nginx Image=registry-1.docker.io/library/nginx.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Reached target rkt apps target.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]:          Starting rkt supervisor-ready signaling...\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started rkt supervisor-ready signaling.\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      4.035392,
+      "curl -s http://pres-1353-7"
+    ],
+    [
+      0.000261,
+      "/hw.txt"
+    ],
+    [
+      0.666425,
+      "\r\n\u001b[?25l\u001b[HMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started Journal Service.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]:          Starting Prepare minimum environment for chrooted applications...\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started Prepare minimum environment for chrooted applications.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started Application=nginx Image=registry-1.docker.io/library/nginx.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Reached target rkt apps target.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]:          Starting rkt supervisor-ready signaling...\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started rkt supervisor-ready signaling.\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s http://pres-1353-7/hw.txt\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.05576,
+      "hello world\r\n\u001b[?25l\u001b[HMay 30 14:19:18 pres-1353-7 rkt[15701]:          Starting Prepare minimum environment for chrooted applications...\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started Prepare minimum environment for chrooted applications.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started Application=nginx Image=registry-1.docker.io/library/nginx.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Reached target rkt apps target.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]:          Starting rkt supervisor-ready signaling...\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started rkt supervisor-ready signaling.\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s http://pres-1353-7/hw.txt\u001b[K\r\nhello world\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000222,
+      "\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      4.029101,
+      "sudo rkt stop --uuid-file=/tmp/nginx.uuid"
+    ],
+    [
+      0.403114,
+      "\r\n\u001b[?25l\u001b[Ht for chrooted applications...\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started Prepare minimum environment for chrooted applications.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started Application=nginx Image=registry-1.docker.io/library/nginx.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Reached target rkt apps target.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]:          Starting rkt supervisor-ready signaling...\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started rkt supervisor-ready signaling.\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s http://pres-1353-7/hw.txt\u001b[K\r\nhello world\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo rkt stop --uuid-file=/tmp/nginx.uuid\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.061617,
+      "\"b19f066f-aea3-4d79-9df8-1055e608391a\"\r\n\u001b[?25l\u001b[HMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started Prepare minimum environment for chrooted applications.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started Application=nginx Image=registry-1.docker.io/library/nginx.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Reached target rkt apps target.\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]:          Starting rkt supervisor-ready signaling...\u001b[K\r\nMay 30 14:19:18 pres-1353-7 rkt[15701]: [  OK  ] Started rkt supervisor-ready signaling.\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s http://pres-1353-7/hw.txt\u001b[K\r\nhello world\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo rkt stop --uuid-file=/tmp/nginx.uuid\u001b[K\r\n\"b19f066f-aea3-4d79-9df8-1055e608391a\"\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000307,
+      "\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.594318,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.188423,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000932,
+      "\u001b[1;14r\u001b(B\u001b[m\u001b[?1l\u001b>\u001b[H\u001b[2J\u001b]112\u0007\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b[?1049l"
+    ],
+    [
+      0.000392,
+      "[detached (from session pres)]\r\n"
+    ]
+  ],
+  "command": "tmux a -t pres",
+  "title": null,
+  "height": 14,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "version": 1,
+  "width": 84,
+  "duration": 20.3005
+}

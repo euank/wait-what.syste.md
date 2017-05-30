@@ -1,0 +1,174 @@
+{
+  "width": 84,
+  "duration": 26.004006,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "version": 1,
+  "title": null,
+  "command": "tmux a -t pres",
+  "stdout": [
+    [
+      0.005921,
+      "\u001b[?1049h\u001b(B\u001b[m\u001b[?1l\u001b>\u001b[H\u001b[2J\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b]112\u0007\u001b[?25l\u001b[1;1H\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\u001b[1;14r\u001b[H\u001b[21C\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.607863,
+      "\u001b[H\u001b[K\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo SYSTEMD_EDITOR=tee systemctl edit --full --force nginx-uni \rt <<EOF\r\n> [Service]\r\n> ExecStart=/usr/sbin/nginx -g 'daemon off;'\r\n> # Mount namespace\r\n> RootDirectory=/var/lib/machines/fedora-nginx\r\n> # Mount /proc, /dev, and so on\r\n> MountAPIVFS=true\r\n> # Network namespace\r\n> PrivateNetwork=true\r\n> # Volume\r\n> BindPaths=/var/www:/usr/share/nginx/html\r\n> EOF\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      4.32938,
+      "\r\n"
+    ],
+    [
+      0.043893,
+      "[Service]\r\n\u001b[?25l\u001b[H> # Volume\u001b[K\r\n> BindPaths=/var/www:/usr/share/nginx/html\u001b[K\r\n> EOF\u001b[K\r\n[Service]\u001b[K\r\nExecStart=/usr/sbin/nginx -g 'daemon off;'\u001b[K\r\n# Mount namespace\u001b[K\r\nRootDirectory=/var/lib/machines/fedora-nginx\u001b[K\r\n# Mount /proc, /dev, and so on\u001b[K\r\nMountAPIVFS=true\u001b[K\r\n# Network namespace\u001b[K\r\nPrivateNetwork=true\u001b[K\r\n# Volume\u001b[K\r\nBindPaths=/var/www:/usr/share/nginx/html\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.096241,
+      "\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.341531,
+      "sudo systemctl start nginx-unit"
+    ],
+    [
+      1.236563,
+      "\r\n\u001b[?25l\u001b[H> BindPaths=/var/www:/usr/share/nginx/html\u001b[K\r\n> EOF\u001b[K\r\n[Service]\u001b[K\r\nExecStart=/usr/sbin/nginx -g 'daemon off;'\u001b[K\r\n# Mount namespace\u001b[K\r\nRootDirectory=/var/lib/machines/fedora-nginx\u001b[K\r\n# Mount /proc, /dev, and so on\u001b[K\r\nMountAPIVFS=true\u001b[K\r\n# Network namespace\u001b[K\r\nPrivateNetwork=true\u001b[K\r\n# Volume\u001b[K\r\nBindPaths=/var/www:/usr/share/nginx/html\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo systemctl start nginx-unit\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.048613,
+      "\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.320991,
+      "systemctl status nginx-unit"
+    ],
+    [
+      0.306645,
+      "\r\n\u001b[?25l\u001b[H> EOF\u001b[K\r\n[Service]\u001b[K\r\nExecStart=/usr/sbin/nginx -g 'daemon off;'\u001b[K\r\n# Mount namespace\u001b[K\r\nRootDirectory=/var/lib/machines/fedora-nginx\u001b[K\r\n# Mount /proc, /dev, and so on\u001b[K\r\nMountAPIVFS=true\u001b[K\r\n# Network namespace\u001b[K\r\nPrivateNetwork=true\u001b[K\r\n# Volume\u001b[K\r\nBindPaths=/var/www:/usr/share/nginx/html\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo systemctl start nginx-unit\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m systemctl status nginx-unit\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.003636,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.004733,
+      "\u001b[32m\u001b[1m●\u001b(B\u001b[m nginx-unit.service\r\n\u001b[?25l\u001b[H\u001b[32m\u001b[1m●\u001b(B\u001b[m nginx-unit.service\u001b[K\r\n   Loaded: loaded (/etc/systemd/system/nginx-unit.service; static; vendor preset: di\u001b[3;1H   Active: \u001b[32m\u001b[1mactive (running)\u001b(B\u001b[m since Tue 2017-05-30 14:33:21 UTC; 1min 3s ago\u001b[K\r\n Main PID: 16061 (nginx)\u001b[K\r\n    Tasks: 5 (limit: 32768)\u001b[K\r\n   Memory: 4.8M\u001b[K\r\n      CPU: 39ms\u001b[K\r\n   CGroup: /system.slice/nginx-unit.service\u001b[K\r\n           ├─16061 nginx: master process /usr/sbin/nginx -g daemon off;\u001b[K\r\n           ├─16070 nginx: worker process\u001b[K\r\n           ├─16071 nginx: worker process\u001b[K\r\n           ├─16073 nginx: worker process\u001b[K\r\n           └─16074 nginx: worker process\u001b[K\r\n\u001b[7mlines 1-13\u001b(B\u001b[m\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.712229,
+      "\r\u001b[K \u001b[KESC\u001b[2GESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K\n\u001b[?25l\u001b[H   Loaded: loaded (/etc/systemd/system/nginx-unit.service; static; vendor preset: di\u001b[2;1H   Active: \u001b[32m\u001b[1mactive (running)\u001b(B\u001b[m since Tue 2017-05-30 14:33:21 UTC; 1min 3s ago\u001b[K\r\n Main PID: 16061 (nginx)\u001b[K\r\n    Tasks: 5 (limit: 32768)\u001b[K\r\n   Memory: 4.8M\u001b[K\r\n      CPU: 39ms\u001b[K\r\n   CGroup: /system.slice/nginx-unit.service\u001b[K\r\n           ├─16061 nginx: master process /usr/sbin/nginx -g daemon off;\u001b[K\r\n           ├─16070 nginx: worker process\u001b[K\r\n           ├─16071 nginx: worker process\u001b[K\r\n           ├─16073 nginx: worker process\u001b[K\r\n           └─16074 nginx: worker process\u001b[K\r\n\u001b[K\r\n\u001b[7mlines 2-14\u001b(B\u001b[m\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.213376,
+      "\r\u001b[K \u001b[KESC\u001b[2GESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 30 14:33:21 pres-1353-7 systemd[1]: Started nginx-unit.service.\r\n\u001b[?25l\u001b[H   Active: \u001b[32m\u001b[1mactive (running)\u001b(B\u001b[m since Tue 2017-05-30 14:33:21 UTC; 1min 3s ago\u001b[K\r\n Main PID: 16061 (nginx)\u001b[K\r\n    Tasks: 5 (limit: 32768)\u001b[K\r\n   Memory: 4.8M\u001b[K\r\n      CPU: 39ms\u001b[K\r\n   CGroup: /system.slice/nginx-unit.service\u001b[K\r\n           ├─16061 nginx: master process /usr/sbin/nginx -g daemon off;\u001b[K\r\n           ├─16070 nginx: worker process\u001b[K\r\n           ├─16071 nginx: worker process\u001b[K\r\n           ├─16073 nginx: worker process\u001b[K\r\n           └─16074 nginx: worker process\u001b[K\r\n\u001b[K\r\nMay 30 14:33:21 pres-1353-7 systemd[1]: Started nginx-unit.service.\u001b[K\r\n\u001b[7mlines 3-15\u001b(B\u001b[m\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.240615,
+      "\r\u001b[K \u001b[KESC\u001b[2GESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 30 14:33:21 pres-1353-7 nginx[16061]: nginx: [warn] could not build optimal type\u001b[14;1H\n\u001b[?25l\u001b[H Main PID: 16061 (nginx)\u001b[K\r\n    Tasks: 5 (limit: 32768)\u001b[K\r\n   Memory: 4.8M\u001b[K\r\n      CPU: 39ms\u001b[K\r\n   CGroup: /system.slice/nginx-unit.service\u001b[K\r\n           ├─16061 nginx: master process /usr/sbin/nginx -g daemon off;\u001b[K\r\n           ├─16070 nginx: worker process\u001b[K\r\n           ├─16071 nginx: worker process\u001b[K\r\n           ├─16073 nginx: worker process\u001b[K\r\n           └─16074 nginx: worker process\u001b[K\r\n\u001b[K\r\nMay 30 14:33:21 pres-1353-7 systemd[1]: Started nginx-unit.service.\u001b[K\r\nMay 30 14:33:21 pres-1353-7 nginx[16061]: nginx: [warn] could not build optimal type\u001b[14;1H\u001b[7mlines 4-16\u001b(B\u001b[m\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.822737,
+      "\r\u001b[K \u001b[KESC\u001b[2GESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u001b[K\u001b[7mlines 4-16/16 (END)\u001b(B\u001b[m\u001b[K\u0007\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.164665,
+      "\r\u001b[K \u001b[KESC\u001b[2GESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u001b[K\u001b[7mlines 4-16/16 (END)\u001b(B\u001b[m\u001b[K"
+    ],
+    [
+      0.000182,
+      "\u0007\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.156177,
+      "\r\u001b[K \u001b[KESC\u001b[2GESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u001b[K\u001b[7mlines 4-16/16 (END)\u001b(B\u001b[m\u001b[K"
+    ],
+    [
+      0.000315,
+      "\u0007\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.036583,
+      "\r\u001b[K\u001b[?1l\u001b>"
+    ],
+    [
+      0.0014,
+      "\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      4.148721,
+      "curl -s http://pres-1353-7/hw.txt"
+    ],
+    [
+      0.595486,
+      "\r\n\u001b[?25l\u001b[H    Tasks: 5 (limit: 32768)\u001b[K\r\n   Memory: 4.8M\u001b[K\r\n      CPU: 39ms\u001b[K\r\n   CGroup: /system.slice/nginx-unit.service\u001b[K\r\n           ├─16061 nginx: master process /usr/sbin/nginx -g daemon off;\u001b[K\r\n           ├─16070 nginx: worker process\u001b[K\r\n           ├─16071 nginx: worker process\u001b[K\r\n           ├─16073 nginx: worker process\u001b[K\r\n           └─16074 nginx: worker process\u001b[K\r\n\u001b[K\r\nMay 30 14:33:21 pres-1353-7 systemd[1]: Started nginx-unit.service.\u001b[K\r\nMay 30 14:33:21 pres-1353-7 nginx[16061]: nginx: [warn] could not build optimal type\u001b[13;1H\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s http://pres-1353-7/hw.txt\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.028747,
+      "\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.641509,
+      ":"
+    ],
+    [
+      0.220902,
+      "("
+    ],
+    [
+      0.701622,
+      "^C\r\n\u001b[?25l\u001b[H   Memory: 4.8M\u001b[K\r\n      CPU: 39ms\u001b[K\r\n   CGroup: /system.slice/nginx-unit.service\u001b[K\r\n           ├─16061 nginx: master process /usr/sbin/nginx -g daemon off;\u001b[K\r\n           ├─16070 nginx: worker process\u001b[K\r\n           ├─16071 nginx: worker process\u001b[K\r\n           ├─16073 nginx: worker process\u001b[K\r\n           └─16074 nginx: worker process\u001b[K\r\n\u001b[K\r\nMay 30 14:33:21 pres-1353-7 systemd[1]: Started nginx-unit.service.\u001b[K\r\nMay 30 14:33:21 pres-1353-7 nginx[16061]: nginx: [warn] could not build optimal type\u001b[12;1H\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s http://pres-1353-7/hw.txt\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m :(^C\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.446115,
+      "C"
+    ],
+    [
+      0.126973,
+      "N"
+    ],
+    [
+      0.045991,
+      "I"
+    ],
+    [
+      1.217659,
+      " "
+    ],
+    [
+      0.142388,
+      "."
+    ],
+    [
+      0.17213,
+      "."
+    ],
+    [
+      0.138884,
+      "."
+    ],
+    [
+      0.145028,
+      "."
+    ],
+    [
+      1.351677,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.184691,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000429,
+      "\u001b[1;14r\u001b(B\u001b[m\u001b[?1l\u001b>\u001b[H\u001b[2J\u001b]112\u0007\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b[?1049l"
+    ],
+    [
+      0.000225,
+      "[detached (from session pres)]\r\n"
+    ]
+  ],
+  "height": 14
+}

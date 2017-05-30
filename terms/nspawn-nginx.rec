@@ -1,0 +1,374 @@
+{
+  "title": null,
+  "duration": 49.840298,
+  "command": "tmux a -t pres",
+  "stdout": [
+    [
+      0.006157,
+      "\u001b[?1049h\u001b(B\u001b[m\u001b[?1l\u001b>\u001b[H\u001b[2J\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b]112\u0007\u001b[?25l\u001b[1;1H\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\u001b[1;14r\u001b[H\u001b[21C\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.386003,
+      "\u001b[H\u001b[K\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo machinectl --verify=checksum pull-tar https://d.euank.com/ \rnspawn-imgs/fedora-nginx.tar.gz\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.211781,
+      "\r\n"
+    ],
+    [
+      0.1072,
+      "Enqueued transfer job 1. Press C-c to continue download in background.\r\n"
+    ],
+    [
+      0.00453,
+      "Pulling 'https://d.euank.com/nspawn-imgs/fedora-nginx.tar.gz', saving as 'fedora-nginx'.\r\n"
+    ],
+    [
+      0.205791,
+      "Downloading 86B for https://d.euank.com/nspawn-imgs/SHA256SUMS.\r\nDownload of https://d.euank.com/nspawn-imgs/SHA256SUMS complete.\r\n"
+    ],
+    [
+      0.013379,
+      "Image already downloaded. Skipping download.\r\nDownload of https://d.euank.com/nspawn-imgs/fedora-nginx.tar.gz complete.\r\n"
+    ],
+    [
+      0.011447,
+      "Downloading 101B for https://d.euank.com/nspawn-imgs/fedora-nginx.nspawn.\r\n"
+    ],
+    [
+      0.002442,
+      "Download of https://d.euank.com/nspawn-imgs/fedora-nginx.nspawn complete.\r\n"
+    ],
+    [
+      0.030666,
+      "Created new local image 'fedora-nginx'.\r\n"
+    ],
+    [
+      0.000333,
+      "Operation completed successfully.\r\nExiting.\r\n"
+    ],
+    [
+      0.000668,
+      "\u001b[?25l\u001b[Hnspawn-imgs/fedora-nginx.tar.gz\u001b[K\r\nEnqueued transfer job 1. Press C-c to continue download in background.\u001b[K\r\nPulling 'https://d.euank.com/nspawn-imgs/fedora-nginx.tar.gz', saving as 'fedora-nginx'.\u001b[K\r\nDownloading 86B for https://d.euank.com/nspawn-imgs/SHA256SUMS.\u001b[K\r\nDownload of https://d.euank.com/nspawn-imgs/SHA256SUMS complete.\u001b[K\r\nImage already downloaded. Skipping download.\u001b[K\r\nDownload of https://d.euank.com/nspawn-imgs/fedora-nginx.tar.gz complete.\u001b[K\r\nDownloading 101B for https://d.euank.com/nspawn-imgs/fedora-nginx.nspawn.\u001b[K\r\nDownload of https://d.euank.com/nspawn-imgs/fedora-nginx.nspawn complete.\u001b[K\r\nCreated new local image 'fedora-nginx'.\u001b[K\r\nOperation completed successfully.\u001b[K\r\nExiting.\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.002036,
+      "\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[K\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.128963,
+      "sudo machinectl show-image fedora-nginx"
+    ],
+    [
+      0.164558,
+      "\r\n\u001b[?25l\u001b[HEnqueued transfer job 1. Press C-c to continue download in background.\u001b[K\r\nPulling 'https://d.euank.com/nspawn-imgs/fedora-nginx.tar.gz', saving as 'fedora-nginx'.\u001b[K\r\nDownloading 86B for https://d.euank.com/nspawn-imgs/SHA256SUMS.\u001b[K\r\nDownload of https://d.euank.com/nspawn-imgs/SHA256SUMS complete.\u001b[K\r\nImage already downloaded. Skipping download.\u001b[K\r\nDownload of https://d.euank.com/nspawn-imgs/fedora-nginx.tar.gz complete.\u001b[K\r\nDownloading 101B for https://d.euank.com/nspawn-imgs/fedora-nginx.nspawn.\u001b[K\r\nDownload of https://d.euank.com/nspawn-imgs/fedora-nginx.nspawn complete.\u001b[K\r\nCreated new local image 'fedora-nginx'.\u001b[K\r\nOperation completed successfully.\u001b[K\r\nExiting.\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo machinectl show-image fedora-nginx\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.038867,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.00191,
+      "Name=fedora-nginx\r\n\u001b[?25l\u001b[HCreated new local image 'fedora-nginx'.\u001b[K\r\nOperation completed successfully.\u001b[K\r\nExiting.\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo machinectl show-image fedora-nginx\u001b[K\r\nName=fedora-nginx\u001b[K\r\nPath=/var/lib/machines/fedora-nginx\u001b[K\r\nType=subvolume\u001b[K\r\nReadOnly=no\u001b[K\r\nCreationTimestamp=Tue 2017-05-30 14:14:16 UTC\u001b[K\r\nUsage=184258560\u001b[K\r\nLimit=18446744073709551615\u001b[K\r\nUsageExclusive=16384\u001b[K\r\nLimitExclusive=18446744073709551615\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h\u001b[?1l\u001b>"
+    ],
+    [
+      0.001669,
+      "\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      3.786241,
+      "curl -s https://d.euank.com/nspawn-imgs/fedora-nginx.nspawn | s\u001b[?25l\u001b[1;1HOperation completed successfully.\u001b[K\r\nExiting.\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo machinectl show-image fedora-nginx\u001b[K\r\nName=fedora-nginx\u001b[K\r\nPath=/var/lib/machines/fedora-nginx\u001b[K\r\nType=subvolume\u001b[K\r\nReadOnly=no\u001b[K\r\nCreationTimestamp=Tue 2017-05-30 14:14:16 UTC\u001b[K\r\nUsage=184258560\u001b[K\r\nLimit=18446744073709551615\u001b[K\r\nUsageExclusive=16384\u001b[K\r\nLimitExclusive=18446744073709551615\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s https://d.euank.com/nspawn-imgs/fedora-nginx.nspawn | sudo tee /etc/systemd/nspawn/fedora-nginx.nspawn\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.39414,
+      "\r\n\u001b[?25l\u001b[HExiting.\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo machinectl show-image fedora-nginx\u001b[K\r\nName=fedora-nginx\u001b[K\r\nPath=/var/lib/machines/fedora-nginx\u001b[K\r\nType=subvolume\u001b[K\r\nReadOnly=no\u001b[K\r\nCreationTimestamp=Tue 2017-05-30 14:14:16 UTC\u001b[K\r\nUsage=184258560\u001b[K\r\nLimit=18446744073709551615\u001b[K\r\nUsageExclusive=16384\u001b[K\r\nLimitExclusive=18446744073709551615\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s https://d.euank.com/nspawn-imgs/fedora-nginx.nspawn | sudo tee /etc/systemd/nspawn/fedora-nginx.nspawn\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.136074,
+      "[Exec]\r\n\u001b[?25l\u001b[HUsageExclusive=16384\u001b[K\r\nLimitExclusive=18446744073709551615\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s https://d.euank.com/nspawn-imgs/fedora-nginx.nspawn | sudo tee /etc/systemd/nspawn/fedora-nginx.nspawn\u001b[K\r\n[Exec]\u001b[K\r\nBoot=true\u001b[K\r\n\u001b[K\r\n[Files]\u001b[K\r\nBind=/var/www:/usr/share/nginx/html\u001b[K\r\n\u001b[K\r\n[Network]\u001b[K\r\nVirtualEthernet=yes\u001b[K\r\nPort=80\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.010628,
+      "\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[K\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      3.559638,
+      "sudo"
+    ],
+    [
+      0.000159,
+      " sy"
+    ],
+    [
+      0.001279,
+      "stemd-run -"
+    ],
+    [
+      0.001358,
+      "-unit=nginx-container \\\r\n\u001b[?25l\u001b[HLimitExclusive=18446744073709551615\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s https://d.euank.com/nspawn-imgs/fedora-nginx.nspawn | sudo tee /etc/systemd/nspawn/fedora-nginx.nspawn\u001b[K\r\n[Exec]\u001b[K\r\nBoot=true\u001b[K\r\n\u001b[K\r\n[Files]\u001b[K\r\nBind=/var/www:/usr/share/nginx/html\u001b[K\r\n\u001b[K\r\n[Network]\u001b[K\r\nVirtualEthernet=yes\u001b[K\r\nPort=80\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo systemd-run --unit=nginx-container \\\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000739,
+      "> systemd-nspawn --machine=fedora-nginx"
+    ],
+    [
+      1.321221,
+      "\r\n\u001b[?25l\u001b[H\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s https://d.euank.com/nspawn-imgs/fedora-nginx.nspawn | sudo tee /etc/systemd/nspawn/fedora-nginx.nspawn\u001b[K\r\n[Exec]\u001b[K\r\nBoot=true\u001b[K\r\n\u001b[K\r\n[Files]\u001b[K\r\nBind=/var/www:/usr/share/nginx/html\u001b[K\r\n\u001b[K\r\n[Network]\u001b[K\r\nVirtualEthernet=yes\u001b[K\r\nPort=80\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo systemd-run --unit=nginx-container \\\u001b[K\r\n> systemd-nspawn --machine=fedora-nginx\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.034444,
+      "Running as unit: nginx-container.service\r\n\u001b[?25l\u001b[Hudo tee /etc/systemd/nspawn/fedora-nginx.nspawn\u001b[K\r\n[Exec]\u001b[K\r\nBoot=true\u001b[K\r\n\u001b[K\r\n[Files]\u001b[K\r\nBind=/var/www:/usr/share/nginx/html\u001b[K\r\n\u001b[K\r\n[Network]\u001b[K\r\nVirtualEthernet=yes\u001b[K\r\nPort=80\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo systemd-run --unit=nginx-container \\\u001b[K\r\n> systemd-nspawn --machine=fedora-nginx\u001b[K\r\nRunning as unit: nginx-container.service\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      4.593231,
+      "journalctl --lines=10 -u nginx-container --no-pager"
+    ],
+    [
+      0.225357,
+      "\r\n\u001b[?25l\u001b[H[Exec]\u001b[K\r\nBoot=true\u001b[K\r\n\u001b[K\r\n[Files]\u001b[K\r\nBind=/var/www:/usr/share/nginx/html\u001b[K\r\n\u001b[K\r\n[Network]\u001b[K\r\nVirtualEthernet=yes\u001b[K\r\nPort=80\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo systemd-run --unit=nginx-container \\\u001b[K\r\n> systemd-nspawn --machine=fedora-nginx\u001b[K\r\nRunning as unit: nginx-container.service\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m journalctl --lines=10 -u nginx-container --no-pager\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.003033,
+      "-- Logs begin at Tue 2017-05-30 07:45:11 UTC, end at Tue 2017-05-30 14:14:30 UTC. --\u001b[14;1H\n\u001b[?25l\u001b[HRunning as unit: nginx-container.service\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m journalctl --lines=10 -u nginx-container --no-pager\u001b[K\r\n-- Logs begin at Tue 2017-05-30 07:45:11 UTC, end at Tue 2017-05-30 14:14:30 UTC. --\u001b[4;1HMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]: [  OK  ] Started Time & Date Service.\u001b[K\r\nMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]: [  OK  ] Started The nginx HTTP and reverse proxy server.\u001b[K\r\nMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]: [  OK  ] Reached target Multi-User System.\u001b[K\r\nMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]: [  OK  ] Reached target Graphical Interface.\u001b[K\r\nMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]:          Starting Update UTMP about System Runlevel Changes...\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000838,
+      "May 30 14:14:29 pres-1353-7 systemd-nspawn[14288]: [  OK  ] Started Update UTMP abou\u001b[?25l\u001b[1;1HMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]: [  OK  ] Reached target Multi-User System.\u001b[K\r\nMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]: [  OK  ] Reached target Graphical Interface.\u001b[K\r\nMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]:          Starting Update UTMP about System Runlevel Changes...\u001b[K\r\nMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]: [  OK  ] Started Update UTMP about System Runlevel Changes.\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: [2B blob data]\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Fedora 25 (Twenty Five)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Kernel 4.9.24-coreos on an x86_64 (console)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: [1B blob data]\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      6.8e-05,
+      "\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[K\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      5.106222,
+      "curl -s http://pres-1353-7/hw.txt"
+    ],
+    [
+      1.130039,
+      "\r\n\u001b[?25l\u001b[Hr System.\u001b[K\r\nMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]: [  OK  ] Reached target Graphical Interface.\u001b[K\r\nMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]:          Starting Update UTMP about System Runlevel Changes...\u001b[K\r\nMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]: [  OK  ] Started Update UTMP about System Runlevel Changes.\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: [2B blob data]\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Fedora 25 (Twenty Five)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Kernel 4.9.24-coreos on an x86_64 (console)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: [1B blob data]\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s http://pres-1353-7/hw.txt\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.026076,
+      "hello world\r\n\u001b[?25l\u001b[HMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]: [  OK  ] Reached target Graphical Interface.\u001b[K\r\nMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]:          Starting Update UTMP about System Runlevel Changes...\u001b[K\r\nMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]: [  OK  ] Started Update UTMP about System Runlevel Changes.\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: [2B blob data]\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Fedora 25 (Twenty Five)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Kernel 4.9.24-coreos on an x86_64 (console)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: [1B blob data]\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s http://pres-1353-7/hw.txt\u001b[K\r\nhello world\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000216,
+      "\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      3.141249,
+      "sudo machinectl list"
+    ],
+    [
+      0.237993,
+      "\r\n\u001b[?25l\u001b[H Interface.\u001b[K\r\nMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]:          Starting Update UTMP about System Runlevel Changes...\u001b[K\r\nMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]: [  OK  ] Started Update UTMP about System Runlevel Changes.\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: [2B blob data]\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Fedora 25 (Twenty Five)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Kernel 4.9.24-coreos on an x86_64 (console)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: [1B blob data]\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s http://pres-1353-7/hw.txt\u001b[K\r\nhello world\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo machinectl list\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.035192,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.002835,
+      "MACHINE      CLASS     SERVICE        OS     VERSION ADDRESSES\r\n\u001b[?25l\u001b[HMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]:          Starting Update UTMP about System Runlevel Changes...\u001b[K\r\nMay 30 14:14:29 pres-1353-7 systemd-nspawn[14288]: [  OK  ] Started Update UTMP about System Runlevel Changes.\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: [2B blob data]\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Fedora 25 (Twenty Five)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Kernel 4.9.24-coreos on an x86_64 (console)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: [1B blob data]\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s http://pres-1353-7/hw.txt\u001b[K\r\nhello world\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo machinectl list\u001b[K\r\nMACHINE      CLASS     SERVICE        OS     VERSION ADDRESSES\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.001468,
+      "fedora-nginx container systemd-nspawn fedora 25      10.0.0.2...\r\n\u001b[?25l\u001b[Ht System Runlevel Changes.\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: [2B blob data]\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Fedora 25 (Twenty Five)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Kernel 4.9.24-coreos on an x86_64 (console)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: [1B blob data]\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s http://pres-1353-7/hw.txt\u001b[K\r\nhello world\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo machinectl list\u001b[K\r\nMACHINE      CLASS     SERVICE        OS     VERSION ADDRESSES\u001b[K\r\nfedora-nginx container systemd-nspawn fedora 25      10.0.0.2...\u001b[K\r\n\u001b[K\r\n1 machines listed.\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h\u001b[?1l\u001b>"
+    ],
+    [
+      2.6e-05,
+      "\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      4.06709,
+      "sudo machinectl shell fedora-nginx"
+    ],
+    [
+      0.940944,
+      "\r\n\u001b[?25l\u001b[HMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: [2B blob data]\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Fedora 25 (Twenty Five)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Kernel 4.9.24-coreos on an x86_64 (console)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: [1B blob data]\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s http://pres-1353-7/hw.txt\u001b[K\r\nhello world\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo machinectl list\u001b[K\r\nMACHINE      CLASS     SERVICE        OS     VERSION ADDRESSES\u001b[K\r\nfedora-nginx container systemd-nspawn fedora 25      10.0.0.2...\u001b[K\r\n\u001b[K\r\n1 machines listed.\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo machinectl shell fedora-nginx\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.041018,
+      "Connected to machine fedora-nginx. Press ^] three times within 1s to exit session.\r\n\u001b[?25l\u001b[HMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Fedora 25 (Twenty Five)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Kernel 4.9.24-coreos on an x86_64 (console)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: [1B blob data]\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s http://pres-1353-7/hw.txt\u001b[K\r\nhello world\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo machinectl list\u001b[K\r\nMACHINE      CLASS     SERVICE        OS     VERSION ADDRESSES\u001b[K\r\nfedora-nginx container systemd-nspawn fedora 25      10.0.0.2...\u001b[K\r\n\u001b[K\r\n1 machines listed.\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo machinectl shell fedora-nginx\u001b[K\r\nConnected to machine fedora-nginx. Press ^] three times within 1s to exit session.\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.044076,
+      "sh-4.3# "
+    ],
+    [
+      0.829257,
+      "c"
+    ],
+    [
+      0.052926,
+      "a"
+    ],
+    [
+      0.175259,
+      "t"
+    ],
+    [
+      0.081574,
+      " "
+    ],
+    [
+      0.069085,
+      "/"
+    ],
+    [
+      0.079983,
+      "e"
+    ],
+    [
+      0.071584,
+      "t"
+    ],
+    [
+      0.069828,
+      "c/"
+    ],
+    [
+      0.180095,
+      "o"
+    ],
+    [
+      0.077708,
+      "s"
+    ],
+    [
+      0.248015,
+      "r"
+    ],
+    [
+      0.284981,
+      "\b \b"
+    ],
+    [
+      0.144487,
+      "-"
+    ],
+    [
+      0.100491,
+      "r"
+    ],
+    [
+      0.045914,
+      "e"
+    ],
+    [
+      0.086815,
+      "lease "
+    ],
+    [
+      0.345546,
+      "\r\n\u001b[?25l\u001b[HMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: Kernel 4.9.24-coreos on an x86_64 (console)\u001b[K\r\nMay 30 14:14:30 pres-1353-7 systemd-nspawn[14288]: [1B blob data]\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s http://pres-1353-7/hw.txt\u001b[K\r\nhello world\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo machinectl list\u001b[K\r\nMACHINE      CLASS     SERVICE        OS     VERSION ADDRESSES\u001b[K\r\nfedora-nginx container systemd-nspawn fedora 25      10.0.0.2...\u001b[K\r\n\u001b[K\r\n1 machines listed.\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo machinectl shell fedora-nginx\u001b[K\r\nConnected to machine fedora-nginx. Press ^] three times within 1s to exit session.\u001b[K\r\nsh-4.3# cat /etc/os-release \u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.015185,
+      "NAME=Fedora\r\n\u001b[?25l\u001b[HID=fedora\u001b[K\r\nVERSION_ID=25\u001b[K\r\nPRETTY_NAME=\"Fedora 25 (Twenty Five)\"\u001b[K\r\nANSI_COLOR=\"0;34\"\u001b[K\r\nCPE_NAME=\"cpe:/o:fedoraproject:fedora:25\"\u001b[K\r\nHOME_URL=\"https://fedoraproject.org/\"\u001b[K\r\nSUPPORT_URL=\"https://fedoraproject.org/wiki/Communicating_and_getting_help\"\u001b[K\r\nBUG_REPORT_URL=\"https://bugzilla.redhat.com/\"\u001b[K\r\nREDHAT_BUGZILLA_PRODUCT=\"Fedora\"\u001b[K\r\nREDHAT_BUGZILLA_PRODUCT_VERSION=25\u001b[K\r\nREDHAT_SUPPORT_PRODUCT=\"Fedora\"\u001b[K\r\nREDHAT_SUPPORT_PRODUCT_VERSION=25\u001b[K\r\nPRIVACY_POLICY_URL=https://fedoraproject.org/wiki/Legal:PrivacyPolicy\u001b[K\r\nsh-4.3# \u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.152563,
+      "p"
+    ],
+    [
+      0.059971,
+      "s"
+    ],
+    [
+      0.09655,
+      " "
+    ],
+    [
+      0.116405,
+      "a"
+    ],
+    [
+      0.547549,
+      "\r\n\u001b[?25l\u001b[HVERSION_ID=25\u001b[K\r\nPRETTY_NAME=\"Fedora 25 (Twenty Five)\"\u001b[K\r\nANSI_COLOR=\"0;34\"\u001b[K\r\nCPE_NAME=\"cpe:/o:fedoraproject:fedora:25\"\u001b[K\r\nHOME_URL=\"https://fedoraproject.org/\"\u001b[K\r\nSUPPORT_URL=\"https://fedoraproject.org/wiki/Communicating_and_getting_help\"\u001b[K\r\nBUG_REPORT_URL=\"https://bugzilla.redhat.com/\"\u001b[K\r\nREDHAT_BUGZILLA_PRODUCT=\"Fedora\"\u001b[K\r\nREDHAT_BUGZILLA_PRODUCT_VERSION=25\u001b[K\r\nREDHAT_SUPPORT_PRODUCT=\"Fedora\"\u001b[K\r\nREDHAT_SUPPORT_PRODUCT_VERSION=25\u001b[K\r\nPRIVACY_POLICY_URL=https://fedoraproject.org/wiki/Legal:PrivacyPolicy\u001b[K\r\nsh-4.3# ps a\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.011754,
+      "  PID TTY      STAT   TIME COMMAND\r\n\u001b[?25l\u001b[HANSI_COLOR=\"0;34\"\u001b[K\r\nCPE_NAME=\"cpe:/o:fedoraproject:fedora:25\"\u001b[K\r\nHOME_URL=\"https://fedoraproject.org/\"\u001b[K\r\nSUPPORT_URL=\"https://fedoraproject.org/wiki/Communicating_and_getting_help\"\u001b[K\r\nBUG_REPORT_URL=\"https://bugzilla.redhat.com/\"\u001b[K\r\nREDHAT_BUGZILLA_PRODUCT=\"Fedora\"\u001b[K\r\nREDHAT_BUGZILLA_PRODUCT_VERSION=25\u001b[K\r\nREDHAT_SUPPORT_PRODUCT=\"Fedora\"\u001b[K\r\nREDHAT_SUPPORT_PRODUCT_VERSION=25\u001b[K\r\nPRIVACY_POLICY_URL=https://fedoraproject.org/wiki/Legal:PrivacyPolicy\u001b[K\r\nsh-4.3# ps a\u001b[K\r\n  PID TTY      STAT   TIME COMMAND\u001b[K\r\n   24 console  Ss+    0:00 /sbin/agetty --noclear --keep-baud console 115200,38400,9\u001b[14;1H\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.005958,
+      "   38 pts/0    Ss     0:00 -bin/sh\r\n\u001b[?25l\u001b[HSUPPORT_URL=\"https://fedoraproject.org/wiki/Communicating_and_getting_help\"\u001b[K\r\nBUG_REPORT_URL=\"https://bugzilla.redhat.com/\"\u001b[K\r\nREDHAT_BUGZILLA_PRODUCT=\"Fedora\"\u001b[K\r\nREDHAT_BUGZILLA_PRODUCT_VERSION=25\u001b[K\r\nREDHAT_SUPPORT_PRODUCT=\"Fedora\"\u001b[K\r\nREDHAT_SUPPORT_PRODUCT_VERSION=25\u001b[K\r\nPRIVACY_POLICY_URL=https://fedoraproject.org/wiki/Legal:PrivacyPolicy\u001b[K\r\nsh-4.3# ps a\u001b[K\r\n  PID TTY      STAT   TIME COMMAND\u001b[K\r\n   24 console  Ss+    0:00 /sbin/agetty --noclear --keep-baud console 115200,38400,9\u001b[11;1H   38 pts/0    Ss     0:00 -bin/sh\u001b[K\r\n   44 pts/0    S      0:00 (sd-pPATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/b\u001b[13;1H   60 pts/0    R+     0:00 ps a\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.001246,
+      "sh-4.3# "
+    ],
+    [
+      3.106764,
+      "logout\r\n\u001b[?25l\u001b[HREDHAT_BUGZILLA_PRODUCT=\"Fedora\"\u001b[K\r\nREDHAT_BUGZILLA_PRODUCT_VERSION=25\u001b[K\r\nREDHAT_SUPPORT_PRODUCT=\"Fedora\"\u001b[K\r\nREDHAT_SUPPORT_PRODUCT_VERSION=25\u001b[K\r\nPRIVACY_POLICY_URL=https://fedoraproject.org/wiki/Legal:PrivacyPolicy\u001b[K\r\nsh-4.3# ps a\u001b[K\r\n  PID TTY      STAT   TIME COMMAND\u001b[K\r\n   24 console  Ss+    0:00 /sbin/agetty --noclear --keep-baud console 115200,38400,9\u001b[9;1H   38 pts/0    Ss     0:00 -bin/sh\u001b[K\r\n   44 pts/0    S      0:00 (sd-pPATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/b\u001b[11;1H   60 pts/0    R+     0:00 ps a\u001b[K\r\nsh-4.3# logout\u001b[K\r\nConnection to machine fedora-nginx terminated.\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.001737,
+      "\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      3.309094,
+      "sudo machinectl terminate fedora-nginx"
+    ],
+    [
+      0.873002,
+      "\r\n\u001b[?25l\u001b[HREDHAT_BUGZILLA_PRODUCT_VERSION=25\u001b[K\r\nREDHAT_SUPPORT_PRODUCT=\"Fedora\"\u001b[K\r\nREDHAT_SUPPORT_PRODUCT_VERSION=25\u001b[K\r\nPRIVACY_POLICY_URL=https://fedoraproject.org/wiki/Legal:PrivacyPolicy\u001b[K\r\nsh-4.3# ps a\u001b[K\r\n  PID TTY      STAT   TIME COMMAND\u001b[K\r\n   24 console  Ss+    0:00 /sbin/agetty --noclear --keep-baud console 115200,38400,9\u001b[8;1H   38 pts/0    Ss     0:00 -bin/sh\u001b[K\r\n   44 pts/0    S      0:00 (sd-pPATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/b\u001b[10;1H   60 pts/0    R+     0:00 ps a\u001b[K\r\nsh-4.3# logout\u001b[K\r\nConnection to machine fedora-nginx terminated.\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo machinectl terminate fedora-nginx\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.051676,
+      "\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.732775,
+      "\r(reverse-i-search)`': "
+    ],
+    [
+      0.257237,
+      "\u001b[3Dc': sudo machinectl terminate fedora-nginx\u001b[26D"
+    ],
+    [
+      0.079018,
+      "\u001b[15D\u001b[4Pu': curl -s http://pres-1353-7/hw.txt\r(reverse-i-search)`cu': "
+    ],
+    [
+      0.105343,
+      "\u001b[3D\u001b[1@r': "
+    ],
+    [
+      0.13525,
+      "\u001b[3D\u001b[1@l': "
+    ],
+    [
+      0.516495,
+      "\r\u001b[5P\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \r\n\u001b[?25l\u001b[HREDHAT_SUPPORT_PRODUCT=\"Fedora\"\u001b[K\r\nREDHAT_SUPPORT_PRODUCT_VERSION=25\u001b[K\r\nPRIVACY_POLICY_URL=https://fedoraproject.org/wiki/Legal:PrivacyPolicy\u001b[K\r\nsh-4.3# ps a\u001b[K\r\n  PID TTY      STAT   TIME COMMAND\u001b[K\r\n   24 console  Ss+    0:00 /sbin/agetty --noclear --keep-baud console 115200,38400,9\u001b[7;1H   38 pts/0    Ss     0:00 -bin/sh\u001b[K\r\n   44 pts/0    S      0:00 (sd-pPATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/b\u001b[9;1H   60 pts/0    R+     0:00 ps a\u001b[K\r\nsh-4.3# logout\u001b[K\r\nConnection to machine fedora-nginx terminated.\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m sudo machinectl terminate fedora-nginx\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m curl -s http://pres-1353-7/hw.txt                              \u001b[14;1H\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.02901,
+      "\u001b[32m\u001b[1mcore@pres-1353-7\u001b[34m ~ $\u001b(B\u001b[m \u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.296762,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.231049,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000703,
+      "\u001b[1;14r\u001b(B\u001b[m\u001b[?1l\u001b>\u001b[H\u001b[2J\u001b]112\u0007\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b[?1049l"
+    ],
+    [
+      0.000702,
+      "[detached (from session pres)]\r\n"
+    ]
+  ],
+  "version": 1,
+  "width": 84,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "height": 14
+}
