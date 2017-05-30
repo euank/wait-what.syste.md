@@ -1,0 +1,434 @@
+{
+  "duration": 86.81049,
+  "height": 14,
+  "stdout": [
+    [
+      0.021287,
+      "Warning: Permanently added '[localhost]:2222' (ECDSA) to the list of known hosts.\r\r\n"
+    ],
+    [
+      0.966037,
+      "Last login: Tue May 30 05:34:51 UTC 2017 from 10.0.2.2 on pts/1\r\n\u001b[38;5;75mContainer Linux by CoreOS\u001b[39m stable (1353.7.0)\r\n"
+    ],
+    [
+      0.017915,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.325915,
+      "\u001b[H\u001b[2J\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.364761,
+      "systemctl ca"
+    ],
+    [
+      0.000361,
+      "t etcd-member.serv"
+    ],
+    [
+      0.000554,
+      "ice | head -n 20"
+    ],
+    [
+      0.938962,
+      "\r\n"
+    ],
+    [
+      0.012791,
+      "# /usr/lib/systemd/system/etcd-member.service\r\n[Unit]\r\nDescription=etcd (System Application Container)\r\nDocumentation=https://github.com/coreos/etcd\r\nWants=network.target\r\nConflicts=etcd.service\r\nConflicts=etcd2.service\r\n\r\n[Service]\r\nType=notify\r\nRestart=on-failure\r\nRestartSec=10s\r\nTimeoutStartSec=0\r\nLimitNOFILE=40000\r\n\r\nEnvironment=\"ETCD_IMAGE_TAG=v3.0.10\"\r\nEnvironment=\"ETCD_NAME=%m\"\r\nEnvironment=\"ETCD_USER=etcd\"\r\nEnvironment=\"ETCD_DATA_DIR=/var/lib/etcd\"\r\nEnvironment=\"RKT_RUN_ARGS=--uuid-file-save=/var/lib/coreos/etcd-member-wrapper.uuid\"\r\n"
+    ],
+    [
+      0.000387,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m \u001b[K"
+    ],
+    [
+      4.174911,
+      "sudo system"
+    ],
+    [
+      0.000203,
+      "ctl edit etcd"
+    ],
+    [
+      0.000113,
+      "-member.s"
+    ],
+    [
+      8.3e-05,
+      "ervice"
+    ],
+    [
+      2.708756,
+      "\r\n"
+    ],
+    [
+      0.068617,
+      "\u001b[?1049h\u001b[?1h\u001b="
+    ],
+    [
+      0.000354,
+      "\u001b[1;14r\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[27m\u001b[m\u001b[H\u001b[2J\u001b[?25l\u001b[14;1H\"/etc/systemd/system/etcd-member.service.d/.#override.conf15f4d81137ef270c\""
+    ],
+    [
+      2.4e-05,
+      " 0L, 0C"
+    ],
+    [
+      0.000453,
+      "\u001b[2;1H~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\u001b[1;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.627401,
+      "\u001b[?25l\u001b[14;1H\u001b[1m-- INSERT --\u001b[m\u001b[14;13H\u001b[K"
+    ],
+    [
+      0.001048,
+      "\u001b[1;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      4.757369,
+      "\u001b[?25l[Service]\r\nCPUShares=2048\r\nEnvironment=\"ETCD_NAME=seldon\"\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.914521,
+      "\u001b[?25l\u001b[14;1H\u001b[K"
+    ],
+    [
+      0.002007,
+      "\u001b[3;30H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.617791,
+      "\u001b[?25l\u001b[14;1H:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.876015,
+      "w"
+    ],
+    [
+      0.202074,
+      "q"
+    ],
+    [
+      2.424958,
+      "\r"
+    ],
+    [
+      0.000509,
+      "\u001b[?25l"
+    ],
+    [
+      0.000457,
+      "\"/etc/systemd/system/etcd-member.service.d/.#override.conf15f4d81137ef270c\""
+    ],
+    [
+      0.013996,
+      "\r<temd\u001b[7C/etcd-member.service.d/.#override.conf15f4d81137ef270c\" 3L, 56C written"
+    ],
+    [
+      0.000585,
+      "\r\r"
+    ],
+    [
+      0.000216,
+      "\r\n"
+    ],
+    [
+      0.000305,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.000389,
+      "\u001b[?12l\u001b[?25h\u001b[?1049l"
+    ],
+    [
+      0.08787,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      3.583572,
+      "sudo systemctl daemon-relo"
+    ],
+    [
+      0.00011,
+      "ad"
+    ],
+    [
+      0.290173,
+      "\r\n"
+    ],
+    [
+      0.109774,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      2.850848,
+      "systemctl cat e"
+    ],
+    [
+      0.000129,
+      "tcd-member.servic"
+    ],
+    [
+      0.000247,
+      "e --no-pager"
+    ],
+    [
+      0.345389,
+      "\r\n"
+    ],
+    [
+      0.029433,
+      "\u001b[0;1;34m# /usr/lib/systemd/system/etcd-member.service\u001b[0m\r\n[Unit]\r\nDescription=etcd (System Application Container)\r\nDocumentation=https://github.com/coreos/etcd\r\nWants=network.target\r\nConflicts=etcd.service\r\nConflicts=etcd2.service\r\n\r\n[Service]\r\nType=notify\r\nRestart=on-failure\r\nRestartSec=10s\r\nTimeoutStartSec=0\r\nLimitNOFILE=40000\r\n\r\nEnvironment=\"ETCD_IMAGE_TAG=v3.0.10\"\r\nEnvironment=\"ETCD_NAME=%m\"\r\nEnvironment=\"ETCD_USER=etcd\"\r\nEnvironment=\"ETCD_DATA_DIR=/var/lib/etcd\"\r\nEnvironment=\"RKT_RUN_ARGS=--uuid-file-save=/var/lib/coreos/etcd-member-wrapper.uuid\"\r\n\r\nExecStartPre=/usr/bin/mkdir --parents /var/lib/coreos\r\nExecStartPre=-/usr/bin/rkt rm --uuid-file=/var/lib/coreos/etcd-member-wrapper.uuid\r\nExecStart=/usr/lib/coreos/etcd-wrapper $ETCD_OPTS\r\nExecStop=-/usr/bin/rkt stop --uuid-file=/var/lib/coreos/etcd-member-wrapper.uuid\r\n\r\n[Install]\r\nWantedBy=multi-user.target\r\n"
+    ],
+    [
+      0.000295,
+      "\r\n\u001b[0;1;34m# /etc/systemd/system/etcd-member.service.d/override.conf\u001b[0m\r\n[Service]\r\nCPUShares=2048\r\nEnvironment=\"ETCD_NAME=seldon\"\r\n"
+    ],
+    [
+      0.002273,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      6.717234,
+      "s"
+    ],
+    [
+      0.001006,
+      "udo systemctl enable --now etcd-member"
+    ],
+    [
+      2.285619,
+      "\r\n"
+    ],
+    [
+      0.036938,
+      "Created symlink /etc/systemd/system/multi-user.target.wants/etcd-member.service → /usr/lib/systemd/system/etcd-member.service.\r\n"
+    ],
+    [
+      1.71861,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      5.465173,
+      "etcdctl member list"
+    ],
+    [
+      2.085232,
+      "\r\n"
+    ],
+    [
+      0.128931,
+      "8e9e05c52164694d: name=seldon peerURLs=http://localhost:2380 clientURLs=http://localhost:2379 isLeader=true\r\n"
+    ],
+    [
+      0.000551,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      8.206657,
+      "\u001b[H\u001b[2J\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.259841,
+      "\r\n\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.176286,
+      "\r\n\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.314754,
+      "\u001b[H\u001b[2J\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.948196,
+      "sudo systemctl edit --full --runtime "
+    ],
+    [
+      0.000303,
+      "--force exa"
+    ],
+    [
+      0.000659,
+      "mple.s"
+    ],
+    [
+      0.000254,
+      "ervice"
+    ],
+    [
+      4.597074,
+      "\r\n"
+    ],
+    [
+      0.048656,
+      "\u001b[?1049h\u001b[?1h\u001b="
+    ],
+    [
+      0.000895,
+      "\u001b[1;14r\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[27m\u001b[m\u001b[H\u001b[2J\u001b[?25l\u001b[14;1H\"/run/systemd/system/.#example.service2e1d040e290f9777\" 0L, 0C"
+    ],
+    [
+      0.00026,
+      "\u001b[2;1H~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\r\n~\u001b[1;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      6.435926,
+      "\u001b[?25l\u001b[14;1H\u001b[1m-- INSERT --\u001b[m\u001b[14;13H\u001b[K"
+    ],
+    [
+      0.0009,
+      "\u001b[1;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.30856,
+      "\u001b[?25l[Service]\r\nType=simple\r\nExecStart=/bin/sh -c \"while true; do date >> /tmp/date; sleep 1; done\"\u001b[4;1H\u001b[K\u001b[4;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.823405,
+      "\u001b[?25l\u001b[14;1H\u001b[K"
+    ],
+    [
+      0.001596,
+      "\u001b[4;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.864447,
+      "\u001b[?25l\u001b[14;1H:\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.351366,
+      "w"
+    ],
+    [
+      0.191324,
+      "q"
+    ],
+    [
+      1.396532,
+      "\r\u001b[?25l\"/run/systemd/system/.#example.service2e1d040e290f9777\" 4L, 94C written\r\r\r\n\u001b[?1l\u001b>\u001b[?12l\u001b[?25h\u001b[?1049l"
+    ],
+    [
+      0.093135,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m \u001b[K"
+    ],
+    [
+      3.457962,
+      "sudo systemctl start example"
+    ],
+    [
+      0.339191,
+      "\r\n"
+    ],
+    [
+      0.058366,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      3.620933,
+      "systemctl cat example"
+    ],
+    [
+      0.21568,
+      "\r\n"
+    ],
+    [
+      0.027047,
+      "\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.000392,
+      "\u001b[0;1;34m# /run/systemd/system/example.service\u001b[0m\u001b[m\r\n[Service]\u001b[m\r\nType=simple\u001b[m\r\nExecStart=/bin/sh -c \"while true; do date >> /tmp/date; sleep 1; done\"\u001b[m\r\n\u001b[m\r\n\r\u001b[K\u001b[?1l\u001b>"
+    ],
+    [
+      0.00219,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      1.413897,
+      "t"
+    ],
+    [
+      0.07693,
+      "a"
+    ],
+    [
+      0.070689,
+      "i"
+    ],
+    [
+      0.14403,
+      "l"
+    ],
+    [
+      0.135185,
+      " "
+    ],
+    [
+      0.168022,
+      "/"
+    ],
+    [
+      0.140739,
+      "t"
+    ],
+    [
+      0.054275,
+      "m"
+    ],
+    [
+      0.071056,
+      "p"
+    ],
+    [
+      0.164999,
+      "/"
+    ],
+    [
+      0.044289,
+      "d"
+    ],
+    [
+      0.08579,
+      "a"
+    ],
+    [
+      0.170076,
+      "te "
+    ],
+    [
+      0.337805,
+      "\r\n"
+    ],
+    [
+      0.009664,
+      "Tue May 30 05:36:12 UTC 2017\r\nTue May 30 05:36:13 UTC 2017\r\nTue May 30 05:36:14 UTC 2017\r\nTue May 30 05:36:15 UTC 2017\r\nTue May 30 05:36:17 UTC 2017\r\nTue May 30 05:36:18 UTC 2017\r\nTue May 30 05:36:19 UTC 2017\r\n"
+    ],
+    [
+      0.000545,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      4.189341,
+      "logout\r\n"
+    ],
+    [
+      0.0046,
+      "\u001b[H\u001b[2J"
+    ],
+    [
+      0.000806,
+      "Connection to localhost closed.\r\r\n"
+    ]
+  ],
+  "version": 1,
+  "command": "ssh coreos",
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "width": 84
+}

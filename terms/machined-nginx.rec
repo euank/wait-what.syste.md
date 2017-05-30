@@ -1,0 +1,662 @@
+{
+  "env": {
+    "TERM": "rxvt-unicode",
+    "SHELL": "/bin/zsh"
+  },
+  "height": 39,
+  "command": "ssh coreos",
+  "version": 1,
+  "title": null,
+  "stdout": [
+    [
+      0.02169,
+      "Warning: Permanently added '[localhost]:2222' (ECDSA) to the list of known hosts.\r\r\n"
+    ],
+    [
+      0.94649,
+      "Last login: Mon May 29 02:54:51 UTC 2017 from 10.0.2.2 on pts/0\r\n\u001b[38;5;75mContainer Linux by CoreOS\u001b[39m stable (1353.7.0)\r\n"
+    ],
+    [
+      0.015568,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      1.099789,
+      "my_ip="
+    ],
+    [
+      0.000281,
+      "10.0.2.15"
+    ],
+    [
+      0.200584,
+      "\r\n"
+    ],
+    [
+      8.7e-05,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      3.434975,
+      "sudo machinectl --verify=chec \rksum pull-tar https:/"
+    ],
+    [
+      0.000873,
+      "/d.euank.com/nspawn-imgs/fedora-nginx.tar.gz"
+    ],
+    [
+      1.216468,
+      "\r\n"
+    ],
+    [
+      0.060052,
+      "Enqueued transfer job 1. Press C-c to continue download in background.\r\n"
+    ],
+    [
+      0.003208,
+      "Pulling 'https://d.euank.com/nspawn-imgs/fedora-nginx.tar.gz', saving as 'fedora-nginx'.\r\n"
+    ],
+    [
+      0.39627,
+      "Downloading 101B for https://d.euank.com/nspawn-imgs/fedora-nginx.nspawn.\r\nDownload of https://d.euank.com/nspawn-imgs/fedora-nginx.nspawn complete.\r\n"
+    ],
+    [
+      0.010183,
+      "Image already downloaded. Skipping download.\r\n"
+    ],
+    [
+      0.000323,
+      "Download of https://d.euank.com/nspawn-imgs/fedora-nginx.tar.gz complete.\r\n"
+    ],
+    [
+      0.008337,
+      "Downloading 86B for https://d.euank.com/nspawn-imgs/SHA256SUMS.\r\n"
+    ],
+    [
+      9.8e-05,
+      "Download of https://d.euank.com/nspawn-imgs/SHA256SUMS complete.\r\n"
+    ],
+    [
+      0.040618,
+      "Created new local image 'fedora-nginx'.\r\n"
+    ],
+    [
+      0.000412,
+      "Operation completed successfully.\r\n"
+    ],
+    [
+      0.00022,
+      "Exiting.\r\n"
+    ],
+    [
+      0.008414,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m \u001b[K"
+    ],
+    [
+      5.146448,
+      "\r\n\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.28181,
+      "sudo machinectl show-image fe \rdora-nginx"
+    ],
+    [
+      0.894164,
+      "\r\n"
+    ],
+    [
+      0.033113,
+      "\u001b=\r"
+    ],
+    [
+      0.000819,
+      "Name=fedora-nginx\u001b[m\r\nPath=/var/lib/machines/fedora-nginx\u001b[m\r\nType=subvolume\u001b[m\r\nReadOnly=no\u001b[m\r\nCreationTimestamp=Mon 2017-05-29 02:55:08 UTC\u001b[m\r\nUsage=184258560\u001b[m\r\nLimit=18446744073709551615\u001b[m\r\nUsageExclusive=16384\u001b[m\r\nLimitExclusive=18446744073709551615\u001b[m\r\n\r\u001b[K\u001b>"
+    ],
+    [
+      0.001837,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m \u001b[K"
+    ],
+    [
+      0.563619,
+      "\r\n\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.140024,
+      "\r\n\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      7.843368,
+      "\u001b[H\u001b[2J\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.368278,
+      "curl -s https://d.euank.com/n \rspawn-imgs/fedora-nginx.nspawn | sudo tee /etc/systemd/nspawn"
+    ],
+    [
+      0.000338,
+      "/fedora-n \rginx.nspawn"
+    ],
+    [
+      0.998681,
+      "\r\n"
+    ],
+    [
+      0.194281,
+      "[Exec]\r\nBoot=true\r\n\r\n[Files]\r\nBind=/var/www:/usr/share/nginx/html\r\n\r\n[Network]\r\nVirtualEthernet=yes"
+    ],
+    [
+      0.000125,
+      "\r\nPort=80\r\n"
+    ],
+    [
+      0.010634,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m \u001b[K"
+    ],
+    [
+      6.611293,
+      "sudo systemd-r"
+    ],
+    [
+      0.000189,
+      "un --unit=nginx \r"
+    ],
+    [
+      0.000719,
+      "-container \\\r\n> systemd-nspawn --machine=fedora-ngi"
+    ],
+    [
+      0.000106,
+      "nx"
+    ],
+    [
+      4.717391,
+      "\r\n"
+    ],
+    [
+      0.01816,
+      "Running as unit: nginx-container.service\r\n"
+    ],
+    [
+      0.001557,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      4.025375,
+      "sudo journalctl --li"
+    ],
+    [
+      2.3e-05,
+      "nes=20 -u \r nginx-container"
+    ],
+    [
+      0.323147,
+      " "
+    ],
+    [
+      0.21012,
+      "-"
+    ],
+    [
+      0.145802,
+      "-"
+    ],
+    [
+      0.202996,
+      "n"
+    ],
+    [
+      0.070473,
+      "o"
+    ],
+    [
+      0.215923,
+      "-"
+    ],
+    [
+      0.181351,
+      "p"
+    ],
+    [
+      0.085849,
+      "a"
+    ],
+    [
+      0.06762,
+      "g"
+    ],
+    [
+      0.153546,
+      "e"
+    ],
+    [
+      0.046797,
+      "r"
+    ],
+    [
+      0.130121,
+      "\r\n"
+    ],
+    [
+      0.021408,
+      "-- Logs begin at Sun 2017-05-28 23:53:12 UTC, end at Mon 2017-05-29 02:55:41 UTC. --\r\n"
+    ],
+    [
+      0.000192,
+      "May 29 02:55:36 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]:          Starting Network Service...\r\nMay 29 02:55:36 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]: [  OK  ] Started Login Service."
+    ],
+    [
+      0.000217,
+      "\r\n"
+    ],
+    [
+      9.6e-05,
+      "May 29 02:55:36 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]: [  OK  ] Started Network Service.\r\n"
+    ],
+    [
+      0.000207,
+      "May 29 02:55:36 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]: [  OK  ] Reached target Network.\r\n"
+    ],
+    [
+      0.000112,
+      "May 29 02:55:36 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]:          Starting Permit User Sessions...\r\n"
+    ],
+    [
+      0.000151,
+      "May 29 02:55:36 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]:          Starting The nginx HTTP and reverse proxy server...\r\n"
+    ],
+    [
+      0.000144,
+      "May 29 02:55:36 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]: [  OK  ] Started Permit User Sessions."
+    ],
+    [
+      0.0001,
+      "\r\n"
+    ],
+    [
+      0.000126,
+      "May 29 02:55:36 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]: [  OK  ] Started Console Getty.\r\n"
+    ],
+    [
+      0.001376,
+      "May 29 02:55:36 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]: [  OK  ] Reached target Login Prompts."
+    ],
+    [
+      6.4e-05,
+      "\r\n"
+    ],
+    [
+      0.000135,
+      "May 29 02:55:36 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]:          Starting Time & Date Service...\r\nMay 29 02:55:36 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]: [  OK  ] Started Time & Date Service.\r\n"
+    ],
+    [
+      9.9e-05,
+      "May 29 02:55:36 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]: [  OK  ] Started The nginx HTTP and reverse proxy server."
+    ],
+    [
+      8.5e-05,
+      "\r\n"
+    ],
+    [
+      0.000121,
+      "May 29 02:55:36 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]: [  OK  ] Reached target Multi-User System.\r\n"
+    ],
+    [
+      8.9e-05,
+      "May 29 02:55:36 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]: [  OK  ] Reached target Graphical Interface.\r\n"
+    ],
+    [
+      0.00012,
+      "May 29 02:55:36 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]:          Starting Update UTMP about System Runlevel Changes...\r\n"
+    ],
+    [
+      0.000104,
+      "May 29 02:55:36 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]: [  OK  ] Started Update UTMP about System Runlevel Changes.\r\n"
+    ],
+    [
+      0.000153,
+      "May 29 02:55:37 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]: [2B blob data]\r\nMay 29 02:55:37 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]: Fedora 25 (Twenty Five)\r\n"
+    ],
+    [
+      7.8e-05,
+      "May 29 02:55:37 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]: Kernel 4.9.24-coreos on an x86_64 (console)\r\n"
+    ],
+    [
+      0.000178,
+      "May 29 02:55:37 coreos_production_qemu-1353-7-0 systemd-nspawn[15358]: [1B blob data]\r\n"
+    ],
+    [
+      0.001369,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m \u001b[K"
+    ],
+    [
+      6.708895,
+      "curl -s $my_ip/hw.txt"
+    ],
+    [
+      0.592309,
+      "\r\n"
+    ],
+    [
+      0.023111,
+      "hello world\r\n"
+    ],
+    [
+      0.002422,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.546347,
+      "\r\n\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.138766,
+      "\r\n\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      4.839277,
+      "sudo machinectl li"
+    ],
+    [
+      0.000315,
+      "st"
+    ],
+    [
+      0.272686,
+      "\r\n"
+    ],
+    [
+      0.010204,
+      "\u001b=\r"
+    ],
+    [
+      0.001773,
+      "MACHINE      CLASS     SERVICE        OS     VERSION ADDRESSES\u001b[m\r\nfedora-nginx container systemd-nspawn fedora 25      10.0.0.2...\u001b[m\r\n\u001b[m\r\n1 machines listed.\u001b[m\r\n\r\u001b[K\u001b>"
+    ],
+    [
+      0.001684,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      3.641138,
+      "sudo machinec"
+    ],
+    [
+      0.00012,
+      "tl she"
+    ],
+    [
+      0.00068,
+      "ll fedora- \rnginx"
+    ],
+    [
+      0.540875,
+      "\r\n"
+    ],
+    [
+      0.038671,
+      "Connected to machine fedora-nginx. Press ^] three times within 1s to exit session.\r\n"
+    ],
+    [
+      0.049378,
+      "sh-4.3# "
+    ],
+    [
+      0.975329,
+      "w"
+    ],
+    [
+      0.06404,
+      "h"
+    ],
+    [
+      0.030954,
+      "o"
+    ],
+    [
+      0.152436,
+      "a"
+    ],
+    [
+      0.056061,
+      "m"
+    ],
+    [
+      0.068984,
+      "i"
+    ],
+    [
+      0.193844,
+      "\r\n"
+    ],
+    [
+      0.005742,
+      "root\r\n"
+    ],
+    [
+      0.000793,
+      "sh-4.3# "
+    ],
+    [
+      1.112227,
+      "p"
+    ],
+    [
+      0.077928,
+      "s"
+    ],
+    [
+      0.055033,
+      " "
+    ],
+    [
+      0.094002,
+      "a"
+    ],
+    [
+      0.09571,
+      "u"
+    ],
+    [
+      0.100708,
+      "x"
+    ],
+    [
+      0.11814,
+      "\r\n"
+    ],
+    [
+      0.023015,
+      "USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND\r\n"
+    ],
+    [
+      0.001079,
+      "root         1  0.1  0.7  62580  7280 ?        Ss   02:55   0:00 /usr/\r\nroot        15  0.0  0.4  54456  4916 ?        Ss   02:55   0:00 /usr/\r\n"
+    ],
+    [
+      0.000743,
+      "root        19  0.0  0.5  50272  5320 ?        Ss   02:55   0:00 /usr/\r\n"
+    ],
+    [
+      0.001756,
+      "dbus        20  0.0  0.3  46164  3744 ?        Ss   02:55   0:00 /usr/\r\nsystemd+    21  0.0  0.4  63116  4612 ?        Ss   02:55   0:00 /usr/\r\nroot        24  0.0  0.1   6508  1656 console  Ss+  02:55   0:00 /sbin\r\nroot        27  0.0  0.2  47968  2524 ?        Ss   02:55   0:00 /usr/\r\nroot        29  0.0  0.1  59688  1292 ?        Ss   02:55   0:00 nginx\r\nnginx       30  0.0  0.4  60124  4172 ?        S    02:55   0:00 nginx\r\n"
+    ],
+    [
+      0.000428,
+      "nginx       31  0.0  0.4  60124  4172 ?        S    02:55   0:00 nginx\r\n"
+    ],
+    [
+      0.000255,
+      "nginx       32  0.0  0.4  60124  4172 ?        S    02:55   0:00 nginx\r\n"
+    ],
+    [
+      0.00101,
+      "nginx       33  0.0  0.4  60124  4172 ?        S    02:55   0:00 nginx\r\nroot        38  0.2  0.3  11928  3088 pts/0    Ss   02:55   0:00 -bin/\r\nroot        39  0.0  0.5  62116  5880 ?        Ss   02:55   0:00 /usr/\r\nroot        40  0.0  0.1  96584  1412 ?        S    02:55   0:00 (sd-p\r\nroot        44  0.0  0.1 115220  1468 pts/0    S    02:55   0:00 (sd-p\r\n"
+    ],
+    [
+      0.000325,
+      "root        60  0.0  0.3  39812  3356 pts/0    R+   02:56   0:00 ps au\r\n"
+    ],
+    [
+      0.000614,
+      "sh-4.3# "
+    ],
+    [
+      2.595069,
+      "\r\u001b[Ksh-4.3# p"
+    ],
+    [
+      0.050374,
+      "s"
+    ],
+    [
+      0.065445,
+      " "
+    ],
+    [
+      0.081317,
+      "a"
+    ],
+    [
+      0.103113,
+      "u"
+    ],
+    [
+      0.090327,
+      "x"
+    ],
+    [
+      0.097987,
+      "\r\n"
+    ],
+    [
+      0.00962,
+      "USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND\r\n"
+    ],
+    [
+      0.000746,
+      "root         1  0.1  0.7  62580  7280 ?        Ss   02:55   0:00 /usr/lib/systemd/systemd\r\n"
+    ],
+    [
+      0.000195,
+      "root        15  0.0  0.4  54456  4916 ?        Ss   02:55   0:00 /usr/lib/systemd/systemd-journald\r\n"
+    ],
+    [
+      0.000643,
+      "root        19  0.0  0.5  50272  5320 ?        Ss   02:55   0:00 /usr/lib/systemd/systemd-logind\r\n"
+    ],
+    [
+      0.001209,
+      "dbus        20  0.0  0.3  46164  3744 ?        Ss   02:55   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile -\r\nsystemd+    21  0.0  0.4  63116  4612 ?        Ss   02:55   0:00 /usr/lib/systemd/systemd-networkd\r\n"
+    ],
+    [
+      0.000663,
+      "root        24  0.0  0.1   6508  1656 console  Ss+  02:55   0:00 /sbin/agetty --noclear --keep-baud console 115200,38400,9600 vt220\r\n"
+    ],
+    [
+      0.000316,
+      "root        27  0.0  0.2  47968  2524 ?        Ss   02:55   0:00 /usr/lib/systemd/systemd-timedated\r\n"
+    ],
+    [
+      0.000479,
+      "root        29  0.0  0.1  59688  1292 ?        Ss   02:55   0:00 nginx: master process /usr/sbin/nginx\r\n"
+    ],
+    [
+      0.000645,
+      "nginx       30  0.0  0.4  60124  4172 ?        S    02:55   0:00 nginx: worker process\r\n"
+    ],
+    [
+      0.000403,
+      "nginx       31  0.0  0.4  60124  4172 ?        S    02:55   0:00 nginx: worker process\r\n"
+    ],
+    [
+      0.000423,
+      "nginx       32  0.0  0.4  60124  4172 ?        S    02:55   0:00 nginx: worker process\r\n"
+    ],
+    [
+      0.000789,
+      "nginx       33  0.0  0.4  60124  4172 ?        S    02:55   0:00 nginx: worker process\r\n"
+    ],
+    [
+      0.001215,
+      "root        38  0.1  0.3  11928  3088 pts/0    Ss   02:55   0:00 -bin/sh\r\nroot        39  0.0  0.5  62116  5880 ?        Ss   02:55   0:00 /usr/lib/systemd/systemd --user\r\n"
+    ],
+    [
+      0.002003,
+      "root        40  0.0  0.1  96584  1412 ?        S    02:55   0:00 (sd-pam)\r\nroot        44  0.0  0.1 115220  1468 pts/0    S    02:55   0:00 (sd-pPATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\r\nroot        61  0.0  0.3  39812  3212 pts/0    R+   02:56   0:00 ps aux\r\n"
+    ],
+    [
+      0.002235,
+      "sh-4.3# "
+    ],
+    [
+      5.316786,
+      "i"
+    ],
+    [
+      0.055772,
+      "p"
+    ],
+    [
+      0.046564,
+      " "
+    ],
+    [
+      0.120339,
+      "a"
+    ],
+    [
+      0.106236,
+      "\r\n"
+    ],
+    [
+      0.003665,
+      "1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1\r\n    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00\r\n    inet 127.0.0.1/8 scope host lo\r\n       valid_lft forever preferred_lft forever\r\n    inet6 ::1/128 scope host \r\n       valid_lft forever preferred_lft forever\r\n2: host0@if53: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000\r\n    link/ether 3a:73:49:fb:dc:ab brd ff:ff:ff:ff:ff:ff link-netnsid 0\r\n    inet 169.254.235.3/16 brd 169.254.255.255 scope link host0\r\n       valid_lft forever preferred_lft forever\r\n    inet 10.0.0.2/28 brd 10.0.0.15 scope global dynamic host0\r\n       valid_lft 3565sec preferred_lft 3565sec\r\n    inet6 fe80::3873:49ff:fefb:dcab/64 scope link \r\n       valid_lft forever preferred_lft forever\r\nsh-4.3# "
+    ],
+    [
+      4.130524,
+      "logout\r\n"
+    ],
+    [
+      0.012382,
+      "Connection to machine fedora-nginx terminated.\r\n"
+    ],
+    [
+      0.002951,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m \u001b[K"
+    ],
+    [
+      8.023034,
+      "\r\u001b[K\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m sudo machine"
+    ],
+    [
+      0.001062,
+      "ctl terminate  \rf"
+    ],
+    [
+      0.00014,
+      "edora-nginx"
+    ],
+    [
+      0.509693,
+      "\r\n"
+    ],
+    [
+      0.043336,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m \u001b[K"
+    ],
+    [
+      1.898962,
+      "logout\r\n"
+    ],
+    [
+      0.001155,
+      "\u001b[H\u001b[2J"
+    ],
+    [
+      0.001214,
+      "Connection to localhost closed.\r\r\n"
+    ]
+  ],
+  "width": 67,
+  "duration": 85.197327
+}

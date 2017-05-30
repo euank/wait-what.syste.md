@@ -1,0 +1,570 @@
+{
+  "width": 84,
+  "height": 14,
+  "command": "ssh coreos",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "duration": 45.746145,
+  "title": null,
+  "version": 1,
+  "stdout": [
+    [
+      0.021024,
+      "Warning: Permanently added '[localhost]:2222' (ECDSA) to the list of known hosts.\r\r\n"
+    ],
+    [
+      0.944306,
+      "Last login: Mon May 29 23:53:45 UTC 2017 from 10.0.2.2 on pts/1\r\n\u001b[38;5;75mContainer Linux by CoreOS\u001b[39m stable (1353.7.0)\r\n"
+    ],
+    [
+      0.015871,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.361001,
+      "\u001b[H\u001b[2J\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      1.70883,
+      "mkdir -p git/"
+    ],
+    [
+      0.000403,
+      "my-repo"
+    ],
+    [
+      0.205237,
+      "\r\n"
+    ],
+    [
+      0.006803,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      3.599284,
+      "git init --bare "
+    ],
+    [
+      0.000245,
+      "git/my-repo"
+    ],
+    [
+      1.254536,
+      "\r\n"
+    ],
+    [
+      0.01176,
+      "Initialized empty Git repository in /home/core/git/my-repo/\r\n"
+    ],
+    [
+      0.001505,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      4.686844,
+      "mkdir -p .co"
+    ],
+    [
+      0.00027,
+      "nfig/systemd"
+    ],
+    [
+      8.5e-05,
+      "/user"
+    ],
+    [
+      0.798215,
+      "\r\n"
+    ],
+    [
+      0.006236,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      3.239597,
+      "cat > .config/systemd/user/git-daemon"
+    ],
+    [
+      0.000826,
+      ".service <<EOF\r\n"
+    ],
+    [
+      0.002061,
+      "> [Service]\r\n> ExecStart=/usr/libexec/git-core/git-daemon --base-path=/home/core/gi"
+    ],
+    [
+      0.001004,
+      "t "
+    ],
+    [
+      0.000774,
+      "--verbose"
+    ],
+    [
+      0.000572,
+      "\r\n"
+    ],
+    [
+      0.00076,
+      "> \r\n"
+    ],
+    [
+      0.000971,
+      "> [Install]"
+    ],
+    [
+      0.001032,
+      "\r\n> WantedBy=default"
+    ],
+    [
+      0.000317,
+      ".t"
+    ],
+    [
+      0.000631,
+      "arget\r\n"
+    ],
+    [
+      0.000564,
+      "> EOF\r\n"
+    ],
+    [
+      0.005913,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      7.254028,
+      "syst"
+    ],
+    [
+      0.00015,
+      "emctl --"
+    ],
+    [
+      0.000103,
+      "user enable --now git-daemon"
+    ],
+    [
+      1.718727,
+      "\r\n"
+    ],
+    [
+      0.024282,
+      "Created symlink /home/core/.config/systemd/user/default.target.wants/git-daemon.service → /home/core/.config/systemd/user/git-daemon.service.\r\n"
+    ],
+    [
+      0.028787,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      2.050751,
+      "s"
+    ],
+    [
+      0.191091,
+      "y"
+    ],
+    [
+      0.18955,
+      "s"
+    ],
+    [
+      0.055553,
+      "t"
+    ],
+    [
+      0.06215,
+      "e"
+    ],
+    [
+      0.068739,
+      "m"
+    ],
+    [
+      0.149611,
+      "c"
+    ],
+    [
+      0.147227,
+      "t"
+    ],
+    [
+      0.085265,
+      "l"
+    ],
+    [
+      0.069426,
+      " "
+    ],
+    [
+      0.115908,
+      "-"
+    ],
+    [
+      0.124464,
+      "-"
+    ],
+    [
+      0.172094,
+      "u"
+    ],
+    [
+      0.038148,
+      "s"
+    ],
+    [
+      0.036903,
+      "e"
+    ],
+    [
+      0.029784,
+      "r"
+    ],
+    [
+      0.078255,
+      " "
+    ],
+    [
+      0.136005,
+      "s"
+    ],
+    [
+      0.130758,
+      "t"
+    ],
+    [
+      0.117601,
+      "a"
+    ],
+    [
+      0.061188,
+      "t"
+    ],
+    [
+      0.079538,
+      "u"
+    ],
+    [
+      0.086781,
+      "s"
+    ],
+    [
+      0.049425,
+      " "
+    ],
+    [
+      0.15675,
+      "g"
+    ],
+    [
+      0.062697,
+      "i"
+    ],
+    [
+      0.078273,
+      "t"
+    ],
+    [
+      0.115077,
+      "-"
+    ],
+    [
+      0.104676,
+      "d"
+    ],
+    [
+      0.077628,
+      "a"
+    ],
+    [
+      0.140663,
+      "e"
+    ],
+    [
+      0.071739,
+      "m"
+    ],
+    [
+      0.087063,
+      "o"
+    ],
+    [
+      0.107285,
+      "n"
+    ],
+    [
+      0.616096,
+      "\r\n"
+    ],
+    [
+      0.020994,
+      "\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.010579,
+      "\u001b[0;1;32m●\u001b[0m git-daemon.service\u001b[m\r\n   Loaded: loaded (/home/core/.config/systemd/user/git-daemon.service; enabled; vend\u001b[m"
+    ],
+    [
+      0.000737,
+      "\r\n   Active: \u001b[0;1;32mactive (running)\u001b[0m since Mon 2017-05-29 23:43:36 UTC; 10min ago\u001b[m\r\n Main PID: 5445 (git-daemon)\u001b[m\r\n   CGroup: /user.slice/user-500.slice/user@500.service/git-daemon.service\u001b[m"
+    ],
+    [
+      0.000415,
+      "\r\n           └─5445 /usr/libexec/git-core/git-daemon --base-path=/home/core/git --verb\u001b[m"
+    ],
+    [
+      0.000694,
+      "\r\n\u001b[m\r\nMay 29 23:43:36 pres-1353-7 systemd[1040]: Started git-daemon.service.\u001b[m\r\n"
+    ],
+    [
+      0.000347,
+      "May 29 23:43:36 pres-1353-7 git-daemon[5445]: [5445] Ready to rumble\u001b[m\r\n"
+    ],
+    [
+      0.000381,
+      "\u001b[7mlines 1-9/9 (END)\u001b[27m\u001b[K"
+    ],
+    [
+      1.210521,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      0.000678,
+      "\u001b[KO\bO"
+    ],
+    [
+      0.000891,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      0.000278,
+      "\u0007\r\u001b[K\u001b[7mlines 1-9/9 (END)\u001b[27m\u001b[K"
+    ],
+    [
+      0.216419,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      0.000317,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      0.000619,
+      "\u0007\r\u001b[K\u001b[7mlines 1-9/9 (END)\u001b[27m\u001b[K"
+    ],
+    [
+      0.571872,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      0.000396,
+      "\u001b[KO\bO"
+    ],
+    [
+      0.001955,
+      "\u001b[KC\bC\u001b[H\u001b[2J\u001b[H\u001b[H\u001b[2J\u001b[H\u001b[0;1;32m\u001b[0m\u001b[m"
+    ],
+    [
+      0.000127,
+      "\r\n"
+    ],
+    [
+      9.9e-05,
+      "emd/user/git-daemon.service; enabled; vendor preset: enabled)\u001b[m"
+    ],
+    [
+      0.000571,
+      "\r\n"
+    ],
+    [
+      0.00031,
+      "\u001b[0;1;32m\u001b[0m-05-29 23:43:36 UTC; 10min ago\u001b[m"
+    ],
+    [
+      0.000527,
+      "\r\n"
+    ],
+    [
+      0.000279,
+      "\u001b[m\r\n"
+    ],
+    [
+      0.000222,
+      "@500.service/git-daemon.service\u001b[m"
+    ],
+    [
+      0.000938,
+      "\r\nt-daemon --base-path=/home/core/git --verbose\u001b[m\r\n\u001b[m\r\n Started git-daemon.service.\u001b[m\r\n5]: [5445] Ready to rumble\u001b[m\r\n\u001b[1m~\u001b[0m"
+    ],
+    [
+      0.000892,
+      "\r\n\u001b[1m~\u001b[0m\r\n\u001b[1m~\u001b[0m\r\n\u001b[1m~\u001b[0m\r\n\u001b[7mlines 1-9/9 (END)\u001b[27m\u001b[K"
+    ],
+    [
+      0.690067,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KD\bD\u001b[H\u001b[2J\u001b[H\u001b[H\u001b[2J\u001b[H\u001b[0;1;32m●\u001b[0m git-daemon.service\u001b[m\r\n   Loaded: loaded (/home/core/.config/systemd/user/git-daemon.service; enabled; vend\u001b[m\r\n   Active: \u001b[0;1;32mactive (running)\u001b[0m since Mon 2017-05-29 23:43:36 UTC; 10min ago\u001b[m\r\n Main PID: 5445 (git-daemon)\u001b[m\r\n   CGroup: /user.slice/user-500.slice/user@500.service/git-daemon.service\u001b[m\r\n           └─5445 /usr/libexec/git-core/git-daemon --base-path=/home/core/git --verb\u001b[m\r\n\u001b[m\r\nMay 29 23:43:36 pres-1353-7 systemd[1040]: Started git-daemon.service.\u001b[m\r\nMay 29 23:43:36 pres-1353-7 git-daemon[5445]: [5445] Ready to rumble\u001b[m\r\n\u001b[1m~\u001b[0m\r\n\u001b[1m~\u001b[0m\r\n\u001b[1m~\u001b[0m\r\n\u001b[1m~\u001b[0m\r\n\u001b[7mlines 1-9/9 (END)\u001b[27m\u001b[K"
+    ],
+    [
+      0.232768,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KD\bD\u001b[H\u001b[2J\u001b[H\u001b[H\u001b[2J\u001b[H\u001b[0;1;32m●\u001b[0m git-daemon.service\u001b[m"
+    ],
+    [
+      0.000124,
+      "\r\n   Loaded: loaded (/home/core/.config/systemd/user/git-daemon.service; enabled; vend\u001b[m\r\n   Active: \u001b[0;1;32mactive (running)\u001b[0m since Mon 2017-05-29 23:43:36 UTC; 10min ago\u001b[m\r\n Main PID: 5445 (git-daemon)\u001b[m\r\n   CGroup: /user.slice/user-500.slice/user@500.service/git-daemon.service\u001b[m\r\n           └─5445 /usr/libexec/git-core/git-daemon --base-path=/home/core/git --verb\u001b[m\r\n\u001b[m\r\nMay 29 23:43:36 pres-1353-7 systemd[1040]: Started git-daemon.service.\u001b[m\r\nMay 29 23:43:36 pres-1353-7 git-daemon[5445]: [5445] Ready to rumble\u001b[m\r\n\u001b[1m~\u001b[0m\r\n\u001b[1m~\u001b[0m"
+    ],
+    [
+      0.00042,
+      "\r\n\u001b[1m~\u001b[0m\r\n\u001b[1m~\u001b[0m\r\n\u001b[7mlines 1-9/9 (END)\u001b[27m\u001b[K"
+    ],
+    [
+      0.5389,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KD\bD\u001b[H\u001b[2J\u001b[H\u001b[H\u001b[2J\u001b[H\u001b[0;1;32m●\u001b[0m git-daemon.service\u001b[m\r\n"
+    ],
+    [
+      0.000179,
+      "   Loaded: loaded (/home/core/.config/systemd/user/git-daemon.service; enabled; vend\u001b[m\r\n"
+    ],
+    [
+      0.001133,
+      "   Active: \u001b[0;1;32mactive (running)\u001b[0m since Mon 2017-05-29 23:43:36 UTC; 10min ago\u001b[m\r\n Main PID: 5445 (git-daemon)\u001b[m\r\n   CGroup: /user.slice/user-500.slice/user@500.service/git-daemon.service\u001b[m\r\n           └─5445 /usr/libexec/git-core/git-daemon --base-path=/home/core/git --verb\u001b[m\r\n\u001b[m\r\n"
+    ],
+    [
+      0.000463,
+      "May 29 23:43:36 pres-1353-7 systemd[1040]: Started git-daemon.service.\u001b[m\r\nMay 29 23:43:36 pres-1353-7 git-daemon[5445]: [5445] Ready to rumble\u001b[m\r\n\u001b[1m~\u001b[0m\r\n\u001b[1m~\u001b[0m\r\n\u001b[1m~\u001b[0m\r\n\u001b[1m~\u001b[0m"
+    ],
+    [
+      0.000412,
+      "\r\n\u001b[7mlines 1-9/9 (END)\u001b[27m\u001b[K"
+    ],
+    [
+      1.624233,
+      "\r\u001b[K\u001b[?1l\u001b>"
+    ],
+    [
+      0.001973,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      2.467746,
+      "l"
+    ],
+    [
+      0.148635,
+      "o"
+    ],
+    [
+      0.196677,
+      "i"
+    ],
+    [
+      0.570978,
+      "\b \b"
+    ],
+    [
+      0.089157,
+      "g"
+    ],
+    [
+      0.109705,
+      "i"
+    ],
+    [
+      0.084185,
+      "n"
+    ],
+    [
+      0.095406,
+      "c"
+    ],
+    [
+      0.187047,
+      "t"
+    ],
+    [
+      0.079319,
+      "l"
+    ],
+    [
+      0.063555,
+      " "
+    ],
+    [
+      0.201877,
+      "e"
+    ],
+    [
+      0.098527,
+      "n"
+    ],
+    [
+      0.101666,
+      "a"
+    ],
+    [
+      0.060935,
+      "b"
+    ],
+    [
+      0.101334,
+      "l"
+    ],
+    [
+      0.085141,
+      "e"
+    ],
+    [
+      0.095933,
+      "-"
+    ],
+    [
+      0.1699,
+      "l"
+    ],
+    [
+      0.147228,
+      "i"
+    ],
+    [
+      0.061964,
+      "n"
+    ],
+    [
+      0.045479,
+      "g"
+    ],
+    [
+      0.124402,
+      "e"
+    ],
+    [
+      0.047557,
+      "r"
+    ],
+    [
+      0.138543,
+      "\r\n"
+    ],
+    [
+      0.046978,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      3.132308,
+      "logout\r\n"
+    ],
+    [
+      0.005603,
+      "\u001b[H\u001b[2J"
+    ],
+    [
+      0.003052,
+      "Connection to localhost closed.\r"
+    ],
+    [
+      0.000219,
+      "\r\n"
+    ]
+  ]
+}

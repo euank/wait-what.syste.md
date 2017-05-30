@@ -259,20 +259,37 @@ Restart=restart-always
 </pre></small>
 					</section>
 					<section>
-						<h3>socket activation</h3>
-						<img src="imgs/roll-safe.png" alt="services can't start slow if you don't start them meme"></img>
-					</section>
-					<section>
 						<div class="left-bar">
 							<h4 class="left-bar-content blue">2011</h4>
 						</div>
 						<h2>The journal</h2>
-						<ul>
-							<li>Replacement for syslog</li>
-							<li>Binary log format</li>
-							<li>Support for structured logging</li>
-						</ul>
-						<img class="fragment" src="imgs/flamewar.jpg"></img>
+						<div class="flex">
+							<ul>
+								<li>Replacement for syslog</li>
+								<li>Binary log format</li>
+								<li>Support for structured logging</li>
+							</ul>
+							<img style="padding: 100px;" class="fragment" src="imgs/flamewar.jpg"></img>
+						</div>
+					</section>
+					<section>
+						<img src="imgs/big-brother.png" alt="tea party"></img>
+					</section>
+					<section>
+						<img src="imgs/tea-party.png" alt="tea party"></img>
+					</section>
+					<section>
+						<img src="imgs/systemd-sucks-twitter.png" alt="systemd sucks twitter"></img>
+					</section>
+					<section>
+						<div class="left-bar">
+							<h4 class="left-bar-content blue">2014</h4>
+						</div>
+						<h2>Controversy continues</h2>
+						<video controls>
+							<source src="imgs/systemd-safe-gif.webm" type="video/webm">
+							systemd eating things webm video
+						</video> 
 					</section>
 					<section>
 						<div class="left-bar">
@@ -285,22 +302,33 @@ Restart=restart-always
 					</section>
 					<section>
 						<div class="left-bar">
-							<h4 class="left-bar-content blue">2014</h4>
+							<h4 class="left-bar-content blue">2017</h4>
 						</div>
-						<h2>Controversy continues</h2>
+						<h2>Current state</h2>
+						<p> Devuan exists, there are still <i>skeptics</i>.<br>
+							But overall, systemd is clearly succeeding (and just as clearly awesome).</p>
 					</section>
 				</section>
 				<section>
 					<section>
 						<h2>systemd - the init daemon</h2>
+					</section>
+					<section>
+						<h3>socket activation</h3>
+						<p> Start services 'on demand' by listening on their behalf and queueing requests.</p>
+						<img src="imgs/roll-safe.png" alt="services can't start slow if you don't start them meme"></img>
+						<p><small>Replaces: inetd</small></p>
 					</section>
 					<section>
 						<h2>systemd - the init daemon</h2>
 						<h3><code>--user</code></h3>
+						<asciinema-player poster="npt:0:19" preload=yes src="terms/sd-user.rec" font-size="24px" theme="solarized-light"></asciinema-player>
+						<p><small>Replaces: supervisord, etc</small></p>
 					</section>
 					<section>
 						<h2>systemd - the init daemon</h2>
 						<h3>as pid &gt; 1</h3>
+						<asciinema-player start-at="0:19" poster="npt:0:19" preload=yes src="terms/gci-pid-gt-1.rec" font-size="24px" theme="solarized-light"></asciinema-player>
 					</section>
 				</section>
 				<section>
@@ -308,9 +336,18 @@ Restart=restart-always
 						<h2>systemctl</h2>
 					</section>
 					<section>
-						<h2>systemctl</h2>
-						<h3><code>--host</code></h3>
+						<h3><code>systemctl --edit</code></h3>
+						<asciinema-player start-at="0:19" poster="npt:0:19" preload=yes src="terms/edit.rec" font-size="24px" theme="solarized-light"></asciinema-player>
 					</section>
+					<section>
+						<h3><code>systemd-run</code></h3>
+					</section>
+					<section>
+						<h3><code>systemctl --host</code></h3>
+					</section>
+				</section>
+				<section>
+					<h2>timers</h2>
 				</section>
 				<section>
 					<section>
@@ -332,18 +369,15 @@ Restart=restart-always
 					</section>
 				</section>
 				<section>
-					<h2>timers</h2>
+					<h2>networkd</h2>
 				</section>
 				<section>
 					<h2>coredumps</h2>
-				</section>
-				<section>
-					<section>
-						<h2>machinectl</h2>
-					</section>
+					abrt
 				</section>
 				<section>
 					<h2>timesyncd</h2>
+					ntpd
 				</section>
 				<section>
 					<section>
@@ -356,7 +390,7 @@ Restart=restart-always
 					</section>
 					<section>
 						<h2>Example: an nginx container</h2>
-						<asciinema-player src="terms/test.rec" font-size="24px" theme="solarized-light"></asciinema-player>
+						<asciinema-player preload=yes src="terms/test.rec" font-size="24px" theme="solarized-light"></asciinema-player>
 					</section>
 					<section>
 						<h2>nspawn</h2>
@@ -381,6 +415,8 @@ Restart=restart-always
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				transition: 'none',
+				history: true,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },

@@ -1,0 +1,154 @@
+{
+  "duration": 24.580984,
+  "stdout": [
+    [
+      0.021565,
+      "Warning: Permanently added '[localhost]:2222' (ECDSA) to the list of known hosts.\r\r\n"
+    ],
+    [
+      0.956883,
+      "Last login: Mon May 29 02:51:08 UTC 2017 from 10.0.2.2 on pts/0\r\n\u001b[38;5;75mContainer Linux by CoreOS\u001b[39m stable (1353.7.0)\r\n"
+    ],
+    [
+      0.015715,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.352793,
+      "ip addr show eth0"
+    ],
+    [
+      0.321923,
+      "\r\n"
+    ],
+    [
+      0.004893,
+      "2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000\r\n    link/ether 52:54:00:12:34:56 brd ff:ff:ff:ff:ff:ff\r\n    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic eth0\r\n       valid_lft 75721sec preferred_lft 75721sec\r\n    inet6 fec0::5054:ff:fe12:3456/64 scope site mngtmpaddr noprefixroute dynamic \r\n       valid_lft 86230sec preferred_lft 14230sec\r\n    inet6 fe80::5054:ff:fe12:3456/64 scope link \r\n       valid_lft forever preferred_lft forever\r\n"
+    ],
+    [
+      0.000864,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      2.056254,
+      "my_ip=10.0.2.15"
+    ],
+    [
+      0.171861,
+      "\r\n"
+    ],
+    [
+      0.000849,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      2.943433,
+      "\u001b[H\u001b[2J\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.270082,
+      "echo hello world > /var/ww"
+    ],
+    [
+      0.00015,
+      "w/h \rw.txt"
+    ],
+    [
+      0.206861,
+      "\r\n"
+    ],
+    [
+      0.000271,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m \u001b[K"
+    ],
+    [
+      3.724284,
+      "docker run --name nginx \\\r\n"
+    ],
+    [
+      0.001148,
+      "> -d \\\r\n> -p 80:80 -v /var/www:/usr/share/nginx"
+    ],
+    [
+      0.001007,
+      "/"
+    ],
+    [
+      0.000103,
+      "html \\\r\n> nginx"
+    ],
+    [
+      1.74916,
+      " "
+    ],
+    [
+      1.611438,
+      "\r\n"
+    ],
+    [
+      0.118793,
+      "57a2286b71d01c0cb88d7d59fd289a2c3101eff04b608a49566b322117bebc4b\r\n"
+    ],
+    [
+      0.198501,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      3.065581,
+      "curl -s "
+    ],
+    [
+      9.4e-05,
+      "$my_ip/hw.txt"
+    ],
+    [
+      0.534009,
+      "\r\n"
+    ],
+    [
+      0.02588,
+      "hello world\r\n"
+    ],
+    [
+      0.001866,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      4.896326,
+      "docker rm -f nginx"
+    ],
+    [
+      0.151004,
+      "\r\n"
+    ],
+    [
+      0.255646,
+      "nginx\r\n"
+    ],
+    [
+      0.000801,
+      "\u001b]0;core@coreos_production_qemu-1353-7-0:~\u0007\u001b[01;32mcore@coreos_production_qemu-1353-7-0\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.912762,
+      "logout\r\n"
+    ],
+    [
+      0.002946,
+      "\u001b[H\u001b[2J"
+    ],
+    [
+      0.003074,
+      "Connection to localhost closed.\r\r\n"
+    ]
+  ],
+  "env": {
+    "SHELL": "/bin/zsh",
+    "TERM": "rxvt-unicode"
+  },
+  "width": 70,
+  "height": 39,
+  "version": 1,
+  "command": "ssh coreos",
+  "title": null
+}

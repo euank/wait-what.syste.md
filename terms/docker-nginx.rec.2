@@ -1,0 +1,138 @@
+{
+  "height": 17,
+  "command": "ssh coreos",
+  "width": 66,
+  "version": 1,
+  "stdout": [
+    [
+      0.022483,
+      "Warning: Permanently added '[localhost]:2222' (ECDSA) to the list of known hosts.\r\r\n"
+    ],
+    [
+      0.951979,
+      "Last login: Mon May 29 03:05:14 UTC 2017 from 10.0.2.2 on pts/0\r\n\u001b[38;5;75mContainer Linux by CoreOS\u001b[39m stable (1353.7.0)\r\n"
+    ],
+    [
+      0.016226,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.872514,
+      "\u001b[H\u001b[2J\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.474119,
+      "ip addr show eth0"
+    ],
+    [
+      0.423183,
+      "\r\n"
+    ],
+    [
+      0.008336,
+      "2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000\r\n    link/ether 52:54:00:12:34:56 brd ff:ff:ff:ff:ff:ff\r\n    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic eth0\r\n       valid_lft 74865sec preferred_lft 74865sec\r\n    inet6 fec0::5054:ff:fe12:3456/64 scope site mngtmpaddr noprefixroute dynamic \r\n       valid_lft 85845sec preferred_lft 13845sec\r\n    inet6 fe80::5054:ff:fe12:3456/64 scope link \r\n       valid_lft forever preferred_lft forever\r\n"
+    ],
+    [
+      0.000893,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      2.389795,
+      "my_ip=10.0.2.15"
+    ],
+    [
+      0.268045,
+      "\r\n\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      3.895784,
+      "echo hel"
+    ],
+    [
+      9e-05,
+      "lo world > /var/www/hw.txt"
+    ],
+    [
+      1.279464,
+      "\r\n"
+    ],
+    [
+      0.001155,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      5.377144,
+      "\u001b[H\u001b[2J\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      1.074751,
+      "docker run --name nginx \\\r\n> -d \\\r\n> -p 80:80 -v /var/www:/usr/share/nginx/html \\\r\n> nginx"
+    ],
+    [
+      4.01875,
+      "\r\n"
+    ],
+    [
+      0.091365,
+      "3b39ea245bcdc27097ab431d7c0d8a2ae32aa5aa13c3c828617677d181c9be41\r\n"
+    ],
+    [
+      0.16535,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      3.760988,
+      "curl -s $my_ip/hw.txt"
+    ],
+    [
+      0.338125,
+      "\r\n"
+    ],
+    [
+      0.016777,
+      "hello world\r\n"
+    ],
+    [
+      0.004085,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      3.328356,
+      "docker rm -f nginx"
+    ],
+    [
+      0.281517,
+      "\r\n"
+    ],
+    [
+      0.241162,
+      "nginx\r\n"
+    ],
+    [
+      0.000716,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      1.115753,
+      "\u001b[H\u001b[2J\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.229429,
+      "logout\r\n"
+    ],
+    [
+      0.005497,
+      "\u001b[H\u001b[2J"
+    ],
+    [
+      0.003027,
+      "Connection to localhost closed.\r\r\n"
+    ]
+  ],
+  "duration": 30.659836,
+  "title": null,
+  "env": {
+    "SHELL": "/bin/zsh",
+    "TERM": "xterm-256color"
+  }
+}

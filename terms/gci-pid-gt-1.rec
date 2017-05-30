@@ -1,0 +1,242 @@
+{
+  "command": "ssh esk@35.184.52.50",
+  "duration": 25.497647,
+  "version": 1,
+  "stdout": [
+    [
+      1.489879,
+      "\u001b[?25h\u001b[?0c"
+    ],
+    [
+      0.000254,
+      "\u001b]0;esk@gci-upstart:~\u0007\u001b[01;32mesk@gci-upstart\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.359837,
+      "\u001b[H\u001b[2J\u001b]0;esk@gci-upstart:~\u0007\u001b[01;32mesk@gci-upstart\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.496373,
+      "h"
+    ],
+    [
+      0.04558,
+      "o"
+    ],
+    [
+      0.067703,
+      "s"
+    ],
+    [
+      0.064133,
+      "t"
+    ],
+    [
+      0.071519,
+      "n"
+    ],
+    [
+      0.098422,
+      "a"
+    ],
+    [
+      0.085595,
+      "m"
+    ],
+    [
+      0.07246,
+      "e"
+    ],
+    [
+      0.158047,
+      "c"
+    ],
+    [
+      0.164184,
+      "t"
+    ],
+    [
+      0.038769,
+      "l"
+    ],
+    [
+      0.14326,
+      "\r\n"
+    ],
+    [
+      0.011374,
+      "   Static hostname: n/a\r\nTransient hostname: gci-upstart\r\n         Icon name: computer-vm\r\n           Chassis: vm\r\n"
+    ],
+    [
+      0.000134,
+      "        Machine ID: a2a8c034b45dd280d48c0d9b219194c6\r\n"
+    ],
+    [
+      0.000153,
+      "           Boot ID: 74555ab85c7a42c8b2a2d643d3a9250b\r\n    Virtualization: kvm\r\n  Operating System: Container-Optimized OS from Google\r\n            Kernel: Linux 4.4.21+\r\n"
+    ],
+    [
+      0.029285,
+      "      Architecture: x86-64\r\n\u001b]0;esk@gci-upstart:~\u0007\u001b[01;32mesk@gci-upstart\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      5.455642,
+      "\u001b[H\u001b[2J\u001b]0;esk@gci-upstart:~\u0007\u001b[01;32mesk@gci-upstart\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.487781,
+      "SYSTEMD_PAGER=\"head -n 14\" systemctl status"
+    ],
+    [
+      0.840925,
+      "\r\n"
+    ],
+    [
+      0.004502,
+      "● gci-upstart\r\n"
+    ],
+    [
+      0.000678,
+      "    State: running\r\n     Jobs: 0 queued\r\n   Failed: 0 units\r\n    Since: Fri 2017-05-26 06:44:38 UTC; 3 days ago\r\n   CGroup: /\r\n           ├─  1 /sbin/ini\r\n           ├─376 /usr/lib/systemd/systemd --system\r\n           └─system.slice\r\n"
+    ],
+    [
+      0.000147,
+      "             ├─google-ip-forwarding-daemon.service\r\n             │ └─762 /usr/bin/python2.7 /usr/lib/python-exec/python2.7/google_ip_forwarding_daemon\r\n             ├─dbus.service\r\n             │ └─610 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation\r\n"
+    ],
+    [
+      0.035568,
+      "             ├─system-sysdaemons.slice\r\n\u001b]0;esk@gci-upstart:~\u0007\u001b[01;32mesk@gci-upstart\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      4.892823,
+      "/"
+    ],
+    [
+      0.067376,
+      "s"
+    ],
+    [
+      0.138912,
+      "b"
+    ],
+    [
+      0.093537,
+      "i"
+    ],
+    [
+      0.184864,
+      "/"
+    ],
+    [
+      0.181949,
+      "i"
+    ],
+    [
+      0.354752,
+      "\b \b"
+    ],
+    [
+      0.25907,
+      "\b \b"
+    ],
+    [
+      0.099264,
+      "n/"
+    ],
+    [
+      0.377002,
+      "i"
+    ],
+    [
+      0.157934,
+      "\u0007"
+    ],
+    [
+      0.436767,
+      "n"
+    ],
+    [
+      0.091609,
+      "\u0007"
+    ],
+    [
+      0.313897,
+      "i"
+    ],
+    [
+      0.148389,
+      "t"
+    ],
+    [
+      0.114004,
+      "\u0007"
+    ],
+    [
+      0.395396,
+      " "
+    ],
+    [
+      0.114237,
+      "-"
+    ],
+    [
+      0.131573,
+      "-"
+    ],
+    [
+      0.044986,
+      "v"
+    ],
+    [
+      0.129749,
+      "e"
+    ],
+    [
+      0.062716,
+      "r"
+    ],
+    [
+      0.100863,
+      "s"
+    ],
+    [
+      0.080601,
+      "i"
+    ],
+    [
+      0.054233,
+      "o"
+    ],
+    [
+      0.060934,
+      "n"
+    ],
+    [
+      0.182928,
+      "\r\ninit (upstart 1.2)\r\n"
+    ],
+    [
+      0.00036,
+      "Copyright (C) 2011 Scott James Remnant, Google Inc., Canonical Ltd.\r\n"
+    ],
+    [
+      0.000144,
+      "\r\nThis is free software; see the source for copying conditions.  There is NO\r\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\r\n\u001b]0;esk@gci-upstart:~\u0007\u001b[01;32mesk@gci-upstart\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      6.001812,
+      "logout\r\n\u001b[H\u001b[2J"
+    ],
+    [
+      0.000498,
+      "Connection to 35.184.52.50 closed.\r\r\n"
+    ]
+  ],
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "title": null,
+  "height": 14,
+  "width": 84
+}

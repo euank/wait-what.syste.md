@@ -1,0 +1,346 @@
+{
+  "width": 84,
+  "stdout": [
+    [
+      0.14615,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                   \r \r"
+    ],
+    [
+      0.00106,
+      "\u001b]7;file://multivac.euank.com/home/esk/dev/wtf%2Esyste%2Emd/reveal%2Ejs/terms\u0007"
+    ],
+    [
+      0.003041,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[K"
+    ],
+    [
+      0.131856,
+      "\u001b[?2004h\u001b[K"
+    ],
+    [
+      0.878442,
+      "\u001b[K"
+    ],
+    [
+      0.000249,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.002147,
+      "\u001b[?2004l\u001b[K\r\r\n"
+    ],
+    [
+      0.002229,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                   \r \r"
+    ],
+    [
+      0.005525,
+      "\u001b]7;file://multivac.euank.com/home/esk/dev/wtf%2Esyste%2Emd/reveal%2Ejs/terms\u0007"
+    ],
+    [
+      0.007376,
+      "\u001b]2;esk@multivac: ~/dev/wtf.syste.md/reveal.js/terms\u0007"
+    ],
+    [
+      0.000113,
+      "\u001b]1;..veal.js/terms\u0007"
+    ],
+    [
+      0.038401,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~/dev/wtf.syste.md/reveal.js/terms (master*) $\u001b[00m \u001b[K"
+    ],
+    [
+      0.000157,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000771,
+      "\u001b[?2004h"
+    ],
+    [
+      0.893651,
+      "\u001b[H\u001b[2J\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~/dev/wtf.syste.md/reveal.js/terms (master*) $\u001b[00m \u001b[K"
+    ],
+    [
+      0.842205,
+      "\u001b[32mt\u001b[39m"
+    ],
+    [
+      0.085878,
+      "\b\u001b[1m\u001b[31mt\u001b[1m\u001b[31mh\u001b[0m\u001b[39m"
+    ],
+    [
+      0.016382,
+      "\b\b\u001b[1m\u001b[31mt\u001b[1m\u001b[31mh\u001b[1m\u001b[31mi\u001b[0m\u001b[39m"
+    ],
+    [
+      0.068454,
+      "\b\u001b[1m\u001b[31mi\u001b[1m\u001b[31ms\u001b[0m\u001b[39m"
+    ],
+    [
+      0.062158,
+      " "
+    ],
+    [
+      0.103598,
+      "i"
+    ],
+    [
+      0.049931,
+      "s"
+    ],
+    [
+      0.094438,
+      " "
+    ],
+    [
+      0.090721,
+      "a"
+    ],
+    [
+      0.081692,
+      " "
+    ],
+    [
+      0.165587,
+      "\u001b[4mt\u001b[24m"
+    ],
+    [
+      0.083403,
+      "\b\u001b[4mt\u001b[4me\u001b[24m"
+    ],
+    [
+      0.069595,
+      "\b\u001b[4me\u001b[4ms\u001b[24m"
+    ],
+    [
+      0.095577,
+      "\b\u001b[4ms\u001b[4mt\u001b[24m"
+    ],
+    [
+      0.318241,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.001611,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                   \r \r"
+    ],
+    [
+      0.007039,
+      "\u001b]7;file://multivac.euank.com/home/esk/dev/wtf%2Esyste%2Emd/reveal%2Ejs/terms\u0007"
+    ],
+    [
+      0.009522,
+      "\u001b]2;esk@multivac: ~/dev/wtf.syste.md/reveal.js/terms\u0007\u001b]1;..veal.js/terms\u0007"
+    ],
+    [
+      0.027878,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~/dev/wtf.syste.md/reveal.js/terms (master*) $\u001b[00m \u001b[K"
+    ],
+    [
+      3.9e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000798,
+      "\u001b[?2004h"
+    ],
+    [
+      0.185513,
+      "\u001b[1m\u001b[31me\u001b[0m\u001b[39m"
+    ],
+    [
+      0.181652,
+      "\b\u001b[1m\u001b[31me\u001b[1m\u001b[31mc\u001b[0m\u001b[39m"
+    ],
+    [
+      0.066052,
+      "\b\b\u001b[1m\u001b[31me\u001b[1m\u001b[31mc\u001b[1m\u001b[31mh\u001b[0m\u001b[39m"
+    ],
+    [
+      0.033571,
+      "\b\b\b\u001b[0m\u001b[32me\u001b[0m\u001b[32mc\u001b[0m\u001b[32mh\u001b[32mo\u001b[39m"
+    ],
+    [
+      0.121159,
+      " "
+    ],
+    [
+      0.159074,
+      "f"
+    ],
+    [
+      0.034692,
+      "o"
+    ],
+    [
+      0.136606,
+      "o"
+    ],
+    [
+      0.070391,
+      " "
+    ],
+    [
+      0.151175,
+      "b"
+    ],
+    [
+      0.09701,
+      "a"
+    ],
+    [
+      0.152151,
+      "r"
+    ],
+    [
+      0.378686,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.001426,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                   \r \r"
+    ],
+    [
+      0.009479,
+      "\u001b]7;file://multivac.euank.com/home/esk/dev/wtf%2Esyste%2Emd/reveal%2Ejs/terms\u0007"
+    ],
+    [
+      0.00872,
+      "\u001b]2;esk@multivac: ~/dev/wtf.syste.md/reveal.js/terms\u0007"
+    ],
+    [
+      8.1e-05,
+      "\u001b]1;..veal.js/terms\u0007"
+    ],
+    [
+      0.023881,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~/dev/wtf.syste.md/reveal.js/terms (master*) $\u001b[00m \u001b[K"
+    ],
+    [
+      3.6e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000726,
+      "\u001b[?2004h"
+    ],
+    [
+      0.498377,
+      "\u001b[32ml\u001b[39m"
+    ],
+    [
+      0.099777,
+      "\b\u001b[32ml\u001b[32ms\u001b[39m"
+    ],
+    [
+      0.209668,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.005024,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.040884,
+      "\u001b]2;ls --color=tty\u0007\u001b]1;ls\u0007"
+    ],
+    [
+      0.002048,
+      "commands.sh  docker-nginx.rec  docker-nginx.rec.2  machined-nginx.rec  test.rec\r\n"
+    ],
+    [
+      0.000296,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                   \r \r"
+    ],
+    [
+      0.002139,
+      "\u001b]7;file://multivac.euank.com/home/esk/dev/wtf%2Esyste%2Emd/reveal%2Ejs/terms\u0007"
+    ],
+    [
+      0.003025,
+      "\u001b]2;esk@multivac: ~/dev/wtf.syste.md/reveal.js/terms\u0007\u001b]1;..veal.js/terms\u0007"
+    ],
+    [
+      0.015968,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~/dev/wtf.syste.md/reveal.js/terms (master*) $\u001b[00m \u001b[K"
+    ],
+    [
+      7.4e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000484,
+      "\u001b[?2004h"
+    ],
+    [
+      0.733924,
+      "\u001b[H\u001b[2J\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~/dev/wtf.syste.md/reveal.js/terms (master*) $\u001b[00m \u001b[K"
+    ],
+    [
+      1.069013,
+      "\u001b[1m\u001b[31mp\u001b[0m\u001b[39m"
+    ],
+    [
+      0.059363,
+      "\b\u001b[1m\u001b[31mp\u001b[1m\u001b[31mw\u001b[0m\u001b[39m"
+    ],
+    [
+      0.164009,
+      "\b\b\u001b[0m\u001b[32mp\u001b[0m\u001b[32mw\u001b[32md\u001b[39m"
+    ],
+    [
+      0.093494,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.004489,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.047062,
+      "\u001b]2;pwd\u0007\u001b]1;pwd\u0007"
+    ],
+    [
+      5e-05,
+      "/home/esk/dev/wtf.syste.md/reveal.js/terms\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                   \r \r"
+    ],
+    [
+      0.001563,
+      "\u001b]7;file://multivac.euank.com/home/esk/dev/wtf%2Esyste%2Emd/reveal%2Ejs/terms\u0007"
+    ],
+    [
+      0.001582,
+      "\u001b]2;esk@multivac: ~/dev/wtf.syste.md/reveal.js/terms\u0007\u001b]1;..veal.js/terms\u0007"
+    ],
+    [
+      0.008646,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~/dev/wtf.syste.md/reveal.js/terms (master*) $\u001b[00m \u001b[K"
+    ],
+    [
+      2.6e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000282,
+      "\u001b[?2004h"
+    ],
+    [
+      0.496564,
+      "\u001b[H\u001b[2J\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~/dev/wtf.syste.md/reveal.js/terms (master*) $\u001b[00m \u001b[K"
+    ],
+    [
+      1.662305,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ],
+  "version": 1,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "title": null,
+  "duration": 11.474591,
+  "height": 11,
+  "command": null
+}
