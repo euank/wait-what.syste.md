@@ -1,0 +1,478 @@
+{
+  "stdout": [
+    [
+      0.006067,
+      "\u001b[?1049h\u001b(B\u001b[m\u001b[?1l\u001b>\u001b[H\u001b[2J\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b]112\u0007\u001b[?25l\u001b[1;1H\u001b[32m\u001b[1mcore@pres-1\u001b[34m ~ $\u001b(B\u001b[m \u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\u001b[1;14r\u001b[H\u001b[16C\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.687082,
+      "\u001b[H\u001b[K\u001b[32m\u001b[1mcore@pres-1\u001b[34m ~ $\u001b(B\u001b[m SYSTEMD_PAGER=\"\" systemctl cat systemd-journal-remote\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.203272,
+      "\r\n"
+    ],
+    [
+      0.009348,
+      "\u001b[34m\u001b[1m# /usr/lib/systemd/system/systemd-journal-remote.service\r\n\u001b(B\u001b[m#  This file is part of systemd.\r\n#\r\n#  systemd is free software; you can redistribute it and/or modify it\r\n#  under the terms of the GNU Lesser General Public License as published by\r\n#  the Free Software Foundation; either version 2.1 of the License, or\r\n#  (at your option) any later version.\u001b[10;1H[Unit]\r\nDescription=Journal Remote Sink Service\r\nDocumentation=man:systemd-journal-remote(8) man:journal-remote.conf(5)\r\nRequires=systemd-journal-remote.socket\r\n\n\u001b[?25l\u001b[HPrivateDevices=yes\u001b[K\r\nPrivateNetwork=yes\u001b[K\r\nProtectSystem=full\u001b[K\r\nProtectHome=yes\u001b[K\r\nProtectControlGroups=yes\u001b[K\r\nProtectKernelTunables=yes\u001b[K\r\nMemoryDenyWriteExecute=yes\u001b[K\r\nRestrictRealtime=yes\u001b[K\r\nRestrictAddressFamilies=AF_UNIX AF_INET AF_INET6\u001b[K\r\n\u001b[K\r\n[Install]\u001b[K\r\nAlso=systemd-journal-remote.socket\u001b[K\r\n\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.00198,
+      "\u001b[34m\u001b[1m# /etc/systemd/system/systemd-journal-remote.service.d/override.conf\u001b(B\u001b[m\r\n\u001b[?25l\u001b[HMemoryDenyWriteExecute=yes\u001b[K\r\nRestrictRealtime=yes\u001b[K\r\nRestrictAddressFamilies=AF_UNIX AF_INET AF_INET6\u001b[K\r\n\u001b[K\r\n[Install]\u001b[K\r\nAlso=systemd-journal-remote.socket\u001b[K\r\n\u001b[K\r\n\u001b[34m\u001b[1m# /etc/systemd/system/systemd-journal-remote.service.d/override.conf\u001b(B\u001b[m\u001b[K\r\n[Service]\u001b[K\r\nExecStart=\u001b[K\r\nExecStart=/usr/lib/systemd/systemd-journal-remote --listen-http=-3 --output=/var/log/journal/remote/\u001b[K\r\n\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1\u001b[34m ~ $\u001b(B\u001b[m \u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      3.142656,
+      "sudo sys"
+    ],
+    [
+      0.000484,
+      "temctl "
+    ],
+    [
+      0.000655,
+      "en"
+    ],
+    [
+      0.022483,
+      "able --now systemd-journal-remote.socket"
+    ],
+    [
+      0.176348,
+      "\r\n\u001b[?25l\u001b[HRestrictRealtime=yes\u001b[K\r\nRestrictAddressFamilies=AF_UNIX AF_INET AF_INET6\u001b[K\r\n\u001b[K\r\n[Install]\u001b[K\r\nAlso=systemd-journal-remote.socket\u001b[K\r\n\u001b[K\r\n\u001b[34m\u001b[1m# /etc/systemd/system/systemd-journal-remote.service.d/override.conf\u001b(B\u001b[m\u001b[K\r\n[Service]\u001b[K\r\nExecStart=\u001b[K\r\nExecStart=/usr/lib/systemd/systemd-journal-remote --listen-http=-3 --output=/var/log/journal/remote/\u001b[K\r\n\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1\u001b[34m ~ $\u001b(B\u001b[m sudo systemctl enable --now systemd-journal-remote.socket\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.04513,
+      "Created symlink /etc/systemd/system/sockets.target.wants/systemd-journal-remote.sock\u001b[?25l\u001b[1;1H\u001b[K\r\n[Install]\u001b[K\r\nAlso=systemd-journal-remote.socket\u001b[K\r\n\u001b[K\r\n\u001b[34m\u001b[1m# /etc/systemd/system/systemd-journal-remote.service.d/override.conf\u001b(B\u001b[m\u001b[K\r\n[Service]\u001b[K\r\nExecStart=\u001b[K\r\nExecStart=/usr/lib/systemd/systemd-journal-remote --listen-http=-3 --output=/var/log/journal/remote/\u001b[K\r\n\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1\u001b[34m ~ $\u001b(B\u001b[m sudo systemctl enable --now systemd-journal-remote.socket\u001b[K\r\nCreated symlink /etc/systemd/system/sockets.target.wants/systemd-journal-remote.socket → /usr/lib/systemd/system/systemd-journal-remote.socket.\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.125796,
+      "\u001b[32m\u001b[1mcore@pres-1\u001b[34m ~ $\u001b(B\u001b[m \u001b[K\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      3.137109,
+      "sudo journalctl --merge --follow --output short-unix"
+    ],
+    [
+      0.211907,
+      "\r\n\u001b[?25l\u001b[H[Install]\u001b[K\r\nAlso=systemd-journal-remote.socket\u001b[K\r\n\u001b[K\r\n\u001b[34m\u001b[1m# /etc/systemd/system/systemd-journal-remote.service.d/override.conf\u001b(B\u001b[m\u001b[K\r\n[Service]\u001b[K\r\nExecStart=\u001b[K\r\nExecStart=/usr/lib/systemd/systemd-journal-remote --listen-http=-3 --output=/var/log/journal/remote/\u001b[K\r\n\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1\u001b[34m ~ $\u001b(B\u001b[m sudo systemctl enable --now systemd-journal-remote.socket\u001b[K\r\nCreated symlink /etc/systemd/system/sockets.target.wants/systemd-journal-remote.socket → /usr/lib/systemd/system/systemd-journal-remote.socket.\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1\u001b[34m ~ $\u001b(B\u001b[m sudo journalctl --merge --follow --output short-unix\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.051439,
+      "-- Logs begin at Tue 2017-05-30 10:09:00 UTC. --\r\n\u001b[?25l\u001b[H\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1\u001b[34m ~ $\u001b(B\u001b[m sudo systemctl enable --now systemd-journal-remote.socket\u001b[K\r\nCreated symlink /etc/systemd/system/sockets.target.wants/systemd-journal-remote.socket → /usr/lib/systemd/system/systemd-journal-remote.socket.\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1\u001b[34m ~ $\u001b(B\u001b[m sudo journalctl --merge --follow --output short-unix\u001b[K\r\n-- Logs begin at Tue 2017-05-30 10:09:00 UTC. --\u001b[K\r\n1496139352.464671 pres-1 systemd[1815]: pam_unix(systemd-user:session): session opened for user root by (uid=0)\u001b[K\r\n1496139352.466410 pres-1 systemd-logind[865]: New session c11 of user root.\u001b[K\r\n1496139352.468115 pres-1 systemd[1]: Started Session c11 of user root.\u001b[K\r\n1496139352.484795 pres-1 systemd[1815]: Reached target Paths.\u001b[K\r\n1496139352.484822 pres-1 systemd[1815]: Reached target Sockets.\u001b[K\r\n1496139352.484833 pres-1 systemd[1815]: Reached target Timers.\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.003184,
+      "1496139352.484844 pres-1 systemd[1815]: Reached target Basic System.\r\n\u001b[?25l\u001b[H\u001b[32m\u001b[1mcore@pres-1\u001b[34m ~ $\u001b(B\u001b[m sudo journalctl --merge --follow --output short-unix\u001b[K\r\n-- Logs begin at Tue 2017-05-30 10:09:00 UTC. --\u001b[K\r\n1496139352.464671 pres-1 systemd[1815]: pam_unix(systemd-user:session): session opened for user root by (uid=0)\u001b[K\r\n1496139352.466410 pres-1 systemd-logind[865]: New session c11 of user root.\u001b[K\r\n1496139352.468115 pres-1 systemd[1]: Started Session c11 of user root.\u001b[K\r\n1496139352.484795 pres-1 systemd[1815]: Reached target Paths.\u001b[K\r\n1496139352.484822 pres-1 systemd[1815]: Reached target Sockets.\u001b[K\r\n1496139352.484833 pres-1 systemd[1815]: Reached target Timers.\u001b[K\r\n1496139352.484844 pres-1 systemd[1815]: Reached target Basic System.\u001b[K\r\n1496139352.484854 pres-1 systemd[1815]: Reached target Default.\u001b[K\r\n1496139352.484878 pres-1 systemd[1815]: Startup finished in 13ms.\u001b[K\r\n1496139352.485114 pres-1 systemd[1]: Started User Manager for UID 0.\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.63458,
+      "\n\u001b[?25l\u001b[H-- Logs begin at Tue 2017-05-30 10:09:00 UTC. --\u001b[K\r\n1496139352.464671 pres-1 systemd[1815]: pam_unix(systemd-user:session): session opened for user root by (uid=0)\u001b[K\r\n1496139352.466410 pres-1 systemd-logind[865]: New session c11 of user root.\u001b[K\r\n1496139352.468115 pres-1 systemd[1]: Started Session c11 of user root.\u001b[K\r\n1496139352.484795 pres-1 systemd[1815]: Reached target Paths.\u001b[K\r\n1496139352.484822 pres-1 systemd[1815]: Reached target Sockets.\u001b[K\r\n1496139352.484833 pres-1 systemd[1815]: Reached target Timers.\u001b[K\r\n1496139352.484844 pres-1 systemd[1815]: Reached target Basic System.\u001b[K\r\n1496139352.484854 pres-1 systemd[1815]: Reached target Default.\u001b[K\r\n1496139352.484878 pres-1 systemd[1815]: Startup finished in 13ms.\u001b[K\r\n1496139352.485114 pres-1 systemd[1]: Started User Manager for UID 0.\u001b[K\r\n\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.132465,
+      "\n\u001b[?25l\u001b[H1496139352.464671 pres-1 systemd[1815]: pam_unix(systemd-user:session): session opened for user root by (uid=0)\u001b[K\r\n1496139352.466410 pres-1 systemd-logind[865]: New session c11 of user root.\u001b[K\r\n1496139352.468115 pres-1 systemd[1]: Started Session c11 of user root.\u001b[K\r\n1496139352.484795 pres-1 systemd[1815]: Reached target Paths.\u001b[K\r\n1496139352.484822 pres-1 systemd[1815]: Reached target Sockets.\u001b[K\r\n1496139352.484833 pres-1 systemd[1815]: Reached target Timers.\u001b[K\r\n1496139352.484844 pres-1 systemd[1815]: Reached target Basic System.\u001b[K\r\n1496139352.484854 pres-1 systemd[1815]: Reached target Default.\u001b[K\r\n1496139352.484878 pres-1 systemd[1815]: Startup finished in 13ms.\u001b[K\r\n1496139352.485114 pres-1 systemd[1]: Started User Manager for UID 0.\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      4.62391,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.230388,
+      "\u001b[?25l\u001b[30m\u001b[43m:\u001b[7m \u001b(B\u001b[m\u001b[30m\u001b[43m                                                                                  \u001b(B\u001b[m\u001b[14;1H"
+    ],
+    [
+      1.942732,
+      "\u001b[30m\u001b[43m:join-pane -hs pres:2.0\u001b[7m \u001b(B\u001b[m\u001b[30m\u001b[43m                                                            \u001b(B\u001b[m\u001b[14;1H"
+    ],
+    [
+      0.635624,
+      "\u001b[1;43H│\u001b[2;43H│\u001b[3;43H│\u001b[4;43H│\u001b[5;43H│\u001b[6;43H│\u001b[7;43H│\u001b[8;43H│\u001b[32m\u001b[9;43H│\u001b[10;43H│\u001b[11;43H│\u001b[12;43H│\u001b[13;43H│\u001b[14;43H│\u001b[H\u001b(B\u001b[mached target Sockets.                     \r\n1496139352.484833 pres-1 systemd[1815]: Re\r\nached target Timers.                      \r\n1496139352.484844 pres-1 systemd[1815]: Re\r\nached target Basic System.                \r\n1496139352.484854 pres-1 systemd[1815]: Re\r\nached target Default.                     \r\n1496139352.484878 pres-1 systemd[1815]: St\r\nartup finished in 13ms.                   \r\n1496139352.485114 pres-1 systemd[1]: Start\r\ned User Manager for UID 0.                \r\n                                          \r\n                                          \r\n                                          \u001b[1;44H\u001b[32m\u001b[1mcore@pres-2\u001b[34m ~ $\u001b(B\u001b[m sudo systemctl enable --n\u001b[1;84H\u001b[2;44How systemd-journal-upload\u001b[K\u001b[3;44HCreated symlink /etc/systemd/system/multi\u001b[3;84H\u001b[4;44H-user.target.wants/systemd-journal-upload\u001b[4;84H\u001b[5;44H.service → /usr/lib/sy"
+    ],
+    [
+      0.000111,
+      "stemd/system/system\u001b[5;84H\u001b[6;44Hd-journal-upload.service.\u001b[K\u001b[7;44H\u001b[32m\u001b[1mcore@pres-2\u001b[34m ~ $\u001b(B\u001b[m \u001b[K\u001b[8;44H\u001b[32m\u001b[1mcore@pres-2\u001b[34m ~ $\u001b(B\u001b[m sudo systemctl disable --\u001b[8;84H\u001b[9;44Hnow systemd-journal-upload\u001b[K\u001b[10;44HRemoved /etc/systemd/system/multi-user.ta\u001b[10;84H\u001b[11;44Hrget.wants/systemd-journal-upload.service\u001b[11;84H\u001b[12;44H.\u001b[K\u001b[13;44H\u001b[32m\u001b[1mcore@pres-2\u001b[34m ~ $\u001b(B\u001b[m \u001b[K\u001b[14;44H\u001b[32m\u001b[1mcore@pres-2\u001b[34m ~ $\u001b(B\u001b[m  \u001b[K\b\u001b[?12l\u001b[?25h"
+    ],
+    [
+      4.644884,
+      "\u001b[16D                                         \u001b[14;44H\u001b[32m\u001b[1mcore@pres-2\u001b[34m ~ $\u001b(B\u001b[m \u001b[1;44H                                         \u001b[2;44H                                         \u001b[3;44H                                         \u001b[4;44H                                         \u001b[5;44H                                         \u001b[6;44H                                         \u001b[7;44H                                         \u001b[8;44H                                         \u001b[9;44H                                         \u001b[10;44H                                         \u001b[11;44H                                         \u001b[12;44H                                         \u001b[13;44H                                         \u001b[14;44H                                         \u001b[1;44H\u001b[32m\u001b[1mcore@pres-2\u001b[34m ~ $\u001b(B\u001b[m \u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.6861,
+      "echo 'URL=http://pres-1' \u001b[2;44H \b| sudo tee -a /etc/systemd/journal-upload\u001b[3;44H \b.conf"
+    ],
+    [
+      0.739261,
+      "\u001b[4;44H"
+    ],
+    [
+      0.045398,
+      "URL=http://pres-1\u001b[5;44H"
+    ],
+    [
+      0.001358,
+      "\u001b[32m\u001b[1mcore@pres-2\u001b[34m ~ $\u001b(B\u001b[m                          \u001b[?25l\u001b[5;60H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      3.300751,
+      "sudo systemctl enable --n\u001b[6;44H \bow systemd-journa"
+    ],
+    [
+      0.022019,
+      "l-upload"
+    ],
+    [
+      0.361788,
+      "\u001b[7;44H"
+    ],
+    [
+      0.050912,
+      "Created symlink /etc/systemd/system/multi\u001b[8;44H-user.target.wants/systemd-journal-upload\u001b[9;44H.service → /usr/lib/systemd/system/system\u001b[10;44Hd-journal-upload.service.\u001b[11;44H"
+    ],
+    [
+      0.150687,
+      "\u001b[32m\u001b[1mcore@pres-2\u001b[34m ~ $\u001b(B\u001b[m                          \u001b[?25l\u001b[11;60H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.234829,
+      "\u001b[14;1H1496139370.748951 pres-1 systemd[1]: Start\u001b[?25l\u001b[Hached target Timers.                      \r\n1496139352.484844 pres-1 systemd[1815]: Re\r\nached target Basic System.                \r\n1496139352.484854 pres-1 systemd[1815]: Re\r\nached target Default.                     \r\n1496139352.484878 pres-1 systemd[1815]: St\r\nartup finished in 13ms.                   \r\n1496139352.485114 pres-1 systemd[1]: Start\r\ned User Manager for UID 0.                \r\n                                          \r\n                                          \r\n1496139370.748951 pres-1 systemd[1]: Start\r\ned Journal Remote Sink Service.           \r\n                                          \u001b[11;60H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.609901,
+      "\u001b[14;1H1496139279.072051 pres-2 locksmithd[845]: \u001b[?25l\u001b[H1496139279.072051 pres-2 locksmithd[845]: \r\n[etcd.service etcd2.service] are inactive \r\n1496139279.072095 pres-2 locksmithd[845]: \r\n\u001b[31m\u001b[1mUnlocking old locks failed: [etcd.service \u001b(B\u001b[m\r\n\u001b[31m\u001b[1metcd2.service] are inactive. Retrying in 5\u001b(B\u001b[m\r\n\u001b[31m\u001b[1mm0s.\u001b(B\u001b[m                                      \r\n1496139366.775195 pres-2 sudo[1296]: \u001b[1m    c\u001b(B\u001b[m\r\n\u001b[1more : TTY=pts/0 ; PWD=/home/core ; USER=ro\u001b(B\u001b[m\r\n\u001b[1mot ; COMMAND=/bin/tee -a /etc/systemd/jour\u001b(B\u001b[m\r\n\u001b[1mnal-upload.conf\u001b(B\u001b[m                           \r\n1496139366.775738 pres-2 sudo[1296]: pam_u\r\nnix(sudo:session): session opened for user\r\n root by core(uid=0)                      \r\n                                          \u001b[11;60H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.002787,
+      "\u001b[14;1H1496139366.782085 pres-2 systemd[1]: Creat\u001b[?25l\u001b[Hached target Paths.                       \r\n1496139366.810649 pres-2 systemd[1297]: Re\r\nached target Basic System.                \r\n1496139366.810660 pres-2 systemd[1297]: Re\r\nached target Default.                     \r\n1496139366.810677 pres-2 systemd[1297]: St\r\nartup finished in 14ms.                   \r\n1496139366.810865 pres-2 systemd[1]: Start\r\ned User Manager for UID 0.                \r\n1496139366.814152 pres-2 sudo[1296]: pam_u\r\nnix(sudo:session): session closed for user\r\n root                                     \r\n1496139366.819204 pres-2 systemd-logind[89\r\n0]: Removed session c4                    \u001b[11;60H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.00295,
+      "\u001b[14;23H.\u001b[?25l\u001b[Hopped target Timers.                      \r\n1496139366.834098 pres-2 systemd[1297]: Re\r\nceived SIGRTMIN+24 from PID 1322 (kill).  \r\n1496139366.835777 pres-2 systemd[1304]: pa\r\nm_unix(systemd-user:session): session clos\r\ned for user root                          \r\n1496139366.836157 pres-2 systemd[1]: Stopp\r\ned User Manager for UID 0.                \r\n1496139366.838984 pres-2 systemd[1]: Remov\r\ned slice User Slice of root.              \r\n1496139370.506754 pres-2 sudo[1340]: \u001b[1m    c\u001b(B\u001b[m\r\n\u001b[1more : TTY=pts/0 ; PWD=/home/core ; USER=ro\u001b(B\u001b[m\r\n\u001b[1mot ; COMMAND=/bin/systemctl enable --now s\u001b(B\u001b[m\r\n\u001b[1mystemd-journal-upload\u001b(B\u001b[m                     \u001b[11;60H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.002157,
+      "\u001b[?25l\u001b[H1496139370.516550 pres-2 systemd[1]: Start\r\ning User Manager for UID 0...             \r\n1496139370.519561 pres-2 systemd-logind[89\r\n0]: New session c5 of user root.          \r\n1496139370.520389 pres-2 systemd[1341]: pa\r\nm_unix(systemd-user:session): session open\r\ned for user root by (uid=0)               \r\n1496139370.521364 pres-2 systemd[1]: Start\r\ned Session c5 of user root.               \r\n1496139370.541511 pres-2 systemd[1341]: Re\r\nached target Sockets.                     \r\n1496139370.541538 pres-2 systemd[1341]: Re\r\nached target Timers.                      \r\n                                          \u001b[11;60H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.018969,
+      "\u001b[14;1H1496139370.541549 pres-2 systemd[1341]: Re\u001b[?25l\u001b[Hnix(sudo:session): session closed for user\r\n root                                     \r\n1496139370.673681 pres-2 systemd-logind[89\r\n0]: Removed session c5.                   \r\n1496139370.675713 pres-2 systemd[1]: Stopp\r\ning User Manager for UID 0...             \r\n1496139370.676380 pres-2 systemd[1341]: St\r\nopped target Default.                     \r\n1496139370.676405 pres-2 systemd[1341]: St\r\nopped target Basic System.                \r\n1496139370.676415 pres-2 systemd[1341]: St\r\nopped target Sockets.                     \r\n1496139370.676424 pres-2 systemd[1341]: St\r\nopped target                              \u001b[11;60H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000783,
+      "\u001b[14;14HTimers.\u001b[?25l\u001b[H1496139370.678140 pres-2 systemd[1341]: St\r\narting Exit the Session...                \r\n1496139370.699983 pres-2 systemd[1341]: Re\r\nceived SIGRTMIN+24 from PID 1393 (kill).  \r\n1496139370.700558 pres-2 systemd[1]: Start\r\ned Garbage Collection for rkt.            \r\n1496139370.701811 pres-2 systemd[1347]: pa\r\nm_unix(systemd-user:session): session clos\r\ned for user root                          \r\n1496139370.702217 pres-2 systemd[1]: Stopp\r\ned User Manager for UID 0.                \r\n1496139370.707761 pres-2 systemd[1]: Remov\r\ned slice User Slice of root.              \r\n                                          \u001b[11;60H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      2.280513,
+      "echo \"hello from pres-2\" \u001b[12;44H \b| systemd-cat -t pres-2-greeter"
+    ],
+    [
+      1.108839,
+      "\u001b[13;44H"
+    ],
+    [
+      0.01593,
+      "\u001b[32m\u001b[1mcore@pres-2\u001b[34m ~ $\u001b(B\u001b[m                          \u001b[?25l\u001b[13;60H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.4808,
+      "\r\n1496139375.979737 pres-2 pres-2-greeter[14\u001b[?25l\u001b[H1496139370.699983 pres-2 systemd[1341]: Re\r\nceived SIGRTMIN+24 from PID 1393 (kill).  \r\n1496139370.700558 pres-2 systemd[1]: Start\r\ned Garbage Collection for rkt.            \r\n1496139370.701811 pres-2 systemd[1347]: pa\r\nm_unix(systemd-user:session): session clos\r\ned for user root                          \r\n1496139370.702217 pres-2 systemd[1]: Stopp\r\ned User Manager for UID 0.                \r\n1496139370.707761 pres-2 systemd[1]: Remov\r\ned slice User Slice of root.              \r\n1496139375.979737 pres-2 pres-2-greeter[14\r\n12]: hello from pres-2                    \r\n                                          \u001b[13;60H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      7.264675,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.263499,
+      "\u001b[?25l\r\n\u001b[30m\u001b[43m:\u001b[7m \u001b(B\u001b[m\u001b[30m\u001b[43m                                                                                  \u001b(B\u001b[m\u001b[13;60H"
+    ],
+    [
+      0.160382,
+      "\r\n\u001b[30m\u001b[43m:b\u001b[7m \u001b(B\u001b[m\u001b[30m\u001b[43m                                                                                 \u001b(B\u001b[m\u001b[13;60H"
+    ],
+    [
+      0.210763,
+      "\r\n\u001b[30m\u001b[43m:br\u001b[7m \u001b(B\u001b[m\u001b[30m\u001b[43m                                                                                \u001b(B\u001b[m\u001b[13;60H"
+    ],
+    [
+      0.054238,
+      "\r\n\u001b[30m\u001b[43m:bre\u001b[7m \u001b(B\u001b[m\u001b[30m\u001b[43m                                                                               \u001b(B\u001b[m\u001b[13;60H"
+    ],
+    [
+      0.029601,
+      "\r\n\u001b[30m\u001b[43m:brea\u001b[7m \u001b(B\u001b[m\u001b[30m\u001b[43m                                                                              \u001b(B\u001b[m\u001b[13;60H"
+    ],
+    [
+      0.040318,
+      "\r\n\u001b[30m\u001b[43m:break\u001b[7m \u001b(B\u001b[m\u001b[30m\u001b[43m                                                                             \u001b(B\u001b[m\u001b[13;60H"
+    ],
+    [
+      0.187609,
+      "\r\n\u001b[30m\u001b[43m:break-\u001b[7m \u001b(B\u001b[m\u001b[30m\u001b[43m                                                                            \u001b(B\u001b[m\u001b[13;60H"
+    ],
+    [
+      0.237313,
+      "\r\n\u001b[30m\u001b[43m:break-p\u001b[7m \u001b(B\u001b[m\u001b[30m\u001b[43m                                                                           \u001b(B\u001b[m\u001b[13;60H"
+    ],
+    [
+      0.09062,
+      "\r\n\u001b[30m\u001b[43m:break-pa\u001b[7m \u001b(B\u001b[m\u001b[30m\u001b[43m                                                                          \u001b(B\u001b[m\u001b[13;60H"
+    ],
+    [
+      0.118994,
+      "\r\n\u001b[30m\u001b[43m:break-pan\u001b[7m \u001b(B\u001b[m\u001b[30m\u001b[43m                                                                         \u001b(B\u001b[m\u001b[13;60H"
+    ],
+    [
+      0.116905,
+      "\r\n\u001b[30m\u001b[43m:break-pane\u001b[7m \u001b(B\u001b[m\u001b[30m\u001b[43m                                                                        \u001b(B\u001b[m\u001b[13;60H"
+    ],
+    [
+      0.081409,
+      "\r\n\u001b[30m\u001b[43m:break-pane \u001b[7m \u001b(B\u001b[m\u001b[30m\u001b[43m                                                                       \u001b(B\u001b[m\u001b[13;60H"
+    ],
+    [
+      0.151678,
+      "\r\n\u001b[30m\u001b[43m:break-pane -\u001b[7m \u001b(B\u001b[m\u001b[30m\u001b[43m                                                                      \u001b(B\u001b[m\u001b[13;60H"
+    ],
+    [
+      0.099425,
+      "\r\n\u001b[30m\u001b[43m:break-pane -d\u001b[7m \u001b(B\u001b[m\u001b[30m\u001b[43m                                                                     \u001b(B\u001b[m\u001b[13;60H"
+    ],
+    [
+      0.119516,
+      "\u001b[H1496139370.676405 pres-2 systemd[1341]: Stopped target Basic System.\u001b[K\r\n1496139370.676415 pres-2 systemd[1341]: Stopped target Sockets.\u001b[K\r\n1496139370.676424 pres-2 systemd[1341]: Stopped target Timers.\u001b[K\r\n1496139370.676432 pres-2 systemd[1341]: Stopped target Paths.\u001b[K\r\n1496139370.676447 pres-2 systemd[1341]: Reached target Shutdown.\u001b[K\r\n1496139370.678140 pres-2 systemd[1341]: Starting Exit the Session...\u001b[K\r\n1496139370.699983 pres-2 systemd[1341]: Received SIGRTMIN+24 from PID 1393 (kill).\u001b[K\r\n1496139370.700558 pres-2 systemd[1]: Started Garbage Collection for rkt.\u001b[K\r\n1496139370.701811 pres-2 systemd[1347]: pam_unix(systemd-user:session): session closed for user root\u001b[K\r\n1496139370.702217 pres-2 systemd[1]: Stopped User Manager for UID 0.\u001b[K\r\n1496139370.707761 pres-2 systemd[1]: Removed slice User Slice of root.\u001b[K\r\n1496139375.979737 pres-2 pres-2-greeter[1412]: hello from pres-2\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.231058,
+      "^C"
+    ],
+    [
+      0.004887,
+      "\r\n\u001b[?25l\u001b[H1496139370.676415 pres-2 systemd[1341]: Stopped target Sockets.\u001b[K\r\n1496139370.676424 pres-2 systemd[1341]: Stopped target Timers.\u001b[K\r\n1496139370.676432 pres-2 systemd[1341]: Stopped target Paths.\u001b[K\r\n1496139370.676447 pres-2 systemd[1341]: Reached target Shutdown.\u001b[K\r\n1496139370.678140 pres-2 systemd[1341]: Starting Exit the Session...\u001b[K\r\n1496139370.699983 pres-2 systemd[1341]: Received SIGRTMIN+24 from PID 1393 (kill).\u001b[K\r\n1496139370.700558 pres-2 systemd[1]: Started Garbage Collection for rkt.\u001b[K\r\n1496139370.701811 pres-2 systemd[1347]: pam_unix(systemd-user:session): session closed for user root\u001b[K\r\n1496139370.702217 pres-2 systemd[1]: Stopped User Manager for UID 0.\u001b[K\r\n1496139370.707761 pres-2 systemd[1]: Removed slice User Slice of root.\u001b[K\r\n1496139375.979737 pres-2 pres-2-greeter[1412]: hello from pres-2\u001b[K\r\n^C\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1\u001b[34m ~ $\u001b(B\u001b[m \u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.72363,
+      "s"
+    ],
+    [
+      0.033469,
+      "u"
+    ],
+    [
+      0.171046,
+      "do"
+    ],
+    [
+      0.120571,
+      " "
+    ],
+    [
+      0.288034,
+      "jo"
+    ],
+    [
+      0.025664,
+      "u"
+    ],
+    [
+      0.039992,
+      "r"
+    ],
+    [
+      0.14609,
+      "n"
+    ],
+    [
+      0.208954,
+      "a"
+    ],
+    [
+      0.027975,
+      "l"
+    ],
+    [
+      0.172958,
+      "c"
+    ],
+    [
+      0.146328,
+      "t"
+    ],
+    [
+      0.144674,
+      "l "
+    ],
+    [
+      0.141241,
+      "-"
+    ],
+    [
+      0.181513,
+      "-d"
+    ],
+    [
+      0.204953,
+      "ir"
+    ],
+    [
+      0.001758,
+      " "
+    ],
+    [
+      0.202767,
+      "/"
+    ],
+    [
+      2.028461,
+      "v"
+    ],
+    [
+      0.06741,
+      "a"
+    ],
+    [
+      0.168791,
+      "r/"
+    ],
+    [
+      0.089851,
+      "l"
+    ],
+    [
+      0.150257,
+      "o"
+    ],
+    [
+      0.068069,
+      "g"
+    ],
+    [
+      0.171355,
+      "/"
+    ],
+    [
+      0.355011,
+      "j"
+    ],
+    [
+      0.092598,
+      "o"
+    ],
+    [
+      0.098199,
+      "u"
+    ],
+    [
+      0.174795,
+      "rnal/"
+    ],
+    [
+      0.302212,
+      "r"
+    ],
+    [
+      0.334725,
+      "e"
+    ],
+    [
+      0.188341,
+      "mote/"
+    ],
+    [
+      0.759873,
+      "\r\n\u001b[?25l\u001b[H1496139370.676424 pres-2 systemd[1341]: Stopped target Timers.\u001b[K\r\n1496139370.676432 pres-2 systemd[1341]: Stopped target Paths.\u001b[K\r\n1496139370.676447 pres-2 systemd[1341]: Reached target Shutdown.\u001b[K\r\n1496139370.678140 pres-2 systemd[1341]: Starting Exit the Session...\u001b[K\r\n1496139370.699983 pres-2 systemd[1341]: Received SIGRTMIN+24 from PID 1393 (kill).\u001b[K\r\n1496139370.700558 pres-2 systemd[1]: Started Garbage Collection for rkt.\u001b[K\r\n1496139370.701811 pres-2 systemd[1347]: pam_unix(systemd-user:session): session closed for user root\u001b[K\r\n1496139370.702217 pres-2 systemd[1]: Stopped User Manager for UID 0.\u001b[K\r\n1496139370.707761 pres-2 systemd[1]: Removed slice User Slice of root.\u001b[K\r\n1496139375.979737 pres-2 pres-2-greeter[1412]: hello from pres-2\u001b[K\r\n^C\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1\u001b[34m ~ $\u001b(B\u001b[m sudo journalctl --dir /var/log/journal/remote/\u001b[K\r\n\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.346828,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.00596,
+      "-- Logs begin at Tue 2017-05-30 10:09:00 UTC, end at Tue 2017-05-30 10:16:15 UTC. --\u001b[14;1H\n\u001b[?25l\u001b[H^C\u001b[K\r\n\u001b[32m\u001b[1mcore@pres-1\u001b[34m ~ $\u001b(B\u001b[m sudo journalctl --dir /var/log/journal/remote/\u001b[K\r\n-- Logs begin at Tue 2017-05-30 10:09:00 UTC, end at Tue 2017-05-30 10:16:15 UTC. --\u001b[4;1HMay 30 10:09:00 localhost kernel: Command line: BOOT_IMAGE=/coreos/vmlinuz-a mount.u\u001b[5;1HMay 30 10:09:00 localhost kernel: x86/fpu: Legacy x87 FPU detected.\u001b[K\r\nMay 30 10:09:00 localhost kernel: x86/fpu: Using 'eager' FPU context switches.\u001b[K\r\nMay 30 10:09:00 localhost kernel: e820: BIOS-provided physical RAM map:\u001b[K\r\nMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009f\u001b[9;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009f\u001b[10;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000ff\u001b[11;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x0000000000100000-0x000000001ffd8\u001b[12;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x000"
+    ],
+    [
+      0.000133,
+      "000001ffd9000-0x000000001ffff\u001b[13;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x00000000feffc000-0x00000000fefff\u001b[14;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ff\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.003445,
+      "fff\u001b[14;1H\n\u001b[?25l\u001b[H-- Logs begin at Tue 2017-05-30 10:09:00 UTC, end at Tue 2017-05-30 10:16:15 UTC. --\u001b[2;1HMay 30 10:09:00 localhost kernel: Command line: BOOT_IMAGE=/coreos/vmlinuz-a mount.u\u001b[3;1HMay 30 10:09:00 localhost kernel: x86/fpu: Legacy x87 FPU detected.\u001b[K\r\nMay 30 10:09:00 localhost kernel: x86/fpu: Using 'eager' FPU context switches.\u001b[K\r\nMay 30 10:09:00 localhost kernel: e820: BIOS-provided physical RAM map:\u001b[K\r\nMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009f\u001b[7;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009f\u001b[8;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000ff\u001b[9;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x0000000000100000-0x000000001ffd8\u001b[10;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x000000001ffd9000-0x000000001ffff\u001b[11;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x00000000feffc000-0x00000000fefff\u001b[12;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem "
+    ],
+    [
+      0.000206,
+      "0x00000000fffc0000-0x00000000fffff\u001b[13;1HMay 30 10:09:00 localhost kernel: NX (Execute Disable) protection: active\u001b[K\r\n\u001b[7mlines 1-13\u001b(B\u001b[m\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.678289,
+      "\r\u001b[K \u001b[KESC\u001b[2GESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 30 10:09:00 localhost kernel: SMBIOS 2.8 present.\r\n\u001b[?25l\u001b[HMay 30 10:09:00 localhost kernel: Command line: BOOT_IMAGE=/coreos/vmlinuz-a mount.u\u001b[2;1HMay 30 10:09:00 localhost kernel: x86/fpu: Legacy x87 FPU detected.\u001b[K\r\nMay 30 10:09:00 localhost kernel: x86/fpu: Using 'eager' FPU context switches.\u001b[K\r\nMay 30 10:09:00 localhost kernel: e820: BIOS-provided physical RAM map:\u001b[K\r\nMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009f\u001b[6;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009f\u001b[7;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000ff\u001b[8;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x0000000000100000-0x000000001ffd8\u001b[9;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x000000001ffd9000-0x000000001ffff\u001b[10;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x00000000feffc000-0x00000000fefff\u001b[11;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x00000000fff"
+    ],
+    [
+      0.000102,
+      "c0000-0x00000000fffff\u001b[12;1HMay 30 10:09:00 localhost kernel: NX (Execute Disable) protection: active\u001b[K\r\nMay 30 10:09:00 localhost kernel: SMBIOS 2.8 present.\u001b[K\r\n\u001b[7mlines 2-14\u001b(B\u001b[m\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.224205,
+      "\r\u001b[K \u001b[KESC\u001b[2GESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 30 10:09:00 localhost kernel: DMI: QEMU Standard PC (i440FX + PIIX, 1996), BIOS \u001b[14;1H\n\u001b[?25l\u001b[HMay 30 10:09:00 localhost kernel: x86/fpu: Legacy x87 FPU detected.\u001b[K\r\nMay 30 10:09:00 localhost kernel: x86/fpu: Using 'eager' FPU context switches.\u001b[K\r\nMay 30 10:09:00 localhost kernel: e820: BIOS-provided physical RAM map:\u001b[K\r\nMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009f\u001b[5;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009f\u001b[6;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000ff\u001b[7;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x0000000000100000-0x000000001ffd8\u001b[8;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x000000001ffd9000-0x000000001ffff\u001b[9;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x00000000feffc000-0x00000000fefff\u001b[10;1HMay 30 10:09:00 localhost kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000fffff\u001b[11;1HMay 30 10:09:00 localhost "
+    ],
+    [
+      0.000212,
+      "kernel: NX (Execute Disable) protection: active\u001b[K\r\nMay 30 10:09:00 localhost kernel: SMBIOS 2.8 present.\u001b[K\r\nMay 30 10:09:00 localhost kernel: DMI: QEMU Standard PC (i440FX + PIIX, 1996), BIOS \u001b[14;1H\u001b[7mlines 3-15\u001b(B\u001b[m\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.440574,
+      "\r\u001b[K"
+    ],
+    [
+      0.017266,
+      "...skipping...\r\n\u001b[?25l\u001b[HMay 30 10:16:10 pres-2 systemd[1341]: Stopped target Default.\u001b[K\r\nMay 30 10:16:10 pres-2 systemd[1341]: Stopped target Basic System.\u001b[K\r\nMay 30 10:16:10 pres-2 systemd[1341]: Stopped target Sockets.\u001b[K\r\nMay 30 10:16:10 pres-2 systemd[1341]: Stopped target Timers.\u001b[K\r\nMay 30 10:16:10 pres-2 systemd[1341]: Stopped target Paths.\u001b[K\r\nMay 30 10:16:10 pres-2 systemd[1341]: Reached target Shutdown.\u001b[K\r\nMay 30 10:16:10 pres-2 systemd[1341]: Starting Exit the Session...\u001b[K\r\nMay 30 10:16:10 pres-2 systemd[1341]: Received SIGRTMIN+24 from PID 1393 (kill).\u001b[K\r\nMay 30 10:16:10 pres-2 systemd[1]: Started Garbage Collection for rkt.\u001b[K\r\nMay 30 10:16:10 pres-2 systemd[1347]: pam_unix(systemd-user:session): session closed\u001b[11;1HMay 30 10:16:10 pres-2 systemd[1]: Stopped User Manager for UID 0.\u001b[K\r\nMay 30 10:16:10 pres-2 systemd[1]: Removed slice User Slice of root.\u001b[K\r\nMay 30 10:16:15 pres-2 pres-2-greeter[1412]: hello from pres-2\u001b[K\r\n\u001b[7mlines 1048-1060/1060 (END)\u001b(B\u001b[m\u001b[K\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.551715,
+      "\r\u001b[K \u001b[KESC\u001b[2GESC\u001b[KO\bO\u001b[KC\bC\u001b[H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[Hped target Default.\r\nped target Basic System.\r\nped target Sockets.\r\nped target Timers.\r\nped target Paths.\r\nhed target Shutdown.\r\nting Exit the Session...\r\nived SIGRTMIN+24 from PID 1393 (kill).\r\n Garbage Collection for rkt.\r\nunix(systemd-user:session): session closed for user root\r\n User Manager for UID 0.\r\n slice User Slice of root.\r\n]: hello from pres-2\r\n\u001b[7mlines 1048-1060/1060 (END)\u001b(B\u001b[m\u001b[K"
+    ],
+    [
+      0.474099,
+      "\r\u001b[K \u001b[KESC\u001b[2GESC\u001b[KO\bO"
+    ],
+    [
+      0.001647,
+      "\u001b[KD\bD\u001b[H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[HMay 30 10:16:10 pres-2 systemd[1341]: Stopped target Default.\r\nMay 30 10:16:10 pres-2 systemd[1341]: Stopped target Basic System.\r\nMay 30 10:16:10 pres-2 systemd[1341]: Stopped target Sockets.\r\nMay 30 10:16:10 pres-2 systemd[1341]: Stopped target Timers.\r\nMay 30 10:16:10 pres-2 systemd[1341]: Stopped target Paths.\r\nMay 30 10:16:10 pres-2 systemd[1341]: Reached target Shutdown.\r\nMay 30 10:16:10 pres-2 systemd[1341]: Starting Exit the Session...\r\nMay 30 10:16:10 pres-2 systemd[1341]: Received SIGRTMIN+24 from PID 1393 (kill).\r\nMay 30 10:16:10 pres-2 systemd[1]: Started Garbage Collection for rkt.\r\nMay 30 10:16:10 pres-2 systemd[1347]: pam_unix(systemd-user:session): session closed\u001b[11;1HMay 30 10:16:10 pres-2 systemd[1]: Stopped User Manager for UID 0.\r\nMay 30 10:16:10 pres-2 systemd[1]: Removed slice User Slice of root.\r\nMay 30 10:16:15 pres-2 pres-2-greeter[1412]: hello from pres-2\r\n\u001b[7mlines 1048-1060/1060"
+    ],
+    [
+      3.7e-05,
+      " (END)\u001b(B\u001b[m\u001b[K"
+    ],
+    [
+      0.669322,
+      "\r\u001b[K\u001b[?1l\u001b>"
+    ],
+    [
+      0.003205,
+      "\u001b[32m\u001b[1mcore@pres-1\u001b[34m ~ $\u001b(B\u001b[m \u001b[K\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      1.821504,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.177489,
+      "\u001b[?25l\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.000729,
+      "\u001b[1;14r\u001b(B\u001b[m\u001b[?1l\u001b>\u001b[H\u001b[2J\u001b]112\u0007\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b[?1049l"
+    ],
+    [
+      0.000428,
+      "[detached (from session pres)]\r\n"
+    ]
+  ],
+  "version": 1,
+  "command": "tmux a -t pres",
+  "duration": 56.699657,
+  "title": null,
+  "width": 84,
+  "env": {
+    "SHELL": "/bin/zsh",
+    "TERM": "xterm-256color"
+  },
+  "height": 14
+}

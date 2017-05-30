@@ -337,51 +337,68 @@ Restart=restart-always
 					</section>
 					<section>
 						<h3><code>systemctl --edit</code></h3>
-						<asciinema-player start-at="0:19" poster="npt:0:19" preload=yes src="terms/edit.rec" font-size="24px" theme="solarized-light"></asciinema-player>
+						<asciinema-player poster="npt:0:19" preload=yes src="terms/edit.rec" font-size="24px" theme="solarized-light"></asciinema-player>
 					</section>
 					<section>
 						<h3><code>systemd-run</code></h3>
+						<asciinema-player poster="npt:0:19" preload=yes src="terms/run-at.rec" font-size="24px" theme="solarized-light"></asciinema-player>
+						<p><small>Overlaps: at, cron</small></p>
 					</section>
 					<section>
 						<h3><code>systemctl --host</code></h3>
+						<asciinema-player poster="npt:0:19" preload=yes src="terms/host.rec" font-size="24px" theme="solarized-light"></asciinema-player>
+						<p><small>Overlaps: fleet, sorta ssh &amp; ansible, etc</small></p>
 					</section>
-				</section>
-				<section>
-					<h2>timers</h2>
 				</section>
 				<section>
 					<section>
 						<h2>journald</h2>
 					</section>
 					<section>
-						<h2>sealing the journal</h2>
+						<h2>remote</h2>
+						<asciinema-player poster="npt:0:19" preload=yes src="terms/journal-remote.rec" font-size="24px" theme="solarized-light"></asciinema-player>
+						<p><small>Overlaps: rsyslog, fluentd, etc</small></p>
 					</section>
 					<section>
-						<h2>printing a QR code</h2>
+						<h2>journal security</h2>
+						<ul>
+							<li> Authenticated fields (such as <code>_PID</code>, <code>_UID</code>)</li>
+							<li> Certificate auth for remote-upload</li>
+							<li> Forward Secure Sealing</li>
+						</ul>
 					</section>
-				</section>
-				<section>
 					<section>
-						<h2>logind</h2>
+						<h2>creating the seal</h2>
+						<pre>
+						$ journalctl --setup-keys
+						</pre>
+						<img height="400px" src="imgs/qr.png"></img>
 					</section>
-					<section>
-						<h2>consoled</h2>
-					</section>
-				</section>
-				<section>
-					<h2>networkd</h2>
 				</section>
 				<section>
 					<h2>coredumps</h2>
-					abrt
-				</section>
-				<section>
-					<h2>timesyncd</h2>
-					ntpd
+					<asciinema-player poster="npt:0:10" preload=yes src="terms/coredump.rec" font-size="24px" theme="solarized-light"></asciinema-player>
+					<p><small>Replaces: abrt</small></p>
 				</section>
 				<section>
 					<section>
-						<h2>systemd the bootloader</h2>
+					<h2>Networking</h2>
+					</section>
+					<section>
+					</section>
+				</section>
+				<section>
+					<h2>timesyncd</h2>
+					<br>
+					<p> It's an ntp server ¯\_(ツ)_/¯</p>
+					<br>
+					<p><small>Replaces: ntpd (client)</small></p>
+				</section>
+				<section>
+					<section>
+						<h2>systemd the boot manager</h2>
+						<img src="imgs/systemd-boot-menu.png"></img>
+						<p><small>Is: gummiboot; Replaces: rEFInd</small></p>
 					</section>
 				</section>
 				<section>

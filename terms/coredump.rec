@@ -1,0 +1,614 @@
+{
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "height": 12,
+  "title": null,
+  "stdout": [
+    [
+      0.149435,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                      \r \r"
+    ],
+    [
+      0.001122,
+      "\u001b]7;file://multivac.euank.com/home/esk\u0007"
+    ],
+    [
+      0.003134,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[K"
+    ],
+    [
+      0.133656,
+      "\u001b[?2004h\u001b[K"
+    ],
+    [
+      0.144595,
+      "\u001b[K"
+    ],
+    [
+      0.000238,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.00224,
+      "\u001b[?2004l\u001b[K\r\r\n"
+    ],
+    [
+      0.002165,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                      \r \r"
+    ],
+    [
+      0.005326,
+      "\u001b]7;file://multivac.euank.com/home/esk\u0007"
+    ],
+    [
+      0.007757,
+      "\u001b]2;esk@multivac: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.025044,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~ $\u001b[00m \u001b[K"
+    ],
+    [
+      0.000484,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.001095,
+      "\u001b[?2004h"
+    ],
+    [
+      0.232545,
+      "\u001b[H\u001b[2J\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~ $\u001b[00m \u001b[K"
+    ],
+    [
+      0.344383,
+      "\u001b[32ms\u001b[39m"
+    ],
+    [
+      0.076242,
+      "\b\u001b[32ms\u001b[32mu\u001b[39m"
+    ],
+    [
+      0.096084,
+      "\b\b\u001b[1m\u001b[31ms\u001b[1m\u001b[31mu\u001b[1m\u001b[31md\u001b[0m\u001b[39m"
+    ],
+    [
+      0.033706,
+      "\b\b\b\u001b[0m\u001b[4m\u001b[32ms\u001b[0m\u001b[4m\u001b[32mu\u001b[0m\u001b[4m\u001b[32md\u001b[4m\u001b[32mo\u001b[24m\u001b[39m"
+    ],
+    [
+      0.115166,
+      " "
+    ],
+    [
+      0.119651,
+      "\u001b[4mc\u001b[24m"
+    ],
+    [
+      0.09858,
+      "\b\u001b[4mc\u001b[4mo\u001b[24m"
+    ],
+    [
+      0.079471,
+      "\b\u001b[4mo\u001b[4mr\u001b[24m"
+    ],
+    [
+      0.046171,
+      "\b\u001b[4mr\u001b[4me\u001b[24m"
+    ],
+    [
+      0.166116,
+      "\b\b\b\b\u001b[24m\u001b[1m\u001b[31mc\u001b[24m\u001b[1m\u001b[31mo\u001b[24m\u001b[1m\u001b[31mr\u001b[24m\u001b[1m\u001b[31me\u001b[1m\u001b[31md\u001b[0m\u001b[39m"
+    ],
+    [
+      0.071011,
+      "\b\u001b[1m\u001b[31md\u001b[1m\u001b[31mu\u001b[0m\u001b[39m"
+    ],
+    [
+      0.135811,
+      "\b\b\b\b\b\b\u001b[0m\u001b[32mc\u001b[0m\u001b[32mo\u001b[0m\u001b[32mr\u001b[0m\u001b[32me\u001b[0m\u001b[32md\u001b[0m\u001b[32mu\u001b[32mmpctl\u001b[39m\u001b[1m \u001b[0m"
+    ],
+    [
+      0.315864,
+      "\b\u001b[0m \b"
+    ],
+    [
+      8.5e-05,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.005159,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.037454,
+      "\u001b]2;sudo coredumpctl\u0007\u001b]1;coredumpctl\u0007"
+    ],
+    [
+      0.011033,
+      "\u001b[?1h\u001b=\rTIME                            PID   UID   GID SIG PRESENT EXE\u001b[m\r\nTue 2017-05-30 04:55:33 PDT    1313     0     0   3 * /usr/sbin/atd\u001b[m\r\n\r\u001b[K\u001b[?1l\u001b>"
+    ],
+    [
+      0.001288,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                      \r \r"
+    ],
+    [
+      0.001223,
+      "\u001b]7;file://multivac.euank.com/home/esk\u0007"
+    ],
+    [
+      0.001663,
+      "\u001b]2;esk@multivac: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.006216,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~ $\u001b[00m \u001b[K"
+    ],
+    [
+      3.8e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000226,
+      "\u001b[?2004h"
+    ],
+    [
+      0.840967,
+      "\u001b[32ms\u001b[39m"
+    ],
+    [
+      0.094595,
+      "\b\u001b[32ms\u001b[32mu\u001b[39m"
+    ],
+    [
+      0.078862,
+      "\b\b\u001b[1m\u001b[31ms\u001b[1m\u001b[31mu\u001b[1m\u001b[31md\u001b[0m\u001b[39m"
+    ],
+    [
+      0.053707,
+      "\b\b\b\u001b[0m\u001b[4m\u001b[32ms\u001b[0m\u001b[4m\u001b[32mu\u001b[0m\u001b[4m\u001b[32md\u001b[4m\u001b[32mo\u001b[24m\u001b[39m"
+    ],
+    [
+      0.088568,
+      " "
+    ],
+    [
+      0.141198,
+      "\u001b[4mc\u001b[24m"
+    ],
+    [
+      0.131511,
+      "\b\u001b[4mc\u001b[4mo\u001b[24m"
+    ],
+    [
+      0.085092,
+      "\b\u001b[4mo\u001b[4mr\u001b[24m"
+    ],
+    [
+      0.054441,
+      "\b\u001b[4mr\u001b[4me\u001b[24m"
+    ],
+    [
+      0.161483,
+      "\b\b\b\b\u001b[24m\u001b[1m\u001b[31mc\u001b[24m\u001b[1m\u001b[31mo\u001b[24m\u001b[1m\u001b[31mr\u001b[24m\u001b[1m\u001b[31me\u001b[1m\u001b[31md\u001b[0m\u001b[39m"
+    ],
+    [
+      0.118169,
+      "\b\u001b[1m\u001b[31md\u001b[1m\u001b[31mu\u001b[0m\u001b[39m"
+    ],
+    [
+      0.099786,
+      "\b\b\b\b\b\b\u001b[0m\u001b[32mc\u001b[0m\u001b[32mo\u001b[0m\u001b[32mr\u001b[0m\u001b[32me\u001b[0m\u001b[32md\u001b[0m\u001b[32mu\u001b[32mmpctl\u001b[39m\u001b[1m \u001b[0m"
+    ],
+    [
+      1.355176,
+      "\b\u001b[0m \u001b[4mi\u001b[24m"
+    ],
+    [
+      0.143549,
+      "\b\u001b[4mi\u001b[4mn\u001b[24m"
+    ],
+    [
+      0.134652,
+      "\b\b\u001b[24mi\u001b[24mnf"
+    ],
+    [
+      0.071735,
+      "o"
+    ],
+    [
+      0.147738,
+      " "
+    ],
+    [
+      0.381968,
+      "\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.158018,
+      "\b\u001b[24mat"
+    ],
+    [
+      0.158784,
+      "d"
+    ],
+    [
+      0.097748,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.00849,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.061734,
+      "\u001b]2;sudo coredumpctl info atd\u0007\u001b]1;coredumpctl\u0007"
+    ],
+    [
+      0.013052,
+      "\u001b[?1h\u001b=\r           PID: \u001b[0;1;39m1313\u001b[0m (atd)\u001b[m\r\n           UID: 0 (root)\u001b[m\r\n           GID: 0 (root)\u001b[m\r\n        Signal: 3 (QUIT)\u001b[m\r\n     Timestamp: Tue 2017-05-30 04:55:32 PDT (2min 57s ago)\u001b[m\r\n  Command Line: /usr/sbin/atd -f\u001b[m\r\n    Executable: \u001b[0;1;39m/usr/sbin/atd\u001b[0m\u001b[m\r\n Control Group: /system.slice/atd.service\u001b[m\r\n          Unit: atd.service\u001b[m\r\n         Slice: system.slice\u001b[m\r\n       Boot ID: 419f997d3c0c4fb5834c8c290e52d951\u001b[m\r\n\u001b[7mlines 1-11\u001b[27m\u001b[K"
+    ],
+    [
+      0.906974,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      9.7e-05,
+      "    Machine ID: 3914adfd7b4b413ebb813759acff1827\u001b[m\r\n\u001b[7mlines 2-12\u001b[27m\u001b[K"
+    ],
+    [
+      0.200612,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      8.9e-05,
+      "\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      7e-05,
+      "      Hostname: multivac.euank.com\u001b[m\r\n\u001b[7mlines 3-13\u001b[27m\u001b[K"
+    ],
+    [
+      0.17284,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      9.6e-05,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K      Coredump: /var/lib/systemd/coredump/core.atd.0.419f997d3c0c4fb583\u001b[m\r\n\u001b[7mlines 4-14\u001b[27m\u001b[K"
+    ],
+    [
+      0.166974,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO"
+    ],
+    [
+      0.000172,
+      "\u001b[KB\bB\r\u001b[K       Message: Process 1313 (atd) of user 0 dumped core.\u001b[m\r\n"
+    ],
+    [
+      6.3e-05,
+      "\u001b[7mlines 5-15\u001b[27m\u001b[K"
+    ],
+    [
+      0.157498,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      0.000244,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      8.7e-05,
+      "                \u001b[m\r\n\u001b[7mlines 6-16\u001b[27m\u001b[K"
+    ],
+    [
+      0.130621,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K                Stack trace of thread 1313:\u001b[m\r\n\u001b[7mlines 7-17\u001b[27m\u001b[K"
+    ],
+    [
+      0.149169,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      0.000244,
+      "                #0  0x00007f75e7de8800 __nanosleep (libc.so.6)\u001b[m\r\n\u001b[7mlines 8-18\u001b[27m\u001b[K"
+    ],
+    [
+      0.323076,
+      "\r\u001b[K \u001b[KESC\b\b\bESC"
+    ],
+    [
+      0.00012,
+      "\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.7e-05,
+      "                #1  0x00007f75e7de876a sleep (libc.so.6)\u001b[m\r\n\u001b[7mlines 9-19\u001b[27m\u001b[K"
+    ],
+    [
+      0.189629,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K"
+    ],
+    [
+      6.7e-05,
+      "                #2  0x0000563cfbff73b4 main (atd)\u001b[m\r\n\u001b[7mlines 10-20\u001b[27m\u001b[K"
+    ],
+    [
+      0.170233,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K                #3  0x00007f75e7d3c401 __libc_start_main (libc.so.6)\u001b[m\r\n\u001b[7mlines 11-21\u001b[27m\u001b[K"
+    ],
+    [
+      0.157318,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K                #4  0x0000563cfbff73fa _start (atd)\u001b[m\r\n\u001b[7mlines 12-22\u001b[27m\u001b[K"
+    ],
+    [
+      0.230048,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u0007\r\u001b[K\u001b[7mlines 12-22/22 (END)\u001b[27m\u001b[K"
+    ],
+    [
+      0.341005,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u0007\r\u001b[K\u001b[7mlines 12-22/22 (END)\u001b[27m\u001b[K"
+    ],
+    [
+      0.252733,
+      "\r\u001b[K\u001b[?1l\u001b>"
+    ],
+    [
+      0.005699,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                      \r \r"
+    ],
+    [
+      0.005682,
+      "\u001b]7;file://multivac.euank.com/home/esk\u0007"
+    ],
+    [
+      0.008519,
+      "\u001b]2;esk@multivac: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.021352,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~ $\u001b[00m \u001b[K"
+    ],
+    [
+      0.000175,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.0006,
+      "\u001b[?2004h"
+    ],
+    [
+      0.129647,
+      "\u001b[4m\u001b[32msudo\u001b[24m\u001b[39m \u001b[32mcoredumpctl\u001b[39m info atd"
+    ],
+    [
+      0.639071,
+      "\b\b\b   \b\b\b"
+    ],
+    [
+      0.162131,
+      "\b\b\b\b\b    \b\b\b\b"
+    ],
+    [
+      0.216972,
+      "g"
+    ],
+    [
+      0.175182,
+      "d"
+    ],
+    [
+      0.192577,
+      "b"
+    ],
+    [
+      0.141165,
+      " "
+    ],
+    [
+      0.186146,
+      "\u001b[4ma\u001b[24m"
+    ],
+    [
+      0.478356,
+      "\b\u001b[24mat"
+    ],
+    [
+      0.178549,
+      "d"
+    ],
+    [
+      0.109133,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.008342,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.041877,
+      "\u001b]2;sudo coredumpctl gdb atd\u0007\u001b]1;coredumpctl\u0007"
+    ],
+    [
+      0.015796,
+      "           PID: \u001b[0;1;39m1313\u001b[0m (atd)\r\n           UID: 0 (root)\r\n           GID: 0 (root)\r\n        Signal: 3 (QUIT)\r\n     Timestamp: Tue 2017-05-30 04:55:32 PDT (3min 4s ago)\r\n  Command Line: /usr/sbin/atd -f\r\n    Executable: \u001b[0;1;39m/usr/sbin/atd\u001b[0m\r\n Control Group: /system.slice/atd.service\r\n          Unit: atd.service\r\n         Slice: system.slice\r\n       Boot ID: 419f997d3c0c4fb5834c8c290e52d951\r\n    Machine ID: 3914adfd7b4b413ebb813759acff1827\r\n      Hostname: multivac.euank.com\r\n"
+    ],
+    [
+      3.2e-05,
+      "      Coredump: /var/lib/systemd/coredump/core.atd.0.419f997d3c0c4fb5834c8c290e52d951.1313.1496145332000000000000.lz4\r\n       Message: Process 1313 (atd) of user 0 dumped core.\r\n                \r\n                Stack trace of thread 1313:\r\n                #0  0x00007f75e7de8800 __nanosleep (libc.so.6)\r\n                #1  0x00007f75e7de876a sleep (libc.so.6)\r\n                #2  0x0000563cfbff73b4 main (atd)\r\n                #3  0x00007f75e7d3c401 __libc_start_main (libc.so.6)\r\n                #4  0x0000563cfbff73fa _start (atd)\r\n\r\n"
+    ],
+    [
+      0.068524,
+      "GNU gdb (GDB) Fedora 7.12.1-48.fc25\r\nCopyright (C) 2017 Free Software Foundation, Inc.\r\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\r\nThis is free software: you are free to change and redistribute it.\r\nThere is NO WARRANTY, to the extent permitted by law.  Type \"show copying\"\r\nand \"show warranty\" for details.\r\nThis GDB was configured as \"x86_64-redhat-linux-gnu\".\r\nType \"show configuration\" for configuration details.\r\nFor bug reporting instructions, please see:\r\n"
+    ],
+    [
+      5.6e-05,
+      "---Type <return> to continue, or q <return> to quit---"
+    ],
+    [
+      1.22513,
+      "\r\n<http://www.gnu.org/software/gdb/bugs/>."
+    ],
+    [
+      0.000105,
+      "\r\nFind the GDB manual and other documentation resources online at:\r\n<http://www.gnu.org/software/gdb/documentation/>.\r\n"
+    ],
+    [
+      7.1e-05,
+      "For help, type \"help\".\r\n"
+    ],
+    [
+      6.3e-05,
+      "Type \"apropos word\" to search for commands related to \"word\"...\r\n"
+    ],
+    [
+      0.007682,
+      "Reading symbols from /usr/sbin/atd..."
+    ],
+    [
+      0.001138,
+      "Reading symbols from /usr/lib/debug/usr/sbin/atd.debug..."
+    ],
+    [
+      0.002289,
+      "done.\r\n"
+    ],
+    [
+      0.002203,
+      "done.\r\n"
+    ],
+    [
+      0.009187,
+      "[New LWP 1313]\r\n"
+    ],
+    [
+      0.129534,
+      "[Thread debugging using libthread_db enabled]\r\nUsing host libthread_db library \"/lib64/libthread_db.so.1\".\r\n"
+    ],
+    [
+      0.014034,
+      "Core was generated by `/usr/sbin/atd -f'.\r\nProgram terminated with signal SIGQUIT, Quit.\r\n"
+    ],
+    [
+      0.000884,
+      "#0  0x00007f75e7de8800 in __nanosleep_nocancel ()\r\n    at ../sysdeps/unix/syscall-template.S:84\r\n"
+    ],
+    [
+      2.6e-05,
+      "84\tT_PSEUDO (SYSCALL_SYMBOL, SYSCALL_NAME, SYSCALL_NARGS)\r\n"
+    ],
+    [
+      0.000816,
+      "(gdb) "
+    ],
+    [
+      0.016042,
+      "\r\n"
+    ],
+    [
+      3.3e-05,
+      "(gdb) "
+    ],
+    [
+      0.722107,
+      "b"
+    ],
+    [
+      0.191617,
+      "t"
+    ],
+    [
+      0.097689,
+      "\r\n#0  0x00007f75e7de8800 in __nanosleep_nocancel ()\r\n    at ../sysdeps/unix/syscall-template.S:84\r\n#1  0x00007f75e7de876a in __sleep (seconds=0)\r\n    at ../sysdeps/posix/sleep.c:55\r\n#2  0x0000563cfbff73b4 in atd_setalarm (next=1496148888) at atd.c:885\r\n#3  main (argc=<optimized out>, argv=0x7ffe68399398) at atd.c:1027\r\n"
+    ],
+    [
+      0.001757,
+      "(gdb) "
+    ],
+    [
+      0.604305,
+      "f"
+    ],
+    [
+      0.205843,
+      "r"
+    ],
+    [
+      0.053933,
+      "a"
+    ],
+    [
+      0.087397,
+      "m"
+    ],
+    [
+      0.091555,
+      "e"
+    ],
+    [
+      0.133415,
+      " "
+    ],
+    [
+      1.091695,
+      "\b\u001b[K"
+    ],
+    [
+      0.146696,
+      "\b\u001b[K"
+    ],
+    [
+      0.184395,
+      "\b\u001b[K"
+    ],
+    [
+      0.139607,
+      "\b\u001b[K"
+    ],
+    [
+      0.130229,
+      "\b\u001b[K"
+    ],
+    [
+      0.201463,
+      "\b\u001b[K"
+    ],
+    [
+      0.222069,
+      "quit\r\n"
+    ],
+    [
+      0.033487,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                      \r \r"
+    ],
+    [
+      0.002273,
+      "\u001b]7;file://multivac.euank.com/home/esk\u0007"
+    ],
+    [
+      0.002944,
+      "\u001b]2;esk@multivac: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.00701,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~ $\u001b[00m \u001b[K"
+    ],
+    [
+      3.7e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000379,
+      "\u001b[?2004h"
+    ],
+    [
+      1.064716,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ],
+  "command": "cd; zsh",
+  "width": 71,
+  "duration": 20.352318,
+  "version": 1
+}

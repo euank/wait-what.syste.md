@@ -1,0 +1,902 @@
+{
+  "command": "cd; zsh",
+  "stdout": [
+    [
+      0.146154,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                   \r \r"
+    ],
+    [
+      0.001003,
+      "\u001b]7;file://multivac.euank.com/home/esk\u0007"
+    ],
+    [
+      0.002985,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[K"
+    ],
+    [
+      0.131121,
+      "\u001b[?2004h\u001b[K"
+    ],
+    [
+      0.166966,
+      "\u001b[K"
+    ],
+    [
+      0.000221,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.002254,
+      "\u001b[?2004l\u001b[K\r\r\n"
+    ],
+    [
+      0.002052,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                   \r \r"
+    ],
+    [
+      0.005073,
+      "\u001b]7;file://multivac.euank.com/home/esk\u0007"
+    ],
+    [
+      0.00771,
+      "\u001b]2;esk@multivac: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.02425,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~ $\u001b[00m \u001b[K"
+    ],
+    [
+      0.000415,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.001763,
+      "\u001b[?2004h"
+    ],
+    [
+      0.247182,
+      "\u001b[H\u001b[2J\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~ $\u001b[00m \u001b[K"
+    ],
+    [
+      0.617053,
+      "\u001b[32ms\u001b[39m"
+    ],
+    [
+      0.171065,
+      "\b\u001b[32ms\u001b[32ms\u001b[39m"
+    ],
+    [
+      0.091873,
+      "\b\b\u001b[32ms\u001b[32ms\u001b[32mh\u001b[39m"
+    ],
+    [
+      0.07081,
+      " "
+    ],
+    [
+      0.086501,
+      "\u001b[4md\u001b[24m"
+    ],
+    [
+      0.140002,
+      "\b\u001b[4md\u001b[4me\u001b[24m"
+    ],
+    [
+      0.059292,
+      "\b\b\u001b[24md\u001b[24mem"
+    ],
+    [
+      0.045505,
+      "o"
+    ],
+    [
+      0.179314,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.006503,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.063521,
+      "\u001b]2;ssh demo\u0007\u001b]1;demo\u0007"
+    ],
+    [
+      0.027227,
+      "Warning: Permanently added '[localhost]:2222' (ECDSA) to the list of known hosts.\r\r\n"
+    ],
+    [
+      0.959674,
+      "Last login: Tue May 30 07:44:39 UTC 2017 from 10.0.2.2 on pts/1\r\n\u001b[38;5;75mContainer Linux by CoreOS\u001b[39m stable (1353.7.0)\r\n"
+    ],
+    [
+      0.01865,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      0.276755,
+      "sudo systemctl cat usr-bin.mount"
+    ],
+    [
+      0.966886,
+      "\r\n"
+    ],
+    [
+      0.030269,
+      "\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.002209,
+      "\u001b[0;1;34m# /etc/systemd/system/usr-bin.mount\u001b[0m\u001b[m\r\n[Unit]\u001b[m\r\nBefore=local-fs.target\u001b[m\r\nAfter=usr.mount\u001b[m\r\n\u001b[m\r\n[Mount]\u001b[m\r\nWhat=overlay\u001b[m\r\nWhere=/usr/bin\u001b[m\r\nType=overlay\u001b[m\r\nOptions=lowerdir=/usr/bin,upperdir=/.usr-bin.up,workdir=/.usr-bin.wd\u001b[m\r\n\u001b[m\r\n[Install]\u001b[m\r\nWantedBy=local-fs.target\u001b[m\r\n\u001b[7mlines 1-13\u001b[27m\u001b[K"
+    ],
+    [
+      0.873506,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u0007\r\u001b[K\u001b[?1l\u001b>"
+    ],
+    [
+      0.005255,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      5.525884,
+      "logout\r\n"
+    ],
+    [
+      0.005713,
+      "\u001b[H\u001b[2J"
+    ],
+    [
+      0.003035,
+      "Connection to localhost closed.\r\r\n"
+    ],
+    [
+      0.003681,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                   \r \r"
+    ],
+    [
+      0.007489,
+      "\u001b]7;file://multivac.euank.com/home/esk\u0007"
+    ],
+    [
+      0.011429,
+      "\u001b]2;esk@multivac: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.012672,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~ $\u001b[00m \u001b[K"
+    ],
+    [
+      5.9e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000329,
+      "\u001b[?2004h"
+    ],
+    [
+      0.974122,
+      "\u001b[7msystemctl --host root@demo start usr-bin.mount\u001b[27m"
+    ],
+    [
+      0.459441,
+      "\u001b[46D\u001b[27m\u001b[32ms\u001b[27m\u001b[32my\u001b[27m\u001b[32ms\u001b[27m\u001b[32mt\u001b[27m\u001b[32me\u001b[27m\u001b[32mm\u001b[27m\u001b[32mc\u001b[27m\u001b[32mt\u001b[27m\u001b[32ml\u001b[39m\u001b[27m \u001b[27m-\u001b[27m-\u001b[27mh\u001b[27mo\u001b[27ms\u001b[27mt\u001b[27m \u001b[27mr\u001b[27mo\u001b[27mo\u001b[27mt\u001b[27m@\u001b[27md\u001b[27me\u001b[27mm\u001b[27mo\u001b[27m \u001b[27ms\u001b[27mt\u001b[27ma\u001b[27mr\u001b[27mt\u001b[27m \u001b[27mu\u001b[27ms\u001b[27mr\u001b[27m-\u001b[27mb\u001b[27mi\u001b[27mn\u001b[27m.\u001b[27mm\u001b[27mo\u001b[27mu\u001b[27mn\u001b[27mt"
+    ],
+    [
+      6.7e-05,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.005389,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.0411,
+      "\u001b]2;systemctl --host root@demo start usr-bin.mount\u0007\u001b]1;systemctl\u0007"
+    ],
+    [
+      0.039007,
+      "Warning: Permanently added '[localhost]:2222' (ECDSA) to the list of known hosts.\r\r\n"
+    ],
+    [
+      0.965773,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                   \r \r"
+    ],
+    [
+      0.00525,
+      "\u001b]7;file://multivac.euank.com/home/esk\u0007"
+    ],
+    [
+      0.004314,
+      "\u001b]2;esk@multivac: ~\u0007"
+    ],
+    [
+      7.7e-05,
+      "\u001b]1;~\u0007"
+    ],
+    [
+      0.012333,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~ $\u001b[00m "
+    ],
+    [
+      3.4e-05,
+      "\u001b[K"
+    ],
+    [
+      0.000137,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000326,
+      "\u001b[?2004h"
+    ],
+    [
+      1.333585,
+      "\u001b[32ms\u001b[39m"
+    ],
+    [
+      0.161911,
+      "\b\u001b[32ms\u001b[32ms\u001b[39m"
+    ],
+    [
+      0.137434,
+      "\b\b\u001b[32ms\u001b[32ms\u001b[32mh\u001b[39m"
+    ],
+    [
+      0.103863,
+      " "
+    ],
+    [
+      0.090096,
+      "\u001b[4md\u001b[24m"
+    ],
+    [
+      0.160825,
+      "\b\u001b[4md\u001b[4me\u001b[24m"
+    ],
+    [
+      0.091068,
+      "\b\b\u001b[24md\u001b[24mem"
+    ],
+    [
+      0.040598,
+      "o"
+    ],
+    [
+      0.193758,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.005355,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.062819,
+      "\u001b]2;ssh demo\u0007\u001b]1;demo\u0007"
+    ],
+    [
+      0.027882,
+      "Warning: Permanently added '[localhost]:2222' (ECDSA) to the list of known hosts.\r\r\n"
+    ],
+    [
+      0.939114,
+      "Last login: Tue May 30 07:45:44 UTC 2017 from 10.0.2.2 on pts/1\r\n\u001b[38;5;75mContainer Linux by CoreOS\u001b[39m stable (1353.7.0)\r\n"
+    ],
+    [
+      0.017782,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      1.72293,
+      "systemctl status usr"
+    ],
+    [
+      9.6e-05,
+      "-bin.mount"
+    ],
+    [
+      0.833174,
+      "\r\n"
+    ],
+    [
+      0.007909,
+      "\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.003506,
+      "\u001b[0;1;32m●\u001b[0m usr-bin.mount - /usr/bin\u001b[m\r\n   Loaded: loaded (/etc/systemd/system/usr-bin.mount; disabled; vendor preset: disab\u001b[m\r\n   Active: \u001b[0;1;32mactive (mounted)\u001b[0m since Tue 2017-05-30 07:45:54 UTC; 5s ago\u001b[m\r\n    Where: /usr/bin\u001b[m\r\n     What: overlay\u001b[m\r\n  Process: 12130 ExecMount=/bin/mount overlay /usr/bin -t overlay -o lowerdir=/usr/b\u001b[m\r\n    Tasks: 0 (limit: 32768)\u001b[m\r\n   Memory: 40.0K\u001b[m\r\n      CPU: 1ms\u001b[m\r\n   CGroup: /system.slice/usr-bin.mount\u001b[m\r\n\u001b[m\r\nMay 30 07:45:54 pres-1353-7 systemd[1]: \u001b[0;1;39musr-bin.mount: Directory /usr/bin to mount o\u001b[m\r\nMay 30 07:45:54 pres-1353-7 systemd[1]: Mounting /usr/bin...\u001b[m\r\n\u001b[7mlines 1-13\u001b[27m\u001b[K"
+    ],
+    [
+      1.188689,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 30 07:45:54 pres-1353-7 systemd[1]: Mounted /usr/bin.\u001b[m\r\n\u001b[7mlines 2-14\u001b[27m\u001b[K"
+    ],
+    [
+      0.38843,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u0007\r\u001b[K\u001b[7mlines 2-14/14 (END)\u001b[27m\u001b[K"
+    ],
+    [
+      0.1507,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u0007\r\u001b[K\u001b[7mlines 2-14/14 (END)\u001b[27m\u001b[K"
+    ],
+    [
+      0.146565,
+      "\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u0007\r\u001b[K\u001b[7mlines 2-14/14 (END)\u001b[27m\u001b[K"
+    ],
+    [
+      0.41916,
+      "\r\u001b[K\u001b[?1l\u001b>\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      2.522148,
+      "s"
+    ],
+    [
+      0.106796,
+      "u"
+    ],
+    [
+      0.06201,
+      "d"
+    ],
+    [
+      0.060986,
+      "o"
+    ],
+    [
+      0.095526,
+      " "
+    ],
+    [
+      0.092386,
+      "r"
+    ],
+    [
+      0.055419,
+      "m"
+    ],
+    [
+      0.07693,
+      " "
+    ],
+    [
+      0.087388,
+      "-"
+    ],
+    [
+      0.075297,
+      "r"
+    ],
+    [
+      0.152128,
+      "f"
+    ],
+    [
+      0.057658,
+      " "
+    ],
+    [
+      0.052659,
+      "/"
+    ],
+    [
+      0.232526,
+      "u"
+    ],
+    [
+      0.071491,
+      "s"
+    ],
+    [
+      0.12881,
+      "r/"
+    ],
+    [
+      0.143055,
+      "b"
+    ],
+    [
+      0.070394,
+      "i"
+    ],
+    [
+      0.085932,
+      "n"
+    ],
+    [
+      0.156404,
+      "/"
+    ],
+    [
+      0.091371,
+      "s"
+    ],
+    [
+      0.149328,
+      "y"
+    ],
+    [
+      0.133277,
+      "s"
+    ],
+    [
+      0.079402,
+      "t"
+    ],
+    [
+      0.102824,
+      "\u0007em"
+    ],
+    [
+      0.926018,
+      "c"
+    ],
+    [
+      0.140727,
+      "tl "
+    ],
+    [
+      0.253512,
+      " "
+    ],
+    [
+      0.172826,
+      "&"
+    ],
+    [
+      0.220437,
+      " "
+    ],
+    [
+      0.128661,
+      "h"
+    ],
+    [
+      0.34312,
+      "\b \b"
+    ],
+    [
+      0.11985,
+      "\b \b"
+    ],
+    [
+      0.214537,
+      "&"
+    ],
+    [
+      0.118389,
+      " "
+    ],
+    [
+      0.218457,
+      "a"
+    ],
+    [
+      0.079842,
+      "s"
+    ],
+    [
+      0.285004,
+      "\b \b"
+    ],
+    [
+      0.125793,
+      "\b \b"
+    ],
+    [
+      0.18602,
+      "h"
+    ],
+    [
+      0.08374,
+      "a"
+    ],
+    [
+      0.063378,
+      "s"
+    ],
+    [
+      0.086638,
+      "h"
+    ],
+    [
+      0.104111,
+      " "
+    ],
+    [
+      0.092592,
+      "-"
+    ],
+    [
+      0.067437,
+      "r"
+    ],
+    [
+      0.105344,
+      "\r\n"
+    ],
+    [
+      0.010737,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      3.314602,
+      "systemctl status usr-bin.mount"
+    ],
+    [
+      0.194154,
+      "\r\n-bash: systemctl: command not found\r\n"
+    ],
+    [
+      0.001544,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      2.325646,
+      "logout\r\n"
+    ],
+    [
+      0.004529,
+      "\u001b[H\u001b[2J"
+    ],
+    [
+      0.003087,
+      "Connection to localhost closed.\r\r\n"
+    ],
+    [
+      0.002537,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                   \r \r"
+    ],
+    [
+      0.00752,
+      "\u001b]7;file://multivac.euank.com/home/esk\u0007"
+    ],
+    [
+      0.007773,
+      "\u001b]2;esk@multivac: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.01087,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~ $\u001b[00m \u001b[K"
+    ],
+    [
+      0.000126,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000547,
+      "\u001b[?2004h"
+    ],
+    [
+      2.659944,
+      "\u001b[7msystemctl --host root@demo status usr-bin.mount\u001b[27m"
+    ],
+    [
+      0.804574,
+      "\u001b[47D\u001b[27m\u001b[32ms\u001b[27m\u001b[32my\u001b[27m\u001b[32ms\u001b[27m\u001b[32mt\u001b[27m\u001b[32me\u001b[27m\u001b[32mm\u001b[27m\u001b[32mc\u001b[27m\u001b[32mt\u001b[27m\u001b[32ml\u001b[39m\u001b[27m \u001b[27m-\u001b[27m-\u001b[27mh\u001b[27mo\u001b[27ms\u001b[27mt\u001b[27m \u001b[27mr\u001b[27mo\u001b[27mo\u001b[27mt\u001b[27m@\u001b[27md\u001b[27me\u001b[27mm\u001b[27mo\u001b[27m \u001b[27ms\u001b[27mt\u001b[27ma\u001b[27mt\u001b[27mu\u001b[27ms\u001b[27m \u001b[27mu\u001b[27ms\u001b[27mr\u001b[27m-\u001b[27mb\u001b[27mi\u001b[27mn\u001b[27m.\u001b[27mm\u001b[27mo\u001b[27mu\u001b[27mn\u001b[27mt"
+    ],
+    [
+      0.000109,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.010125,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.055793,
+      "\u001b]2;systemctl --host root@demo status usr-bin.mount\u0007\u001b]1;systemctl\u0007"
+    ],
+    [
+      0.022835,
+      "Warning: Permanently added '[localhost]:2222' (ECDSA) to the list of known hosts.\r\r\n"
+    ],
+    [
+      0.986803,
+      "\u001b[0;1;32m●\u001b[0m usr-bin.mount - /usr/bin\r\n   Loaded: loaded (/etc/systemd/system/usr-bin.mount; disabled; vendor preset: disabled)\r\n   Active: \u001b[0;1;32mactive (mounted)\u001b[0m since Tue 2017-05-30 00:45:54 PDT; 27s ago\r\n    Where: /usr/bin\r\n     What: overlay\r\n  Process: 12130 ExecMount=/bin/mount overlay /usr/bin -t overlay -o lowerdir=/usr/bin,upperdir=/.usr-bin.up,workdir=/.usr-bin.wd (code=exited, status=0/SUCCESS)\r\n    Tasks: 0 (limit: 32768)\r\n   Memory: 40.0K\r\n      CPU: 1ms\r\n   CGroup: /system.slice/usr-bin.mount"
+    ],
+    [
+      2.7e-05,
+      "\r\n"
+    ],
+    [
+      0.001119,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                   \r \r"
+    ],
+    [
+      0.001587,
+      "\u001b]7;file://multivac.euank.com/home/esk\u0007"
+    ],
+    [
+      0.001864,
+      "\u001b]2;esk@multivac: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.007555,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~ $\u001b[00m \u001b[K\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      5.058251,
+      "\u001b[7msystemd-run --host=root@demo --unit=umount-usr-bin.service -- /bin/\u001b[7ms\u001b[7mh -c 'umount -l /usr/bin'\u001b[27m\u001b[K"
+    ],
+    [
+      0.661093,
+      "\u001b[A\u001b[9D\u001b[27m\u001b[32ms\u001b[27m\u001b[32my\u001b[27m\u001b[32ms\u001b[27m\u001b[32mt\u001b[27m\u001b[32me\u001b[27m\u001b[32mm\u001b[27m\u001b[32md\u001b[27m\u001b[32m-\u001b[27m\u001b[32mr\u001b[27m\u001b[32mu\u001b[27m\u001b[32mn\u001b[39m\u001b[27m \u001b[27m-\u001b[27m-\u001b[27mh\u001b[27mo\u001b[27ms\u001b[27mt\u001b[27m=\u001b[27mr\u001b[27mo\u001b[27mo\u001b[27mt\u001b[27m@\u001b[27md\u001b[27me\u001b[27mm\u001b[27mo\u001b[27m \u001b[27m-\u001b[27m-\u001b[27mu\u001b[27mn\u001b[27mi\u001b[27mt\u001b[27m=\u001b[27mu\u001b[27mm\u001b[27mo\u001b[27mu\u001b[27mn\u001b[27mt\u001b[27m-\u001b[27mu\u001b[27ms\u001b[27mr\u001b[27m-\u001b[27mb\u001b[27mi\u001b[27mn\u001b[27m.\u001b[27ms\u001b[27me\u001b[27mr\u001b[27mv\u001b[27mi\u001b[27mc\u001b[27me\u001b[27m \u001b[27m-\u001b[27m-\u001b[27m \u001b[27m\u001b[4m/\u001b[27m\u001b[4mb\u001b[27m\u001b[4mi\u001b[27m\u001b[4mn\u001b[27m\u001b[4m/\u001b[4ms\u001b[27m\u001b[4mh\u001b[24m\u001b[27m \u001b[27m-\u001b[27mc\u001b[27m \u001b[27m\u001b[33m'\u001b[27m\u001b[33mu\u001b[27m\u001b[33mm\u001b[27m\u001b[33mo\u001b[27m\u001b[33mu\u001b[27m\u001b[33mn\u001b[27m\u001b[33mt\u001b[27m\u001b[33m \u001b[27m\u001b[33m-\u001b[27m\u001b[33ml\u001b[27m\u001b[33m \u001b[27m\u001b[33m/\u001b[27m\u001b[33mu\u001b[27m\u001b[33ms\u001b[27m\u001b[33mr\u001b[27m\u001b[33m/\u001b[27m\u001b[33mb\u001b[27m\u001b[33mi\u001b[27m\u001b[33mn\u001b[27m\u001b[33m'\u001b[39m"
+    ],
+    [
+      3e-05,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.003432,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.062857,
+      "\u001b]2;systemd-run --host=root@demo --unit=umount-usr-bin.service -- /bin/sh -c \u0007\u001b]1;systemd-run\u0007"
+    ],
+    [
+      0.024598,
+      "Warning: Permanently added '[localhost]:2222' (ECDSA) to the list of known hosts.\r\r\n"
+    ],
+    [
+      0.959291,
+      "Running as unit: umount-usr-bin.service"
+    ],
+    [
+      5.1e-05,
+      "\r\n"
+    ],
+    [
+      0.001421,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                   \r \r"
+    ],
+    [
+      0.005613,
+      "\u001b]7;file://multivac.euank.com/home/esk\u0007"
+    ],
+    [
+      0.003173,
+      "\u001b]2;esk@multivac: ~\u0007"
+    ],
+    [
+      6.5e-05,
+      "\u001b]1;~\u0007"
+    ],
+    [
+      0.00651,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~ $\u001b[00m \u001b[K"
+    ],
+    [
+      2.1e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000267,
+      "\u001b[?2004h"
+    ],
+    [
+      1.189325,
+      "\u001b[32msystemd-run\u001b[39m --host=root@demo --unit=umount-usr-bin.service -- \u001b[4m/bin/\u001b[4ms\u001b[4mh\u001b[24m -c \u001b[33m'umount -l /usr/bin'\u001b[39m\u001b[K"
+    ],
+    [
+      0.135378,
+      "\u001b[A\b\b\b\u001b[32mc\u001b[32mt\u001b[32ml\u001b[39m\u001b[39m \u001b[39m--host \u001b[P\u001b[P\u001b[10Cstatus usr-bin.mount\u001b[K\u001b[1B\r\u001b[K\u001b[A\u001b[64C"
+    ],
+    [
+      0.524295,
+      "\u001b[47D\u001b[32ms\u001b[32ms\u001b[32mh\u001b[39m\u001b[39m \u001b[39md\u001b[39me\u001b[39mm\u001b[39mo\u001b[39m                                       \u001b[39D"
+    ],
+    [
+      1.072432,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      0.004053,
+      "\u001b[?2004l\u001b[1B\r"
+    ],
+    [
+      0.024738,
+      "\u001b]2;ssh demo\u0007\u001b]1;demo\u0007"
+    ],
+    [
+      0.034164,
+      "Warning: Permanently added '[localhost]:2222' (ECDSA) to the list of known hosts.\r\r\n"
+    ],
+    [
+      0.953852,
+      "Last login: Tue May 30 07:45:57 UTC 2017 from 10.0.2.2 on pts/1\r\n\u001b[38;5;75mContainer Linux by CoreOS\u001b[39m stable (1353.7.0)\r\n"
+    ],
+    [
+      0.021381,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      1.212073,
+      "s"
+    ],
+    [
+      0.180056,
+      "y"
+    ],
+    [
+      0.155484,
+      "s"
+    ],
+    [
+      0.079698,
+      "t"
+    ],
+    [
+      0.062225,
+      "e"
+    ],
+    [
+      0.094118,
+      "m"
+    ],
+    [
+      0.124612,
+      "c"
+    ],
+    [
+      0.162321,
+      "t"
+    ],
+    [
+      0.047093,
+      "l"
+    ],
+    [
+      0.064977,
+      " "
+    ],
+    [
+      0.15698,
+      "s"
+    ],
+    [
+      0.134293,
+      "t"
+    ],
+    [
+      0.113595,
+      "a"
+    ],
+    [
+      0.065807,
+      "t"
+    ],
+    [
+      0.085606,
+      "u"
+    ],
+    [
+      0.076504,
+      "s"
+    ],
+    [
+      0.082142,
+      " "
+    ],
+    [
+      0.169791,
+      "u"
+    ],
+    [
+      0.102793,
+      "s"
+    ],
+    [
+      0.070052,
+      "r"
+    ],
+    [
+      0.139685,
+      "-"
+    ],
+    [
+      0.649294,
+      "b"
+    ],
+    [
+      0.06381,
+      "i"
+    ],
+    [
+      0.053055,
+      "n"
+    ],
+    [
+      0.169028,
+      "."
+    ],
+    [
+      0.163645,
+      "m"
+    ],
+    [
+      0.101636,
+      "o"
+    ],
+    [
+      0.11386,
+      "u"
+    ],
+    [
+      0.046442,
+      "n"
+    ],
+    [
+      0.084457,
+      "t"
+    ],
+    [
+      0.104047,
+      "\r\n"
+    ],
+    [
+      0.018157,
+      "\u001b[?1h\u001b=\r"
+    ],
+    [
+      0.013263,
+      "● usr-bin.mount - /usr/bin\u001b[m\r\n   Loaded: loaded (/etc/systemd/system/usr-bin.mount; disabled; vendor preset: disab\u001b[m\r\n   Active: inactive (dead)\u001b[m\r\n    Where: /usr/bin\u001b[m\r\n     What: overlay\u001b[m\r\n\u001b[m\r\nMay 30 07:45:54 pres-1353-7 systemd[1]: \u001b[0;1;39musr-bin.mount: Directory /usr/bin to mount o\u001b[m\r\nMay 30 07:45:54 pres-1353-7 systemd[1]: Mounting /usr/bin...\u001b[m\r\nMay 30 07:45:54 pres-1353-7 systemd[1]: Mounted /usr/bin.\u001b[m\r\n\u001b[7mlines 1-9/9 (END)\u001b[27m\u001b[K"
+    ],
+    [
+      1.503514,
+      "\r\u001b[K\u001b[?1l\u001b>"
+    ],
+    [
+      0.001907,
+      "\u001b]0;core@pres-1353-7:~\u0007\u001b[01;32mcore@pres-1353-7\u001b[01;34m ~ $\u001b[00m "
+    ],
+    [
+      1.453047,
+      "logout\r\n"
+    ],
+    [
+      0.003231,
+      "\u001b[H\u001b[2J"
+    ],
+    [
+      0.002595,
+      "Connection to localhost closed.\r\r\n"
+    ],
+    [
+      0.002451,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                   \r \r"
+    ],
+    [
+      0.007452,
+      "\u001b]7;file://multivac.euank.com/home/esk\u0007"
+    ],
+    [
+      0.010282,
+      "\u001b]2;esk@multivac: ~\u0007\u001b]1;~\u0007"
+    ],
+    [
+      0.014765,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32mesk@multivac \u001b[01;34m~ $\u001b[00m \u001b[K"
+    ],
+    [
+      3.5e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000445,
+      "\u001b[?2004h"
+    ],
+    [
+      0.137363,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ],
+  "env": {
+    "SHELL": "/bin/zsh",
+    "TERM": "xterm-256color"
+  },
+  "duration": 60.145151,
+  "title": null,
+  "width": 84,
+  "version": 1,
+  "height": 14
+}
