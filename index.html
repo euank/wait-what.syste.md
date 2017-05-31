@@ -88,41 +88,7 @@ presentation login:
 					</section>
 					<section>
 						<h3>Important.. how?</h3>
-						<h4 class="fragment">By size?</h4>
-					</section>
-					<section data-markdown>
-						<script type="text/template">
-							### Nope
-
-							| Package | Size &nbsp;&nbsp;| Percent |
-							| ------------- |:-------------:| -----:|
-							|coreos-modules|76M|11.77%|
-							|etcd|60M|9.28%|
-							|docker|58M|8.90%|
-							|rkt|54M|8.33%|
-							|coreos-kernel|36M|5.53%|
-							|selinux-base-policy|32M|4.98%|
-							|bind-tools|30M|4.66%|
-							|selinux-base|24M|3.63%|
-							|git|17M|2.68%|
-							|containerd|14M|2.22%|
-							|glibc|12M|1.89%|
-							|systemd|12M|1.81%|
-							|hwids|11M|1.73%|
-							|fleet|11M|1.70%|
-
-						</script>
-					</section>
-					<section>
-						<h3>By version number?</h3>
-						<div class="fragment" style"text-align: left;">
-							<ol>
-								<li> less &mdash; v478</li>
-								<li> systemd &mdash; v233</li>
-								<li> liblinear &mdash; v210</li>
-								<li> kmod &mdash; v21
-							</ol>
-						</div>
+						<!-- <h4 class="fragment">By size?</h4> -->
 					</section>
 					<section>
 						<h3>By PID</h3>
@@ -263,6 +229,11 @@ Restart=restart-always
 						<h2>systemd - the init daemon</h2>
 						<h3>as pid &gt; 1</h3>
 						<asciinema-player start-at="0:19" poster="npt:0:19" preload=yes src="terms/gci-pid-gt-1.rec" font-size="24px" theme="solarized-light"></asciinema-player>
+					</section>
+					<section>
+						<h3>Upstart or systemd</h3>
+						<img src="./imgs/why-not-both.jpg"></img>
+						<h3 class="fragment">But seriously, systemd</h3>
 					</section>
 				</section>
 				<section>
