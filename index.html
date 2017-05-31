@@ -173,75 +173,8 @@ presentation login:
 				</section>
 				<section>
 					<section>
-						<h3>systemd's history</h3>
-						<h5>From controversial to commonplace</h5>
+						<h3>The controversy of systemd</h3>
 						<img height="400px" src="imgs/sockd-notext.png"></img>
-					</section>
-					<section>
-						<div class="left-bar">
-							<h4 class="left-bar-content blue">1982</h4>
-						</div>
-						<h2>In the beginning</h2>
-						God created the heavens, the earth, and UNIX System III. <br> SysV init was born.
-						<ul>
-							<li> Introduced runlevels</li>
-							<li> Introduced the idea of inittab and initctl</li>
-							<li> Lineage to sysvinit used in modern times </li>
-						</ul>
-						<br>
-						<small>
-						<pre>
-#ident	"@(#)initpkg:init.d/rfs	1.18.2.1"
-
-USAGE="Usage: /etc/init.d/rfs {start | stop | rfstart}"
-...
-	case "$1" in
-	'start')
-...
-'stop')
- #	kill the rfs start daemon if it is still running
- 	pid=`/bin/ps -ef 2&gt;/dev/null | /bin/grep rfstart | /bin/grep -v grep \
- 			| /bin/sed -e 's/  *[a-z0-9]*  *//' -e 's/ .*//'`</pre></small>
-					</section>
-					<section>
-						<div class="left-bar">
-							<h4 class="left-bar-content blue">2005</h4>
-						</div>
-						<h2>launchd</h2>
-						Apple creates launchd
-						<ul>
-							<li> Service management
-							<li> Socket activation
-							<li> XML service definitions
-						</ul>
-						<small>
-							<pre>
-&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
-&lt;plist version="1.0"&gt;&lt;dict&gt;
-	&lt;key&gt;Label&lt;/key&gt;&lt;string&gt;com.presentation.example&lt;/string&gt;
-	&lt;key&gt;Program&lt;/key&gt; &lt;string&gt;/bin/true&lt;/string&gt;
-	&lt;key&gt;RunAtLoad&lt;/key&gt; &lt;true/&gt;
-&lt;/dict&gt;&lt;/plist&gt;
-</pre>
-						</small>
-					</section>
-					<section>
-						<div class="left-bar">
-							<h4 class="left-bar-content blue">2006</h4>
-						</div>
-						<h2>upstart</h2>
-						Canonical releases upstart
-						<ul>
-							<li> Service supervision</li>
-							<li> <code>sysvinit</code> compatible</li>
-							<li> Event based parallelization</li>
-						</ul>
-						<br>
-						<small><pre>
-description "example service"
-start on stopped rc RUNLEVEL=[345]
-exec /bin/true</pre></small>
 					</section>
 					<section>
 						<div class="left-bar">
@@ -249,9 +182,10 @@ exec /bin/true</pre></small>
 						</div>
 						<h2>systemd</h2>
 						<ul>
-							<li>socket activation</li>
-							<li><code>sysvinit</code> compatible</li>
-							<li>Dependency resolution/logic</li>
+							<li> service supervision
+							<li> socket activation</li>
+							<li> <code>sysvinit</code> compatible</li>
+							<li> dependency resolution </li>
 						</ul>
 						<br>
 						<small><pre>
@@ -287,34 +221,24 @@ Restart=restart-always
 						<img src="imgs/tea-party.png" alt="tea party"></img>
 					</section>
 					<section>
-						<img src="imgs/systemd-sucks-twitter.png" alt="systemd sucks twitter"></img>
-						<br>
-						<p>No developer in history has been treated so unfairly.
-					</section>
-					<section>
 						<div class="left-bar">
 							<h4 class="left-bar-content blue">2014</h4>
 						</div>
-						<h2>Controversy continues</h2>
 						<video controls>
 							<source src="imgs/systemd-safe-gif.webm" type="video/webm">
 							systemd eating things webm video
 						</video> 
 					</section>
 					<section>
-						<div class="left-bar">
-							<h4 class="left-bar-content blue">2014</h4>
-						</div>
-						<h2>Adoption</h2>
-						<p> With Debian and Ubuntu planning to adopt systemd, only Gentoo,
-							Slackware, and small distros like Alpine/Void aren't onboard.
-						</p>
+						<img src="imgs/systemd-sucks-twitter.png" alt="systemd sucks twitter"></img>
+						<br>
+						<p>No developer in history has been treated so unfairly.
 					</section>
 					<section>
 						<div class="left-bar">
 							<h4 class="left-bar-content blue">2017</h4>
 						</div>
-						<h2>Current state</h2>
+						<h2>Today</h2>
 						<p> Devuan exists, there are still <i>skeptics</i>.<br>
 							But overall, systemd is clearly succeeding (and just as clearly awesome).</p>
 					</section>
@@ -444,7 +368,6 @@ Restart=restart-always
 				</section>
 				<section>
 					<section>
-						<h3>Extras</h3>
 					</section>
 					<section>
 						<h3>The systemd forkbomb</h3>
@@ -465,8 +388,6 @@ $ sudo -E /usr/lib/systemd/systemd --user --unit=user-loop.service
 						<pre>
 SYSTEMD_PAGER="systemctl status" systemctl status
 						</pre>
-					</section>
-					<section>
 					</section>
 				</section>
 				<section>
@@ -528,7 +449,6 @@ SYSTEMD_PAGER="systemctl status" systemctl status
 				termFontSize -= 2;
 				resetTermFonts();
       });
-			
 		</script>
 	</body>
 </html>
