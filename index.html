@@ -246,12 +246,12 @@ Restart=restart-always
 					<section>
 						<h3><code>systemd-run</code></h3>
 						<asciinema-player poster="npt:0:19" preload=yes src="terms/run-at.rec" font-size="24px" theme="solarized-light"></asciinema-player>
-						<p><small>Overlaps: at, cron</small></p>
+						<p><small>Replaces: at, cron</small></p>
 					</section>
 					<section>
 						<h3><code>systemctl --host</code></h3>
 						<asciinema-player poster="npt:0:19" preload=yes src="terms/host.rec" font-size="24px" theme="solarized-light"></asciinema-player>
-						<p><small>Overlaps: fleet, sorta ssh &amp; ansible, etc</small></p>
+						<p><small>Kinda like: fleet, ssh, ansible, etc</small></p>
 					</section>
 				</section>
 				<section>
@@ -261,7 +261,7 @@ Restart=restart-always
 					<section>
 						<h2>remote</h2>
 						<asciinema-player poster="npt:0:19" preload=yes src="terms/journal-remote.rec" font-size="24px" theme="solarized-light"></asciinema-player>
-						<p><small>Overlaps: rsyslog, fluentd, etc</small></p>
+						<p><small> Overlaps: rsyslog, fluentd, etc</small></p>
 					</section>
 					<section>
 						<h2>journal security</h2>
@@ -311,8 +311,13 @@ Restart=restart-always
 				<section>
 					<section>
 						<h2>systemd the boot manager</h2>
+						<p> Interacted with via <code>bootctl</code></p>
 						<img src="imgs/systemd-boot-menu.png"></img>
 						<p><small>Is: gummiboot; Overlaps: rEFInd</small></p>
+					</section>
+					<section>
+						<h2>Arguably, it's a sandwich<h2>
+						<img src="imgs/sandwich.jpg" height="500px"></img>
 					</section>
 				</section>
 				<section>
@@ -326,6 +331,7 @@ Restart=restart-always
 					<section>
 						<h2>nspawn</h2>
 						<asciinema-player preload=yes src="terms/nspawn-nginx.rec" font-size="24px" theme="solarized-light"></asciinema-player>
+						<p><small>Replaces: lxc</small></p>
 					</section>
 					<section>
 						<h2>rkt</h2>
@@ -363,6 +369,11 @@ SYSTEMD_PAGER="systemctl status" systemctl status
 				<section>
 					<section>
 						<h2>The direction of systemd</h2>
+						<ul>
+							<li> Making regular user's lives easier; improve the base system
+							<li> Integrating well with containers
+							<li> Portable services?
+						</ul>
 					</section>
 					<section>
 						<h2>Thanks!</h2>
